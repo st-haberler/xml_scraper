@@ -1,0 +1,28 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Medizin*</Suchworte>
+			<Titel>Drogistengewerbe*</Titel>
+			<PruefGewO>
+				<Typ>Befaehigungspruefungsordnung</Typ>
+				<Kundmachungsdatum xsi:type="RangeDateInterval">
+					<Von>2013-01-01</Von>
+					<Bis>2021-11-11</Bis>
+				</Kundmachungsdatum>
+				<Fassung xsi:type="IntervallFassungsangabe">
+					<VonInkrafttretensdatum>2014-01-01</VonInkrafttretensdatum>
+					<BisInkrafttretensdatum>2021-04-30</BisInkrafttretensdatum>
+					<VonAusserkrafttretensdatum xsi:nil="true"></VonAusserkrafttretensdatum>
+					<BisAusserkrafttretensdatum xsi:nil="true"></BisAusserkrafttretensdatum>
+				</Fassung>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Inkrafttretensdatum</SortedByColumn>
+				</Sortierung>
+			</PruefGewO>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

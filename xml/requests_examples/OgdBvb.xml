@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bezirke>
+			<Suchworte>Waidhofen</Suchworte>
+			<Titel>Waidhofen</Titel>
+			<Bundesland>Niederösterreich</Bundesland>
+			<Bvb>
+				<Bezirksverwaltungsbehoerde>Statutarstadt Waidhofen an der Ybbs</Bezirksverwaltungsbehoerde>
+				<Kundmachungsnummer>1/2021</Kundmachungsnummer>
+				<Kundmachungsdatum>
+				<Von>2021-11-01</Von>
+				<Bis>2021-11-05</Bis>
+				</Kundmachungsdatum>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</Bvb>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bezirke>
+	</Suche>
+</OGDRis>

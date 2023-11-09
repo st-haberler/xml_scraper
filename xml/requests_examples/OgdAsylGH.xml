@@ -1,0 +1,24 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Mitwirkungspflicht</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+			</Dokumenttyp>
+			<Geschaeftszahl>S18*</Geschaeftszahl>
+			<Norm>AsylG 2005*</Norm>
+			<EntscheidungsdatumVon>2008-07-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2013-12-31</EntscheidungsdatumBis>
+			<AsylGH>
+				<Entscheidungsart xsi:type="AsylGHEntscheidungsartSucheinschraenkung">Erkenntnis</Entscheidungsart>
+				<Sortierung xsi:type="AsylGHSortExpression">
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Datum</SortedByColumn>
+				</Sortierung>
+			</AsylGH>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Fifty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

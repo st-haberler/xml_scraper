@@ -1,0 +1,22 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Durchführungserlässe</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>false</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>B 4-PVAB/16</Geschaeftszahl>
+			<Norm>PVG §9 Abs2 lita</Norm>
+			<EntscheidungsdatumVon>2016-07-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2016-07-31</EntscheidungsdatumBis>
+			<Pvak>
+				<EntscheidendeBehoerde>Personalvertretungsaufsichtsbehoerde</EntscheidendeBehoerde>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Datum</SortedByColumn>
+				</Sortierung>
+			</Pvak>
+		</Judikatur>
+	</Suche>
+</OGDRis>

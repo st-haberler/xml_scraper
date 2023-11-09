@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Suchworte>Kredit*</Suchworte>
+			<Titel>Finanzmarktaufsichtsbehörde</Titel>
+			<BgblAuth>
+				<Bgblnummer>432/2021</Bgblnummer>
+				<Kundmachung xsi:type="RangeDateInterval">
+					<Von>2021-10-11</Von>
+					<Bis>2021-10-18</Bis>
+				</Kundmachung>
+				<EinbringendeStelle>Finanzmarktaufsichtsbehörde</EinbringendeStelle>
+				<Teil xsi:type="BgblAuthTeilSucheinschraenkung">
+					<SucheInTeil2>true</SucheInTeil2>
+				</Teil>
+				<Typ xsi:type="TypSucheinschraenkung">
+					<SucheInVerordnungen>true</SucheInVerordnungen>
+				</Typ>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</BgblAuth>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+
+</OGDRis>

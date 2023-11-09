@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Landesrecht>
+			<Suchworte>Verwaltungsstrafgesetz</Suchworte>
+			<Titel>Abgaben</Titel>
+			<Lgbl>
+				<Lgblnummer>118/2009</Lgblnummer>
+				<Kundmachung>
+					<Von>2009-12-01</Von>
+					<Bis>2009-12-31</Bis>
+				</Kundmachung>
+				<Bundesland xsi:type="LgblBundeslandSucheinschraenkung">
+					<SucheInSalzburg>true</SucheInSalzburg>
+				</Bundesland>
+				<Typ xsi:type="TypSucheinschraenkung">
+					<SucheInGesetzen>true</SucheInGesetzen>
+				</Typ>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</Lgbl>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Landesrecht>
+	</Suche>
+</OGDRis>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>agrar*</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>false</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>true</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>1Ob*</Geschaeftszahl>
+			<Norm>AB*</Norm>
+			<EntscheidungsdatumVon>1980-01-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>1994-01-01</EntscheidungsdatumBis>
+			<Justiz>
+				<Rechtsgebiet>Strafrecht</Rechtsgebiet>
+				<Fachgebiet>Anfechtungsrecht</Fachgebiet>
+				<Gericht>OGH</Gericht>
+				<Rechtssatznummer>23</Rechtssatznummer>
+				<Entscheidungsart>Zurückweisung aus anderen Gründen</Entscheidungsart>
+				<RechtlicheBeurteilung>Zusammenlegung*</RechtlicheBeurteilung>
+				<Spruch>Dies ist ein besonderer Spruch*text</Spruch>
+				<Fundstelle>Fundstelle</Fundstelle>
+				<AenderungenSeit xsi:type="NamedDateInterval">
+					<Periode>DreiMonaten</Periode>
+				</AenderungenSeit>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Geschaeftszahl</SortedByColumn>
+				</Sortierung>
+			</Justiz>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

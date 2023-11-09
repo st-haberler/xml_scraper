@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>SPÖ</Suchworte>
+			<Upts>
+				<Entscheidungsdatum xsi:type="RangeDateInterval">
+ 					<Von>2012-07-01</Von>
+					<Bis>2021-11-12</Bis>
+				</Entscheidungsdatum>
+				<Partei>SPÖ (Sozialdemokratische Partei Österreichs)</Partei>
+				<GZ>GZ 2020-0.508*</GZ>
+				<Norm>§6 PartG</Norm>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Entscheidungsdatum</SortedByColumn>
+				</Sortierung>
+			</Upts>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

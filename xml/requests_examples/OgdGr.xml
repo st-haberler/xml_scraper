@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Gemeinden>
+			<Suchworte>*plan</Suchworte>
+			<Titel>Zuweisung</Titel>
+			<Bundesland>Kaernten</Bundesland>
+			<Geschaeftszahl>Zahl 612*</Geschaeftszahl>
+			<Gr>
+				<Gemeinde>Afritz am See</Gemeinde>
+				<Index>StraßenUndWasserbauVerkehr</Index>
+				<FassungVom>2021-11-05</FassungVom>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Gemeinde</SortedByColumn>
+				</Sortierung>
+			</Gr>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Gemeinden>
+	</Suche>
+</OGDRis>

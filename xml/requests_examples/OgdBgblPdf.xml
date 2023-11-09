@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Suchworte>land*</Suchworte>
+			<Titel>Statistik*</Titel>
+			<BgblPdf>
+				<Bundesgesetzblatt>396/*</Bundesgesetzblatt>
+				<Kundgemacht xsi:type="RangeDateInterval">
+					<Von>2003-08-28</Von>
+					<Bis>2003-12-31</Bis>
+				</Kundgemacht>
+				<Typ xsi:type="TypSucheinschraenkung">
+					<SucheInVerordnungen>true</SucheInVerordnungen>
+				</Typ>
+				<Teil xsi:type="BgblPdfTeilSucheinschraenkung">
+					<SucheInTeil2>true</SucheInTeil2>
+				</Teil>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</BgblPdf>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+</OGDRis>

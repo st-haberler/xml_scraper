@@ -1,0 +1,28 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>futter</Suchworte>
+			<Titel>Veröffentlichung</Titel>
+			<Avn>
+				<Avnnummer>AVN 2009*</Avnnummer>
+				<Typ>
+					<SucheInKundmachungen>true</SucheInKundmachungen>
+					<SucheInVeroeffentlichungenAufGrundVEVO>false</SucheInVeroeffentlichungenAufGrundVEVO>
+					<SucheInSonstigeVeroeffentlichungen>false</SucheInSonstigeVeroeffentlichungen>
+				</Typ>
+				<Kundmachung xsi:type="RangeDateInterval">
+					<Von>2009-12-01</Von>
+					<Bis>2009-12-31</Bis>
+				</Kundmachung>
+				<FassungVom>2021-11-11</FassungVom>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Avnnummer</SortedByColumn>
+				</Sortierung>
+			</Avn>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

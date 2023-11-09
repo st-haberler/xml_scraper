@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Landesrecht>
+			<Suchworte>Abfallwirtschaftsverbände</Suchworte>
+			<Titel>K-AWO</Titel>
+			<LrKons>
+				<Bundesland xsi:type="BundeslandSucheinschraenkung">
+					<SucheInKaernten>true</SucheInKaernten>
+				</Bundesland>
+				<Index>64 Kanal und Abfall</Index>
+				<Typ>LG</Typ>
+				<Abschnitt>
+					<Von>38</Von>
+					<Bis>40</Bis>
+					<Typ>Paragraph</Typ>
+				</Abschnitt>
+				<Fassung xsi:type="IntervallFassungsangabe">
+					<VonInkrafttretensdatum>2004-04-01</VonInkrafttretensdatum>
+					<BisInkrafttretensdatum>2004-12-31</BisInkrafttretensdatum>
+					<VonAusserkrafttretensdatum  xsi:nil="true"/>
+					<BisAusserkrafttretensdatum xsi:nil="true"/>
+				</Fassung>
+				<Gesetzesnummer>20000168</Gesetzesnummer>
+				<Kundmachungsorgan>LGBl.Nr.</Kundmachungsorgan>
+				<Kundmachungsorgannummer>17/2004</Kundmachungsorgannummer>
+				<Unterzeichnungsdatum xsi:nil="true"/>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>ArtikelParagraphAnlage</SortedByColumn>
+				</Sortierung>
+			</LrKons>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Landesrecht>
+	</Suche>
+</OGDRis>

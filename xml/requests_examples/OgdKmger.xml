@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Geschäftsverteilung</Suchworte>
+			<Titel>Geschäftsverteilung</Titel>
+			<KmGer>
+				<Typ>Geschaeftsverteilung</Typ>
+				<Gericht>LVwG Vorarlberg</Gericht>
+				<Kundmachungsdatum xsi:type="RangeDateInterval">
+					<Von>2020-06-01</Von>
+					<Bis>2021-11-11</Bis>
+				</Kundmachungsdatum>
+				<Fassung xsi:type="StichtagFassungsangabe">
+					<FassungVom>2021-11-11</FassungVom>
+				</Fassung>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Inkrafttretensdatum</SortedByColumn>
+				</Sortierung>
+			</KmGer>
+			<ImRisSeit>EinemJahr</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

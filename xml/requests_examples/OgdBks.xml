@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Privatradiogesetz</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>false</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>611.001/0001-BKS/2008</Geschaeftszahl>
+			<Norm>PrR-G §19 Abs3</Norm>
+			<EntscheidungsdatumVon>2001-01-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2015-12-31</EntscheidungsdatumBis>
+			<Bks>
+				<Bereich>Privatradiogesetz</Bereich>
+				<Sortierung xsi:type="BksSortExpression">
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Geschaeftszahl</SortedByColumn>
+				</Sortierung>
+			</Bks>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

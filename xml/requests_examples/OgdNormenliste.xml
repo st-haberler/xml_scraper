@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Fort*</Suchworte>
+			<Normenliste>
+				<Titel>Reben*</Titel>
+				<Index>56/04 Sonstige öffentliche Wirtschaft</Index>
+				<Typ xsi:type="PhraseSearchExpression">BG</Typ>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Kurzinformation</SortedByColumn>
+				</Sortierung>
+			</Normenliste>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

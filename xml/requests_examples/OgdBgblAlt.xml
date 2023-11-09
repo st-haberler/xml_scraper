@@ -1,0 +1,22 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Titel>Fischamend</Titel>
+			<BgblAlt>
+				<Gesetzblattnummer>58/1937</Gesetzblattnummer>
+				<Jahrgang>1937</Jahrgang>
+				<Stuecknummer>15</Stuecknummer>
+				<Kundgemacht>
+					<Von>1930-01-01</Von>
+					<Bis>1940-01-01</Bis>
+				</Kundgemacht>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</BgblAlt>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+</OGDRis>

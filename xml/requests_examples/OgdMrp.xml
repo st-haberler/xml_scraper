@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Entwicklung</Suchworte>
+			<Mrp>
+				<Einbringer>BMA (Bundesministerium für Arbeit)</Einbringer>
+				<Sitzungsdatum xsi:type="RangeDateInterval">
+					<Von>2020-01-01</Von>
+					<Bis>2021-11-21</Bis>
+				</Sitzungsdatum>
+				<Sitzungsnummer>67</Sitzungsnummer>
+				<Gesetzgebungsperiode>XXVII</Gesetzgebungsperiode>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Sitzungsdatum</SortedByColumn>
+				</Sortierung>
+			</Mrp>
+			<ImRisSeit>SechsMonaten</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

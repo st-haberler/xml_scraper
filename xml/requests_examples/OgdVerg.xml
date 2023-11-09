@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Widerrufsentscheidung</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>false</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>04N*</Geschaeftszahl>
+			<Norm>BVergG 2002 §105</Norm>
+			<EntscheidungsdatumVon>1994-01-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2013-12-01</EntscheidungsdatumBis>
+			<Verg>
+				<Entscheidungsart>Bescheid</Entscheidungsart>
+				<EntscheidendeBehoerde>Bundesvergabeamt</EntscheidendeBehoerde>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Geschaeftszahl</SortedByColumn>
+				</Sortierung>
+			</Verg>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Zusammenhang</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>false</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>109*</Geschaeftszahl>
+			<Norm>BDG 1979 §43</Norm>
+			<EntscheidungsdatumVon>2014-06-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2014-06-30</EntscheidungsdatumBis>
+			<Dok>
+				<EntscheidendeBehoerde>Rechnungshof</EntscheidendeBehoerde>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Datum</SortedByColumn>
+				</Sortierung>
+			</Dok>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+
+</OGDRis>

@@ -1,0 +1,19 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Suchworte>Pilz</Suchworte>
+			<Titel>Zivil*</Titel>
+			<RegV>
+				<BeschlussdatumVon>2005-01-01</BeschlussdatumVon>
+				<BeschlussdatumBis>2006-01-01</BeschlussdatumBis>
+				<EinbringendeStelle>BMJ (Bundesministerium für Justiz)</EinbringendeStelle>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Beschlussdatum</SortedByColumn>
+				</Sortierung>
+			</RegV>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+</OGDRis>

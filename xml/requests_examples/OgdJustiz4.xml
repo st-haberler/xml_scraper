@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>true</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>1Ob1/21k</Geschaeftszahl>
+			<EntscheidungsdatumVon>2022-07-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2022-12-12</EntscheidungsdatumBis>
+			<Justiz>
+				<Rechtsgebiet>Zivilrecht</Rechtsgebiet>
+				<Fachgebiet>Amtshaftung inkl. StEG</Fachgebiet>
+				<Gericht>OGH</Gericht>
+				<Spruch>Missbrauch</Spruch>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Geschaeftszahl</SortedByColumn>
+				</Sortierung>
+			</Justiz>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

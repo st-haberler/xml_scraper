@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>GBK_II_20160713*</Suchworte>
+			<Geschaeftszahl>B-GBK*</Geschaeftszahl>
+			<Norm>§13 Abs1</Norm>
+			<EntscheidungsdatumVon>2016-07-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2016-07-15</EntscheidungsdatumBis>
+			<Gbk>
+				<Entscheidungsart>Gutachten</Entscheidungsart>
+				<Kommission>BundesGleichbehandlungskommission</Kommission>
+				<Senat>II</Senat>
+				<Diskriminierungsgrund>Alter</Diskriminierungsgrund>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Diskriminierungsgrund</SortedByColumn>
+				</Sortierung>
+			</Gbk>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Fifty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+
+</OGDRis>

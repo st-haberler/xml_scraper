@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Landesrecht>
+			<Suchworte>VBL*</Suchworte>
+			<Titel>Tirol</Titel>
+			<Vbl>
+				<Bundesland>Tirol</Bundesland>
+				<Einbringer>Amt der Landesregierung</Einbringer>
+				<Kundmachungsnummer>11</Kundmachungsnummer>
+				<Kundmachungsdatum>
+					<Von>2021-12-01</Von>
+					<Bis>2022-04-01</Bis>
+				</Kundmachungsdatum>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Kundmachungsdatum</SortedByColumn>
+				</Sortierung>
+			</Vbl>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Landesrecht>
+	</Suche>
+</OGDRis>

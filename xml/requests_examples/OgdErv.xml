@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Erv>
+				<SearchTerms>Asy*</SearchTerms>
+				<Title>Concerning</Title>
+				<Source>100/2005</Source>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Kurztitel</SortedByColumn>
+				</Sortierung>
+			</Erv>
+			<ImRisSeit>EinemMonat</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+</OGDRis>

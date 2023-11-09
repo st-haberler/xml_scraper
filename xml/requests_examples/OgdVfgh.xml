@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Unvereinbarkeit</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+			</Dokumenttyp>
+			<Geschaeftszahl>G44/2021*</Geschaeftszahl>
+			<Norm>B-VG*</Norm>
+			<EntscheidungsdatumVon>2021-09-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2021-09-30</EntscheidungsdatumBis>
+			<Vfgh>
+				<Entscheidungsart>Erkenntnis</Entscheidungsart>
+				<Index>L6650*</Index>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Datum</SortedByColumn>
+				</Sortierung>
+			</Vfgh>
+			<ImRisSeit>EinemMonat</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

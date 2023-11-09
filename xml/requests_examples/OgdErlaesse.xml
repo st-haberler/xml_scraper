@@ -1,0 +1,24 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Delikten</Suchworte>
+			<Titel>Straf*</Titel>
+			<Erlaesse>
+				<VonInkrafttretensdatum>2020-01-01</VonInkrafttretensdatum>
+				<BisInkrafttretensdatum>2021-11-12</BisInkrafttretensdatum>
+				<FassungVom>2021-11-12</FassungVom>
+				<Bundesministerium>Bundesministerium für Justiz</Bundesministerium>
+				<Fundstelle>eJABl Nr. 22/2021</Fundstelle>
+				<Geschaeftszahl>2021-0.538.674</Geschaeftszahl>
+				<Norm>StPO §172</Norm>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Genehmigungsdatum</SortedByColumn>
+				</Sortierung>
+			</Erlaesse>
+			<ImRisSeit>SechsMonaten</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

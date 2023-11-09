@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Judikatur>
+			<Suchworte>Fluchtalternative</Suchworte>
+			<Dokumenttyp xsi:type="JudikaturTypSucheinschraenkung">
+				<SucheInRechtssaetzen>true</SucheInRechtssaetzen>
+				<SucheInEntscheidungstexten>false</SucheInEntscheidungstexten>
+			</Dokumenttyp>
+			<Geschaeftszahl>212*</Geschaeftszahl>
+			<Norm>AsylG 1997*</Norm>
+			<EntscheidungsdatumVon>1998-01-01</EntscheidungsdatumVon>
+			<EntscheidungsdatumBis>2013-12-31</EntscheidungsdatumBis>
+			<Ubas>
+				<Entscheidungsart>Bescheid</Entscheidungsart>
+				<Verfasser>Leonhartsberger</Verfasser>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Datum</SortedByColumn>
+				</Sortierung>
+			</Ubas>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Judikatur>
+	</Suche>
+</OGDRis>

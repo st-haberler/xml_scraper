@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Bundesrecht>
+			<Suchworte>Gewinner*</Suchworte>
+			<Titel>Vermögensteuern</Titel>
+			<BrKons>
+				<Index>39/*</Index>
+				<Typ>Vertrag*</Typ>
+				<Abschnitt xsi:type="NormabschnittSucheinschraenkung">
+					<Von>1</Von>
+					<Bis>5</Bis>
+					<Typ>Anlage</Typ>
+				</Abschnitt>
+				<Fassung xsi:type="IntervallFassungsangabe">
+					<VonInkrafttretensdatum>1976-01-01</VonInkrafttretensdatum>
+					<BisInkrafttretensdatum>2000-01-01</BisInkrafttretensdatum>
+				</Fassung>
+				<Gesetzesnummer>10004235</Gesetzesnummer>
+				<Kundmachungsorgan>BGBl. Nr.</Kundmachungsorgan>
+				<Kundmachungsorgannummer>431/1976</Kundmachungsorgannummer>
+				<Unterzeichnungsdatum xsi:nil="true"/>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>ArtikelParagraphAnlage</SortedByColumn>
+				</Sortierung>
+			</BrKons>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Bundesrecht>
+	</Suche>
+</OGDRis>

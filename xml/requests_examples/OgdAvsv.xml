@@ -1,0 +1,20 @@
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Hauptverband</Suchworte>
+			<Titel>Rehabilitation*</Titel>
+			<Avsv>
+				<Dokumentart>Richtlinien des Hauptverbandes</Dokumentart>
+				<Urheber>Hauptverband der österreichischen Sozialversicherungsträger (HVSV)</Urheber>
+				<Kundmachung xsi:type="RangeDateInterval">
+					<Von>2016-01-01</Von>
+					<Bis>2016-06-30</Bis>
+				</Kundmachung>
+				<Avsvnummer>85/2016</Avsvnummer>
+			</Avsv>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

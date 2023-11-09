@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Sonstige>
+			<Suchworte>Kärnten</Suchworte>
+			<Titel>Gesundheit</Titel>
+			<Spg>
+				<Spgnummer>2/2020</Spgnummer>
+				<OsgSuchEinschraenkung>
+					<SpgStrukturplanType>Gutachten</SpgStrukturplanType>
+				</OsgSuchEinschraenkung>
+				<RsgSuchEinschraenkung>
+					<SpgStrukturplanType>Gutachten</SpgStrukturplanType>
+					<Land>Kaernten</Land>
+				</RsgSuchEinschraenkung>
+				<Kundmachungsdatum xsi:type="RangeDateInterval">
+					<Von>2017-01-01</Von>
+					<Bis>2021-11-11</Bis>
+				</Kundmachungsdatum>
+				<Fassung xsi:type="IntervallFassungsangabe">
+					<VonInkrafttretensdatum>2020-02-01</VonInkrafttretensdatum>
+					<BisInkrafttretensdatum>2021-11-11</BisInkrafttretensdatum>
+					<VonAusserkrafttretensdatum xsi:nil="true"/>
+					<BisAusserkrafttretensdatum xsi:nil="true"/>
+				</Fassung>
+				<Sortierung>
+					<SortDirection>Descending</SortDirection>
+					<SortedByColumn>Inkrafttretensdatum</SortedByColumn>
+				</Sortierung>
+			</Spg>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Ten</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Sonstige>
+	</Suche>
+</OGDRis>

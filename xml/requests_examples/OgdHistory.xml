@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Aenderungen>
+		<Anwendung>Avn</Anwendung>
+		<AenderungenVon>2020-06-01</AenderungenVon>
+		<AenderungenBis>2020-06-30</AenderungenBis>
+		<IncludeDeletedDocuments>true</IncludeDeletedDocuments>
+		<DokumenteProSeite>Fifty</DokumenteProSeite>
+		<Seitennummer>1</Seitennummer>
+	</Aenderungen>
+</OGDRis>

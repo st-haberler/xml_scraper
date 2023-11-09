@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGDRis xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ris.bka.gv.at/ogd/V2_6 ../../App_Data/OGDRequest/OGD_Request.xsd">
+	<Suche>
+		<Landesrecht>
+			<Suchworte>Pflanzenschutzgeräte</Suchworte>
+			<Titel>überprüfung*</Titel>
+			<LgblNO>
+				<Gliederungszahl>6170/3-0</Gliederungszahl>
+				<Typ xsi:type="TypSucheinschraenkung">
+					<SucheInGesetzen>true</SucheInGesetzen>
+					<SucheInVerordnungen>true</SucheInVerordnungen>
+				</Typ>
+				<Index>LandUndForstwirtschaft</Index>
+				<FassungVom>2021-11-04</FassungVom>
+				<Sortierung>
+					<SortDirection>Ascending</SortDirection>
+					<SortedByColumn>Gliederungszahl</SortedByColumn>
+				</Sortierung>
+			</LgblNO>
+			<ImRisSeit>Undefined</ImRisSeit>
+			<DokumenteProSeite>Twenty</DokumenteProSeite>
+			<Seitennummer>1</Seitennummer>
+		</Landesrecht>
+	</Suche>
+</OGDRis>
