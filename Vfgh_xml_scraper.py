@@ -3,31 +3,25 @@ import xml.etree.ElementTree as ET
 import datetime
 import calendar
 from zeep import Client
-
-
+import lxml.etree as etree
 
 RIS_API_WSDL = "https://data.bka.gv.at/ris/ogd/v2.6/?WSDL"
 
 
-# def is_valid_xml(xml_file:Path=None, xml_string:str="") -> bool:
-#     """
-#     Validates the xml file against the xsd schema. Returns True if the xml is valid, False otherwise.
-#     """
-#     if xml_string:
-#         xml_doc = ET.fromstring(xml_string)
-#     else:
-#         xml_doc = ET.parse(xml_file)
+def is_valid_xml(xml_string) -> bool:
+    Path(r"xml\temp.xml").write_text(xml_string, encoding="utf-8")
+    xml_doc = etree.parse(r"xml\temp.xml")
+    xsd = etree.XMLSchema(file=r"xml\xsd\OGD_Request.xsd")
 
+    try: 
+        xsd.assertValid(xml_doc)
+        print("XML is valid")
+        return True
+    except etree.DocumentInvalid as err:
+        print("XML is invalid")
+        print(err.error_log)
+        return False
 
-#     xsd = ET.XMLSchema(file=r".\xml\xsd\OGD_Response.xsd")
-#     try: 
-#         xsd.assertValid(xml_doc)
-#         print("XML is valid")
-#         return True
-#     except ET.DocumentInvalid as err:
-#         print("XML is invalid")
-#         print(err.error_log)
-#         return False
 
 def is_valid_date(input_date:str) -> bool:
     """
@@ -57,7 +51,7 @@ def generate_xml_request(begin:str, end:str, page:int=1) -> str:
     assert is_valid_date(begin)
     assert is_valid_date(end)
     
-    tree = ET.parse(r"xml\requests_examples\justiz_query_01.xml")
+    tree = ET.parse(r"xml\requests_examples\vfgh_query_01.xml")
     root = tree.getroot()
     begin_element = root.find(".//{http://ris.bka.gv.at/ogd/V2_6}EntscheidungsdatumVon")
     end_element = root.find(".//{http://ris.bka.gv.at/ogd/V2_6}EntscheidungsdatumBis")
@@ -68,6 +62,8 @@ def generate_xml_request(begin:str, end:str, page:int=1) -> str:
 
     ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
     root_string = ET.tostring(root, encoding="utf-8").decode("utf-8")
+
+    assert is_valid_xml(root_string)
     return root_string
 
 
@@ -77,7 +73,7 @@ def save_response_to_collection(result_str:str="", year:str="2023") -> None:
     Input is the xml response from the RIS api for a search request. The function extracts the OgdDocumentReference 
     elements and saves them to a xml file. If the file already exists, the new elements are appended to the existing
     """
-    file_name = f"justiz_meta_collection_all_{year}.xml"
+    file_name = f"vfgh_meta_collection_all_{year}.xml"
     COLLECTION = Path(Path.cwd() / "xml" / file_name) 
     
     result_xml = ET.fromstring(result_str)
@@ -131,8 +127,9 @@ def download_full_month(begin:str, end:str):
         # save result of current page 
         response = execute_xml_request(xml_request)
         response_xml = ET.fromstring(response)
+        save_response_to_xmlfile(response, page_number=page_number, year=year, month=month)
+        
         save_response_to_collection(result_str=response, year=year)
-        # save_response_to_xmlfile(response, page_number=page_number, year=year, month=month)
         
         # check if we need to go to next page
         hits = int(response_xml.find(".//{http://ris.bka.gv.at/ogd/V2_6}Hits").text)
@@ -150,7 +147,7 @@ def download_full_year(year:int):
     
     date_range = [(f"{year}-{month:02d}-01", f"{year}-{month:02d}-{get_days_in_month(year, month)}") for month in range(1, 13)]
 
-    for begin, end in date_range:
+    for begin, end in date_range[:1]:
         download_full_month(begin, end)
 
 
@@ -165,11 +162,7 @@ def collection_counter(year:int=2023):
     collection_root = collection_xml.getroot()
     print(f"Total number of elements in {COLLECTION}: {len(collection_root)}")    
 
-
-    
 if __name__ == "__main__":
     
     download_full_year(2023)
     collection_counter()
-
-
