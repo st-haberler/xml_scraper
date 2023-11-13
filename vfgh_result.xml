@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OgdSearchResult status="ok" xmlns="http://ris.bka.gv.at/ogd/V2_6">
+  <OgdDocumentResults>
+    <Hits pageNumber="1" pageSize="20">23109</Hits>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231005_22G00215_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231005_22G00215_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G215/2022 (G215/2022-26)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art18 Abs1</item>
+              <item>B-VG Art140 Abs1 Z2</item>
+              <item>BVG-Rundfunk ArtI Abs2</item>
+              <item>EMRK Art10</item>
+              <item>ORF-G §19, §20Abs1, §20 Abs4, §21, §28 Abs4, §28 Abs5, §28 Abs6, §29 Abs6, §30 Abs1</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+            <Schlagworte>Rundfunk, Verantwortlichkeit Organe, Medienrecht, Rundfunkfreiheit, Aufsichtsrecht, VfGH / Verhandlung, VfGH / Prüfungsumfang, VfGH / Fristsetzung, VfGH / Verwerfungsumfang, Weisung, Unvereinbarkeit, Rechtsbegriffe unbestimmte, Rechtspolitik, Legitimation, demokratisches Grundprinzip, Oberste Organe der Vollziehung, Partei politische, Bundeskanzler, Parlament, Objektivitätsgebot</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G215.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>16/02 Rundfunk</item>
+              </Indizes>
+              <Leitsatz>Verfassungswidrigkeit von Bestimmungen des ORF-G betreffend die Bestellung und Zusammensetzung des ORF-Stiftungs- und Publikumsrats; Verstoß gegen das im BVG-Rundfunk verankerte Gebot der Unabhängigkeit und pluralistischen Zusammensetzung; keine pluralistische Vielfalt des Stiftungsrats durch den nicht zu rechtfertigenden zahlenmäßigen Überhang der von der Bundesregierung zu bestellenden neun Mitglieder gegenüber den vom Publikumsrat zu bestellenden sechs Mitgliedern; demokratischer Vielfaltsaspekt rechtfertigt die Verkürzung der — grundsätzlich — feststehenden Funktionsdauer der von den politischen Parteien bestellten Mitglieder des Stiftungsrates; Verstoß gegen das Gebot der Unabhängigkeit durch die Verkürzung der Funktionsdauer für die von der Bundesregierung, den Ländern oder dem Publikumsrat bestellten Stiftungsratsmitglieder nach Bildung einer neuen Bundes- oder Landesregierung bzw nach einer Neukonstituierung des Publikumsrats; Verstoß gegen das Pluralismusgebot mangels näherer gesetzlicher Ausgestaltung betreffend die Verteilung der unterschiedlichen, allgemeinen persönlichen und fachlichen Anforderung für die von der Bundesregierung zu bestellenden neun Mitglieder; keine Bedenken gegen die gesellschaftliche Repräsentation näher genannter gesellschaftlicher Bereiche bzw Gruppen bei der Bestellung des Publikumsrats; keine Transparenz und Ausrichtung des Bestellungsverfahrens an die Zielsetzungen des Publikumsrats (ua Wahrung der Interessen der Hörer und Seher, Empfehlungs- bzw Vorschlagsrechte hinsichtlich der Programmgestaltung, Anrufungsrecht der Regulierungsbehörde, Festlegung der Finanzierungsgrundlagen des ORF); freies Wahlrecht des Bundeskanzlers zwischen und innerhalb der (Dreier-)Vorschläge je gesellschaftlich relevantem Bereich bzw je gesellschaftlich relevanter Gruppe verstößt gegen den Grundgedanken der gesellschaftlichen Repräsentation und Rückbindung dieser siebzehn Mitglieder des Publikumsrates an die jeweiligen Gruppen </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G215/2022 (G215/2022-26)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231005_22G00215_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231005_22G00215_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22G00215_01/JFR_20231005_22G00215_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22G00215_01/JFR_20231005_22G00215_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22G00215_01/JFR_20231005_22G00215_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22G00215_01/JFR_20231005_22G00215_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231005_22V00139_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-11-08</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231005_22V00139_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G108/2022 ua, V139/2022 ua</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Verordnung</item>
+              <item>B-VG Art18, Art139 Abs1 Z4, Art140 Abs1 Z1 litd</item>
+              <item>ABBAG-Gesetz §3b Abs3</item>
+              <item>StGG Art2</item>
+              <item>F-VG 1948 §2</item>
+              <item>FixkostenzuschussV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 225/2020 idF BGBl II 72/2021 Anhang Punkt 3.2.2</item>
+              <item>FixkostenzuschussV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G begrenzt bis € 800.000,- BGBl II 497/2020 idF BGBl II 73/2021 Anhang Punkt 3.2.2</item>
+              <item>VerlustersatzV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 568/2020 idF BGBl II 75/2021 Anhang Punkt 3.2.2</item>
+              <item>VerlustersatzverlängerungsV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 343/2021 Anhang Punkt 3.2.2</item>
+              <item>VerlustersatzV III des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 582/2021 Anhang Punkt 3.2.2</item>
+              <item>AusfallbonusV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 74/2021 Anhang Punkt 3.2.3</item>
+              <item>AusfallbonusV II des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 342/2021 Anhang Punkt 3.2.3</item>
+              <item>AusfallbonusV III des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 518/2021 Anhang Punkt 3.2.3</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+            <Schlagworte>COVID (Corona), Förderungen, Hoheitsverwaltung, Privatwirtschaftsverwaltung, Rechtsstaatsprinzip, Legalitätsprinzip, Determinierungsgebot, Berücksichtigungsprinzip, Rechtspolitik, Ausgliederung, Verordnung, VfGH / Präjudizialität, Selbstbindungsgesetz, Finanzverfassung, VfGH / Parteiantrag</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:V139.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>10/07 Verfassungs- und Verwaltungsgerichtsbarkeit</item>
+              </Indizes>
+              <Leitsatz>Abweisung der Anträge auf Aufhebung einer Bestimmung des ABBAB-Gesetzes sowie verschiedener Verordnungen betreffend die Gewährung von Zuschüssen, Verlustersatz oder Ausfallboni an Unternehmen zur wirtschaftlichen Bewältigung derCOVID-19 Pandemie; Regelungen der Verordnungen hinsichtlich des Kreises der begünstigten Unternehmen zur Erhaltung der Zahlungsfähigkeit, Vermeidung einer insolvenzrechtlichen Überschuldung sowie der Überbrückung von Liquiditätsschwierigkeiten durch die Verordnungsermächtigung gedeckt; kein Verstoß gegen den Gleichheitsgrundsatz durch den Ausschluss öffentlicher Unternehmen von der Gewährung von Ausgleichsleistungen; kein Verstoß gegen die Verpflichtung zur Rücksichtnahme zwischen den Gebietskörperschaften </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G108/2022 ua, V139/2022 ua</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231005_22V00139_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231005_22V00139_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00139_01/JFR_20231005_22V00139_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00139_01/JFR_20231005_22V00139_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00139_01/JFR_20231005_22V00139_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00139_01/JFR_20231005_22V00139_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231005_22V00236_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-30</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231005_22V00236_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>V236/2022 ua (V236/2022-13)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Verordnung</item>
+              <item>B-VG Art20 Abs1</item>
+              <item>B-VG Art139 Abs1 Z4, Art139 Abs1b</item>
+              <item>FixkostenzuschussV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 225/2020 idF BGBl II 72/2021 Anhang Punkt 2.4 </item>
+              <item>VerlustersatzV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 568/2020 idF BGBl II 75/2021 Anhang Punkt 2.4</item>
+              <item>VerlustersatzverlängerungsV des Bundesministers für Finanzen gemäß §3b Abs3 ABBAG-G BGBl II 343/2021 Anhang Punkt 2.4</item>
+              <item>ABBAG-G §3b</item>
+              <item>EStG 1988 §21, §22, §23</item>
+              <item>VfGG §7 Abs1, §57</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+            <Schlagworte>COVID (Corona), Förderungen, Weisung, Weisungsgebundenheit, VfGH / Formerfordernisse, VfGH / Parteiantrag, VfGH / Prüfungsumfang, VfGH / Präjudizialität, VfGH / Ablehnung, Privatrecht - öffentliches Recht</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:V236.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>31/04 Bundesbeteiligungen</item>
+              </Indizes>
+              <Leitsatz>Aufhebung von Teilen von Verordnungen des Bundesministers für Finanzen betreffend die Weisungsfreiheit der Organe der COFAG hinsichtlich der Gewährung von Zuschüssen zur Deckung von Fixkosten sowie der Gewährung von Verlustersatz in der COVID-19 Pandemie; Gesetzwidrigkeit der Weisungsfreistellung der — staatliche Verwaltung besorgenden — Organe der COFAG mangels Leitungs- und Aufsichtszusammenhangs; kein Verstoß gegen den Gleichheitsgrundsatz durch den Ausschluss öffentlicher Unternehmen von der Gewährung von finanziellen Mitteln </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>V236/2022 ua (V236/2022-13)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-05</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231005_22V00236_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231005_22V00236_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00236_01/JFR_20231005_22V00236_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00236_01/JFR_20231005_22V00236_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00236_01/JFR_20231005_22V00236_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231005_22V00236_01/JFR_20231005_22V00236_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231004_21G00095_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-24</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231004_21G00095_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G95/2021 (G95/2021-96)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art120c Abs1</item>
+              <item>B-VG Art140 Abs1 Z1 lita</item>
+              <item>ASVG §23, §30, §418, §419, §420, §421, §422, §423, §426, §428, §430 Abs3a, §432, §433, §435, §441, §441a, §441b, §441c §441d </item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-04</Entscheidungsdatum>
+            <Schlagworte>Krankenversicherung, Vertreter, Selbstverwaltungsrecht, Arbeiterkammern, Organ Organwalter, VfGH / Gerichtsantrag, Wahlrecht passives, Wahlen</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G95.2021</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>66/01 Allgemeines Sozialversicherungsgesetz</item>
+              </Indizes>
+              <Leitsatz>Verstoß einer Bestimmung des ASVG betreffend die passive Wahl des Vorsitzenden der Hauptversammlung der Österreichischen Gesundheitskasse gegen die demokratischen Grundsätze zur Bildung der Organe eines Selbstverwaltungskörpers; Verfassungswidrigkeit des Ausschlusses der Obmänner der mandatsstärksten wahlwerbenden Gruppen des Verwaltungsrates von der Wahl zum Vorsitzenden der Hauptversammlung </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G95/2021 (G95/2021-96)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-04</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231004_21G00095_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231004_21G00095_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231004_21G00095_01/JFR_20231004_21G00095_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231004_21G00095_01/JFR_20231004_21G00095_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231004_21G00095_01/JFR_20231004_21G00095_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231004_21G00095_01/JFR_20231004_21G00095_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231003_22E00977_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-24</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231003_22E00977_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>E977/2022</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art10 Abs1 Z9</item>
+              <item>B-VG Art83 Abs2</item>
+              <item>Oö BauO 1994 §1, §5, §9</item>
+              <item>EisenbahnG 1957 §1a, §10, §18, §20, §31a, §31b, §31e</item>
+              <item>Eisenbahn-EnteignungsentschädigungsG §1, §2, §3, §35</item>
+              <item>LiegenschaftsteilungsG §15</item>
+              <item>HochleistungsstreckenG §1, §2, §3, §5</item>
+              <item>UVP-G 2000 §23b, §24, §24f</item>
+              <item>WRG 1959 §127</item>
+              <item>VwGVG §27</item>
+              <item>Bebauungsplan Nr 21.58 "Leonding Nord" der Stadtgemeinde Leonding</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+            <Schlagworte>Grundverkehrsrecht, Baurecht, Eisenbahnrecht, Kompetenz Bund - Länder Verkehrswesen, Bebauungsplan, Landesverwaltungsgericht</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:E977.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>93    Eisenbahn</item>
+              </Indizes>
+              <Leitsatz>Verletzung im Recht auf ein Verfahren vor dem gesetzlichen Richter betreffend die Versagung einer Bewilligung der Abschreibung eines Grundstücksteiles eines bebauten Grundstücks nach der OÖ BauO 1994 wegen Widerspruchs zum geltenden Bebauungsplan der Stadtgemeinde Leonding; keine Anwendung der Oö BauO 1994 auf die beantragte Änderung des Grundstücks  hinsichtlich der Verlegung eines Baches im Rahmen eines — von der Bundeskompetenz "Verkehrswesen bezüglich der Eisenbahnen" erfassten — Eisenbahnbauvorhabens; keine Kompetenz des Landesgesetzgebers für baubehördliche Bewilligungen auf dem Gebiet des Eisenbahnwesens bei notwendiger Verlegung oder Umgestaltung von Wasserläufen oder Straßenkörpern </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>E977/2022</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231003_22E00977_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231003_22E00977_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E00977_01/JFR_20231003_22E00977_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E00977_01/JFR_20231003_22E00977_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E00977_01/JFR_20231003_22E00977_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E00977_01/JFR_20231003_22E00977_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231003_22E02926_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-24</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231003_22E02926_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>E2926/2022</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art144 Abs1 / Anlassfall</item>
+              <item>Nö SozialhilfeG §12</item>
+              <item>ZPO §35</item>
+              <item>VfGG §7 Abs1, §35 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+            <Schlagworte>VfGH / Anlassfall, Sozialhilfe, Rechtsnachfolger</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:E2926.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L9200 Sozialhilfe, Grundsicherung, Mindestsicherung</item>
+              </Indizes>
+              <Leitsatz>Aufhebung des angefochtenen Erkenntnisses im Anlassfall </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>E2926/2022</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231003_22E02926_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231003_22E02926_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E02926_01/JFR_20231003_22E02926_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E02926_01/JFR_20231003_22E02926_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E02926_01/JFR_20231003_22E02926_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_22E02926_01/JFR_20231003_22E02926_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20231003_23G00238_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-24</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20231003_23G00238_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G238/2023 (G238/2023-10)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Gesetz</item>
+              <item>B-VG Art140 Abs1 Z1 litb</item>
+              <item>StGG Art2</item>
+              <item>Nö SozialhilfeG §1, §2, §4, §12 Abs2, §12 Abs3, §47, §48, §48a</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+            <Schlagworte>Sozialhilfe, Pflegeheime, Wohnsitz, Rechtspolitik, VfGH / Fristsetzung</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G238.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L9200 Sozialhilfe, Grundsicherung, Mindestsicherung</item>
+              </Indizes>
+              <Leitsatz>Unsachlichkeit von Teilen von Bestimmungen des Nö SozialhilfeG betreffend die Voraussetzung des Bestehens eines Hauptwohnsitzes in Niederösterreich vor der Aufnahme in eine Pflegeeinrichtung; Verstoß gegen den Gleichheitsgrundsatz durch den kategorischen Ausschluss von Sozialhilfeleistungen, wenn der Hauptwohnsitz in Niederösterreich erst mit der Aufnahme in die Pflegeeinrichtung begründet wird; keine Möglichkeit der Berücksichtigung des Privat- und Familienlebens im Einzelfall sowie mangelnde Eignung und Erforderlichkeit der pauschalen Regelung für die ortsnahe Pflegeversorgung der im Bundesland bereits wohnhaften Bevölkerung </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G238/2023 (G238/2023-10)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-10-03</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20231003_23G00238_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20231003_23G00238_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_23G00238_01/JFR_20231003_23G00238_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_23G00238_01/JFR_20231003_23G00238_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_23G00238_01/JFR_20231003_23G00238_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20231003_23G00238_01/JFR_20231003_23G00238_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230928_22G00089_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-12</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230928_22G00089_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G89/2022 ua</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art140 Abs1 Z1 litc</item>
+              <item>StGG Art6</item>
+              <item>Bgld SozialeinrichtungsG 2023 §1, §2, §3, §6, §7, §27, §33 </item>
+              <item>Bgld SozialeinrichtungsG §1, §2, §3, §5, §6, §15, §28</item>
+              <item>Bgld Altenwohn- und PflegeheimG §3, §11, §12</item>
+              <item>Bgld SozialhilfeG 2000 §6, §9, §11, §13</item>
+              <item>KSchG §21i</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-28</Entscheidungsdatum>
+            <Schlagworte>Pflegeheime, Pflegegeld, Verhältnismäßigkeit, Erwerbsausübungsfreiheit, Sozialhilfe, Übergangsbestimmung, Grundlagenforschung, VfGH / Individualantrag, VfGH / Verwerfungsumfang, Selbstbindungsgesetz, VfGH / Prüfungszeitpunkt, Geltungsbereich (zeitlicher) eines Gesetzes, Kosten, Vertrauensschutz</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G89.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L9230 Altenheime, Pflegeheime, Heimhilfe, Sozialbetreuungsberufe</item>
+              </Indizes>
+              <Leitsatz>Verstoß von Bestimmungen des Bgld SozialeinrichtungsG 2023 gegen die Erwerbsausübungsfreiheit durch das Abstellen auf Gemeinnützigkeit als Voraussetzung für den Anspruch auf Landesmittel für bereits bestehende Betriebe von Altenwohn- und Pflegeheimen; keine verfassungskonforme Einschränkung der Erwerbsfreiheit hinsichtlich der – im öffentlichen Interesse liegenden – Erbringung hochqualitativer Pflegeleistungen; Unverhältnismäßigkeit der vierjährigen Anpassungsfrist angesichts der Investitionen sowie der Besonderheiten des Marktes; keine gesetzlichen Vorkehrungen für die weitere Unterbringung der schutzbedürftigen Personen in der Nähe ihrer Angehörigen in Folge einer allfälligen Betriebseinstellung </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G89/2022 ua</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-28</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230928_22G00089_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230928_22G00089_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230928_22G00089_01/JFR_20230928_22G00089_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230928_22G00089_01/JFR_20230928_22G00089_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230928_22G00089_01/JFR_20230928_22G00089_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230928_22G00089_01/JFR_20230928_22G00089_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230922_22G00281_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-05</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230922_22G00281_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G281/2022</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art140 Abs1 Z1 litd, Art140 Abs1b</item>
+              <item>Nö ROG 2014 §36</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-22</Entscheidungsdatum>
+            <Schlagworte>VfGH / Ablehnung, Raumordnung, Bebauungsplan, Entschädigung, Auslegung historische, Auslegung systematische, VfGH / Parteiantrag</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G281.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Beschluss</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L8000 Raumordnung</item>
+              </Indizes>
+              <Leitsatz>Ablehnung eines Parteiantrags auf Aufhebung einer Bestimmung des Nö RaumOG betreffend die Leistung einer Entschädigung bei (un)entgeltlichem Erwerb von Baugrundstücken, wenn durch den Bebauungsplan die im Flächenwidmungsplan festgelegte Nutzung ausgeschlossen wird </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G281/2022</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-22</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230922_22G00281_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230922_22G00281_00</Dokumentnummer>
+                  <Entscheidungsart>Beschluss</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_22G00281_01/JFR_20230922_22G00281_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_22G00281_01/JFR_20230922_22G00281_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_22G00281_01/JFR_20230922_22G00281_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_22G00281_01/JFR_20230922_22G00281_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230922_23E01146_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-09-29</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230922_23E01146_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>E1146/2023</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art130 Abs1 Z3</item>
+              <item>VwGG §33 Abs1</item>
+              <item>VfGG §7 Abs1, §86, §88</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-22</Entscheidungsdatum>
+            <Schlagworte>Einstellung, VfGH / Gegenstandslosigkeit, Säumnisbeschwerde, VfGH / Kosten, Beschwer, VfGH / Klaglosstellung</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:E1146.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Beschluss</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>10/07 Verfassungs- und Verwaltungsgerichtsbarkeit</item>
+              </Indizes>
+              <Leitsatz>Einstellung des Beschwerdeverfahrens und Zuspruch der Kosten auf Grund materieller Klaglosstellung durch die – nach Beschwerdeeinbringung ergangene – Entscheidung der Behörde im Säumnisbeschwerdeverfahren </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>E1146/2023</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-22</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230922_23E01146_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230922_23E01146_00</Dokumentnummer>
+                  <Entscheidungsart>Beschluss</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_23E01146_01/JFR_20230922_23E01146_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_23E01146_01/JFR_20230922_23E01146_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_23E01146_01/JFR_20230922_23E01146_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230922_23E01146_01/JFR_20230922_23E01146_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230921_21E02130_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-03</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230921_21E02130_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>E2130/2021</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art144 Abs1 / Anlassfall</item>
+              <item>EpidemieG 1950 §25</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 92/2020 §5, Anlage D</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 129/2020 §3a, Anlage E und F</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 149/2020 §1 Abs1, §2, §4, §6</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+            <Schlagworte>VfGH / Anlassfall, COVID (Corona)</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:E2130.2021</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>82/02 Gesundheitsrecht allgemein</item>
+              </Indizes>
+              <Leitsatz>Aufhebung des angefochtenen Erkenntnisses im Anlassfall </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>E2130/2021</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230921_21E02130_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230921_21E02130_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_21E02130_01/JFR_20230921_21E02130_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_21E02130_01/JFR_20230921_21E02130_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_21E02130_01/JFR_20230921_21E02130_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_21E02130_01/JFR_20230921_21E02130_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230921_22V00209_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-25</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230921_22V00209_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>V209/2022</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art139 Abs1 Z1</item>
+              <item>StVO 1960 §43, §44, §52, §54</item>
+              <item>GeschwindigkeitsbeschränkungsV des Stadtsenates der Stadt Graz vom 16.06.2009</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+            <Schlagworte>Geschwindigkeitsbeschränkung, Verkehrsbeschränkungen, Verordnungserlassung, VfGH / Gerichtsantrag, Straßenpolizei</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:V209.2022</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>90/01 Straßenverkehrsordnung 1960</item>
+              </Indizes>
+              <Leitsatz>Aufhebung einer GeschwindigkeitsbeschränkungsV der Stadt Graz mangels nachvollziehbarer Darlegung der Erforderlichkeit der Geschwindigkeitsbeschränkung sowie auf Grund Erlassung der Verordnung lediglich wegen des "dringenden verkehrspolitischen Wunsches" der zuständigen Stadtsenatsreferentin entgegen den ablehnenden Stellungnahmen im Verordnungsakt </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>V209/2022</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230921_22V00209_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230921_22V00209_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_22V00209_01/JFR_20230921_22V00209_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_22V00209_01/JFR_20230921_22V00209_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_22V00209_01/JFR_20230921_22V00209_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_22V00209_01/JFR_20230921_22V00209_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230921_23G00219_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-24</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230921_23G00219_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G219/2023 ua</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Gesetz</item>
+              <item>B-VG Art140 Abs1 Z1 lita</item>
+              <item>StGG Art2</item>
+              <item>RStDG §66, §75d, §75g, §76d Abs1 Z1, §83</item>
+              <item>BDG 1979 §50f</item>
+              <item>GehG 1956 §12j, §13c</item>
+              <item>VertragsbedienstetenG 1948 §20c, §21</item>
+              <item>ASVG §141, §143d</item>
+              <item>BEinstG §6, §7</item>
+              <item>GOG 1896 §26a, §27</item>
+              <item>VfGG §7 Abs1, §62 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+            <Schlagworte>Richter, Dienstrecht, Bezüge, Rechtspolitik, VfGH / Gerichtsantrag, VfGH / Formerfordernisse, VfGH / Antrag, Eventualantrag, Vertragsbedienstete, Arbeitszeit</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G219.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>64/05 Sonstiges</item>
+              </Indizes>
+              <Leitsatz>Kein Verstoß gegen den Gleichheitsgrundsatz durch eine Bestimmung des RStDG betreffend die — im Gestaltungsspielraum des Gesetzgebers gelegene — aliquote Bezugskürzung bei Herabsetzung der Auslastung von Richtern nach einem Krankenstand; keine Bedenken gegen die unterschiedlichen dienstrechtlichen Systeme bestimmter Gruppen öffentlicher Bediensteter hinsichtlich der divergierenden Wiedereingliederungsteilzeit und den besoldungsrechtlichen Konsequenzen; keine Diskriminierung durch die aliquote Bezugskürzung im Falle der antragsbedürftigen und sohin freiwilligen Herabsetzung der Auslastung </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G219/2023 ua</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230921_23G00219_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230921_23G00219_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23G00219_01/JFR_20230921_23G00219_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23G00219_01/JFR_20230921_23G00219_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23G00219_01/JFR_20230921_23G00219_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23G00219_01/JFR_20230921_23G00219_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230921_23V00033_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-20</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230921_23V00033_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>V33/2023 (V33/2023-9)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art139 Abs1 Z1</item>
+              <item>Tir FreizeitwohnsitzabgabeG §1, §4</item>
+              <item>Tir Freizeitwohnsitz- und LeerstandsabgabeG</item>
+              <item>Tir AufenthaltsabgabeG 2003</item>
+              <item>FreizeitwohnsitzabgabeV des Gemeinderates der Gemeinde Innsbruck vom 22.11.2019</item>
+              <item>FreizeitwohnsitzabgabeV des Gemeinderates der Stadtgemeinde Innsbruck vom 25.10.2022</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+            <Schlagworte>Wohnsitz Freizeit-, Wohnsitz Zweit-, Abgaben Gemeinde-, Gebühr, Fremdenverkehr, Verordnungserlassung, Geltungsbereich (zeitlicher) eines Gesetzes, Geltungsbereich (zeitlicher) einer Verordnung, VfGH / Gerichtsantrag, Finanzausgleich</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:V33.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L3730 Aufenthaltsabgabe, Nächtigungstaxe, Ortstaxe</item>
+              </Indizes>
+              <Leitsatz>Aufhebung einer Verordnung der Gemeinde Innsbruck betreffend die Festlegung der Höhe der Freizeitwohnsitzabgabe; keine Ausführungen betreffend die Art der – nicht durch Benützungsgebühren und das Freizeitwohnsitzabgabepauschale abgedeckten – finanziellen Belastungen für die Gemeinde; Festlegung der Freizeitwohnsitzabgabe mit dem Höchstsatz kann nicht allein auf den Verkehrswert gestützt werden </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>V33/2023 (V33/2023-9)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230921_23V00033_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230921_23V00033_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00033_01/JFR_20230921_23V00033_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00033_01/JFR_20230921_23V00033_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00033_01/JFR_20230921_23V00033_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00033_01/JFR_20230921_23V00033_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230921_23V00065_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-03</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230921_23V00065_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>V65/2023 (V65/2023-9)</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art18 Abs2, Art139 Abs1 Z2, Art139 Abs4</item>
+              <item>EpidemieG 1950 §25</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 92/2020 §5, Anlage D</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 129/2020 §3a, Anlage E und F</item>
+              <item>COVID-19-MaßnahmenV bei Einreise aus Nachbarstaaten BGBl II 87/2020 idF BGBl II 149/2020 §1 Abs1, §2, §4, §6</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+            <Schlagworte>COVID (Corona), Verordnungserlassung, Grundlagenforschung, Legalitätsprinzip, Determinierungsgebot, Bindung (des Verordnungsgebers)</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:V65.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>82/02 Gesundheitsrecht allgemein</item>
+              </Indizes>
+              <Leitsatz>Gesetzwidrigkeit einer COVID-Maßnahmenverordnung betreffend die Verpflichtung zur selbstüberwachten Heimquarantäne nach der Einreise aus einem Nachbarstaat mangels hinreichender Dokumentation der Entscheidungsgrundlagen </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>V65/2023 (V65/2023-9)</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-21</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230921_23V00065_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230921_23V00065_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00065_01/JFR_20230921_23V00065_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00065_01/JFR_20230921_23V00065_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00065_01/JFR_20230921_23V00065_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230921_23V00065_01/JFR_20230921_23V00065_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230920_21G00253_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-02</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230920_21G00253_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G253/2021</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Gesetz</item>
+              <item>B-VG Art140 Abs1 Z1 lita</item>
+              <item>ASVG §44, §45, §49, §51, §54, §55, §60, §70, §70a, §73, §108, §718</item>
+              <item>B-KUVG §19, §24b</item>
+              <item>GSVG §25, §35a, §35b, §36, §48, §127b</item>
+              <item>BSVG §23, §33a, §33b, §33c, §118b</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+            <Schlagworte>Sozialversicherung, Pflichtversicherung, Beiträge, VfGH / Gerichtsantrag, Beitragspflicht, Beitragsgrundlage, Krankenversicherung, Pflichtversicherungsumfang, Rechtspolitik, VfGH / Prüfungsumfang, Beitragszeiten</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G253.2021</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>10/07 Verfassungs- und Verwaltungsgerichtsbarkeit</item>
+              </Indizes>
+              <Leitsatz>Kein Verstoß gegen den Gleichheitssatz durch eine Regelung des ASVG betreffend die Rückerstattung von Beiträgen bei stark schwankenden Einkünften bei Mehrfachversicherungen; Gewährung einer Beitragserstattung ausschließlich bei Überschreitung der Höchstbeitragsgrundlage für den gesamten Versicherungszeitraum in einem Kalenderjahr im rechtspolitischen Gestaltungsspielraum des Gesetzgebers </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G253/2021</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230920_21G00253_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230920_21G00253_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00253_01/JFR_20230920_21G00253_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00253_01/JFR_20230920_21G00253_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00253_01/JFR_20230920_21G00253_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00253_01/JFR_20230920_21G00253_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230920_21G00328_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-04</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230920_21G00328_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G328/2021</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art7 Abs1 / Gesetz</item>
+              <item>B-VG Art10 Abs1 Z11</item>
+              <item>B-VG Art140 Abs1 Z1 litd</item>
+              <item>B-VG Art151 Abs46</item>
+              <item>BundespflegegeldG §1, §3, §3a, §7, §22, §23, §34, §49 Abs18</item>
+              <item>Verordnung (EG) 883/2004 zur Koordinierung der Systeme der sozialen Sicherheit vom 29.04.2004 Art3, Art4, Art7, Art11, Art21, Art23, Art24, Art29, Art34, Art70</item>
+              <item>Vereinbarung Art15a B-VG über gemeinsame Maßnahmen des Bundes und der Länder für pflegebedürftige Personen</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+            <Schlagworte>Pflegegeld, Rechtspolitik, EU-Recht, Verwaltungsökonomie, VfGH / Parteiantrag, Kompetenz Bund - Länder Pflegegeld, Sozialversicherung, Krankenversicherung, Wohnsitz, EWR</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G328.2021</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>66/03 Sonstiges</item>
+              </Indizes>
+              <Leitsatz>Bestimmungen des BundespflegegeldG betreffend die Anknüpfung des Anspruchs auf Pflegegeld an den zuerkannten Bezug bestimmter Grundleistungen sowie Ausschluss des Pflegegeldanspruches wegen Zuständigkeit anderer Mitgliedstaaten im weiten rechtspolitischen Gestaltungsspielraum des Gesetzgebers </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G328/2021</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230920_21G00328_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230920_21G00328_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00328_01/JFR_20230920_21G00328_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00328_01/JFR_20230920_21G00328_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00328_01/JFR_20230920_21G00328_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_21G00328_01/JFR_20230920_21G00328_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230920_23G00215_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-09-28</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230920_23G00215_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>G215/2023</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art140 Abs1 Z1 litd</item>
+              <item>PresseförderungsG 2004 §12b</item>
+              <item>4. COVID-19-Gesetz BGBl I 24/2020</item>
+              <item>VfGG §7 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+            <Schlagworte>VfGH / Parteiantrag, Presseförderung, COVID (Corona), VfGH / Legitimation, VfGH / Prüfungsumfang, Geltungsbereich (zeitlicher) eines Gesetzes</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:G215.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Beschluss</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>16/01 Medien, Presseförderung</item>
+              </Indizes>
+              <Leitsatz>Zurückweisung eines Parteiantrags auf Aufhebung einer Wortfolge des PresseförderungsG betreffend den Ausschluss außerordentlicher Fördermaßnahmen für Wochenzeitungen wegen des durch diese Aufhebung völlig veränderten und dem Gesetzgeber nicht mehr zusinnbaren Inhalts </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>G215/2023</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230920_23G00215_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230920_23G00215_00</Dokumentnummer>
+                  <Entscheidungsart>Beschluss</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23G00215_01/JFR_20230920_23G00215_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23G00215_01/JFR_20230920_23G00215_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23G00215_01/JFR_20230920_23G00215_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23G00215_01/JFR_20230920_23G00215_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230920_23W_I00005_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-09-28</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230920_23W_I00005_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>WI5/2023</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>B-VG Art117 Abs5</item>
+              <item>B-VG Art141 Abs1 litb</item>
+              <item>Oö GemeindeO 1990 §25, §26, §29, §30, §32, §45, §47</item>
+              <item>VfGG §7 Abs1, §67 Abs2, §68 Abs1</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+            <Schlagworte>VfGH / Wahlanfechtung, Fraktionswahlrecht, Wahlvorschlag, Gemeindevorstand, Wahlrecht geheimes, Rechtspolitik, Gemeinderecht Organe, Wahlen, VfGH / Kosten</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:WI5.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>L0    Verfassungs- und Organisationsrecht</item>
+                <item>L0350 Gemeindewahl, Bürgermeisterwahl</item>
+                <item>L1000 Gemeindeordnung</item>
+              </Indizes>
+              <Leitsatz>Stattgabe der Anfechtung der Nachwahl eines Mitglieds des Gemeindevorstands der Gemeinde Franking wegen rechtswidriger Nichtberücksichtigung eines Wahlvorschlags; Unbedenklichkeit der – nach erfolgloser Frakionswahl durchzuführenden – Mehrheitswahl durch den Gemeinderat für die Besetzung eines Gemeindevorstandsmandats bei Nichterreichen des Anwesenheitsquorums; keine Rechtswidrigkeit des Wahlverfahrens wegen Verletzung des geheimen Wahlrechts mangels eines Antrags auf Durchführung einer geheimen Wahl </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>WI5/2023</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-20</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230920_23W_I00005_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230920_23W_I00005_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23W_I00005_01/JFR_20230920_23W_I00005_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23W_I00005_01/JFR_20230920_23W_I00005_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23W_I00005_01/JFR_20230920_23W_I00005_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230920_23W_I00005_01/JFR_20230920_23W_I00005_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>JFR_20230919_23E00940_01</ID>
+            <Applikation>Vfgh</Applikation>
+            <Organ>Verfassungsgerichtshof (VfGH)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2023-10-02</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFR_20230919_23E00940_01</DokumentUrl>
+          </Allgemein>
+          <Judikatur>
+            <Dokumenttyp>Rechtssatz</Dokumenttyp>
+            <Geschaeftszahl>
+              <item>E940/2023</item>
+            </Geschaeftszahl>
+            <Normen>
+              <item>EMRK Art8</item>
+              <item>NAG §11, §21, §46</item>
+              <item>VfGG §7 Abs2</item>
+            </Normen>
+            <Entscheidungsdatum>2023-09-19</Entscheidungsdatum>
+            <Schlagworte>Fremdenrecht, Privat- und Familienleben, Aufenthaltsrecht, Entscheidungsbegründung, Kinder</Schlagworte>
+            <EuropeanCaseLawIdentifier>ECLI:AT:VFGH:2023:E940.2023</EuropeanCaseLawIdentifier>
+            <Vfgh>
+              <Entscheidungsart>Erkenntnis</Entscheidungsart>
+              <Gericht>Verfassungsgerichtshof (VfGH)</Gericht>
+              <Indizes>
+                <item>41/02 Staatsbürgerschaft, Pass- und Melderecht, Fremdenrecht, Asylrecht</item>
+              </Indizes>
+              <Leitsatz>Verletzung im Recht auf Achtung des Privat- und Familienlebens durch Abweisung eines Antrags auf Erteilung des Aufenthaltstitels "Rot-Weiß-Rot-Karte plus" mangels Auseinandersetzung mit den aktuellen Umständen, dem Aufenthaltstitel "Daueraufenthalt-EU" der Ehefrau, der Beziehung zu seinem Sohn und den Auswirkungen einer Übersiedlung der gesamten Familie auf das Kindeswohl </Leitsatz>
+              <Entscheidungstexte>
+                <item>
+                  <Geschaeftszahl>E940/2023</Geschaeftszahl>
+                  <Dokumenttyp>Text</Dokumenttyp>
+                  <Gericht>VfGH</Gericht>
+                  <Entscheidungsdatum>2023-09-19</Entscheidungsdatum>
+                  <DokumentUrl>https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Vfgh&amp;Dokumentnummer=JFT_20230919_23E00940_00</DokumentUrl>
+                  <Dokumentnummer>JFT_20230919_23E00940_00</Dokumentnummer>
+                  <Entscheidungsart>Erkenntnis</Entscheidungsart>
+                </item>
+              </Entscheidungstexte>
+            </Vfgh>
+          </Judikatur>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230919_23E00940_01/JFR_20230919_23E00940_01.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230919_23E00940_01/JFR_20230919_23E00940_01.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230919_23E00940_01/JFR_20230919_23E00940_01.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Vfgh/JFR_20230919_23E00940_01/JFR_20230919_23E00940_01.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+  </OgdDocumentResults>
+</OgdSearchResult>

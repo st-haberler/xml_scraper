@@ -43,6 +43,7 @@ def execute_xml_request(xml_request:str) -> str:
     search_xml_result = client.service.SearchDocumentsXml(xml_request)
     return search_xml_result
 
+
 def generate_xml_request(begin:str, end:str, page:int=1) -> str:
     """
     Generates a xml request for the RIS api. Returns a string, but in XML format.
