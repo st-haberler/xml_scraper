@@ -192,8 +192,9 @@ def execute_xml_request(xml_request:str) -> str:
 
 def download_full_month(begin:str, end:str) -> None:
     """
-    Returns a list of all dates in the given month and year. If the year is
-    the current year, the function will skip the months that are in the future.
+    Returns a list with metadata and links of all decisions in the given month and year. 
+    If the year is the current year, the function will skip the months that are in the 
+    future.
     The function works by generating a xml request for the full month. The response 
     is limited to max 100 hits. if there are more than 100 hits, the function will  
     generate a new xml request for the next page and repeat the process until all 
