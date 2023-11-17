@@ -1,3 +1,14 @@
+# Decision Scraper for the Austrian Legal Information System (RIS)
+# Usage: python scraper.py -branch <branch> -year <year> 
+# Example: python scraper.py -branch vfgh -year 2020
+# Downloads all decisions from the given year and branch of law and saves them as 
+# - separate html files 
+# - one json file
+# - one xml file with metadata
+# - one text file with the downloadlinks of the html files (for future reference)
+# Author: Stefan Haberler stefan.haberler[at]stefan.priv.at
+# Date: 2023-15-11
+# 
 # unifies all features of the decision scraper (search, link extraction, download, conversion into json)
 # and provides a command line interface
 # branch and year are the only arguments; they are global since they are more like constants 
@@ -5,17 +16,20 @@
 # dynamically set using the command line arguments. 
 
 import argparse
+import logging
 import datetime
 import calendar
 import requests
 import re
+import json
 import xml.etree.ElementTree as ET 
 import lxml.etree as etree
 from pathlib import Path
 from zeep import Client
-import logging
-import json
 from bs4 import BeautifulSoup
+import os
+
+
 
 
 BRANCHES = ["vfgh", "vwgh", "justiz"]
@@ -38,13 +52,14 @@ RIS_API_WSDL = "https://data.bka.gv.at/ris/ogd/v2.6/?WSDL"
 
 def init_script() -> None:
     """
-    Initializes the scraper by command line arguments. All global variables are set here.
+    Initializes the scraper by command line arguments. All global variables of the script are set here.
     """
     global branch, year
     global meta_collection_file 
     global link_collection_file 
     global html_target_path
     global json_target_path
+    global missing_links_file
 
     parser = argparse.ArgumentParser(description="Download decisions via the RIS API.")
     parser.add_argument("-branch", type=str, help=f"The branch of law to download decisions from: {BRANCHES}")
@@ -54,21 +69,41 @@ def init_script() -> None:
     branch = args.branch
     year = args.year
 
-    assert branch in BRANCHES, f"Invalid branch. Must be one of {BRANCHES}."
-    assert int(year) <= datetime.datetime.now().year, f"Invalid year. Must be between today and 1946"
-    assert int(year) >= 1946, f"Invalid year Must be between today and 1946."
 
-    meta_collection_file = Path.cwd() / "data" / "judikatur" / branch / f"{branch}_meta_collection_all_{year}.xml" 
-    link_collection_file = Path.cwd() / "data" / "judikatur" / branch / f"{branch}_all_decision_links_{year}.links"
+    if not all([branch, year]): 
+        print("Usage: python scraper.py -branch <branch> -year <year>")
+        print("Example: python scraper.py -branch vfgh -year 2020")
+        exit(2)
+    if not all([(branch in BRANCHES), 
+                (1946 <= int(year) <= datetime.datetime.now().year)]):
+        print("Usage: python scraper.py -branch <branch> -year <year>")
+        print(f"<branch> must be one of {BRANCHES}. <year> must be between 1946 and today.")
+        print("Example: python scraper.py -branch vfgh -year 2020")
+        exit(2)
+
+    # assert branch in BRANCHES, f"Invalid branch. Must be one of {BRANCHES}."
+    # assert int(year) <= datetime.datetime.now().year, f"Invalid year. Must be between today and 1946"
+    # assert int(year) >= 1946, f"Invalid year. Must be between today and 1946."
+
+    meta_data_path = Path.cwd() / "data" / "judikatur" / branch / "meta_data"
+    if not meta_data_path.exists(): meta_data_path.mkdir(parents=True)
+
+    meta_collection_file = meta_data_path / f"{branch}_meta_collection_all_{year}.xml" 
+    link_collection_file = meta_data_path / f"{branch}_all_decision_links_{year}.links"
+    missing_links_file = meta_data_path / f"{branch}_missing_links_{year}.links"
+    
     html_target_path = Path.cwd() / "data" / "judikatur" / branch / f"html_{year}"
+    if not html_target_path.exists(): html_target_path.mkdir(parents=True)
+
     json_target_path = Path.cwd() / "data" / "judikatur" / branch / f"json_database"
+    if not json_target_path.exists(): json_target_path.mkdir(parents=True)
 
     logging.basicConfig(level=logging.INFO)
     logging.info(f"Starting scraper for {branch} from {year}.")
 
 
 class Decision_Json_Converter:
-    def __init__(self, branch:str, year:str) -> None:
+    def __init__(self) -> None:
         self.year = year
         self.branch = branch
         self.json_database = json_target_path / f"all_{self.year}.json"
@@ -104,7 +139,8 @@ class Decision_Json_Converter:
 
     def convert_all(self) -> None:
         """
-        Converts all html files in the html_target_path to json and saves them to the json_target_path.
+        Converts the decision body of all html files in the html_target_path to json 
+        and saves them to the json_target_path.
         """
         counter = 0 
         for html_file in html_target_path.iterdir():
@@ -134,7 +170,7 @@ class Decision_Json_Converter:
         
 
 class Decision_Downloader:
-    def __init__(self, branch:str, year:str) -> None:
+    def __init__(self) -> None:
         self.year = year
         self.branch = branch
 
@@ -147,26 +183,33 @@ class Decision_Downloader:
             filename = re.search(r"\/([^\/]+)$", link).group(1)
             return filename
         except AttributeError as e:
-            print(e)
-            print(f"Could not extract filename from:\n{link}.")
+            logging.error(f"Could not extract filename from:\n{link}.", exc_info=True)
             return None
 
 
+
     def download_decisions(self) -> None:
-        link_list = link_collection_file.read_text().split("\n")
+        """
+        Downloads all decisions as html from the link_collection_file and saves them to the html_target_path.
+        The links of failed downloads are saved to the missing_links_file.
+        """
+        
+        link_list = self.link_collection.read_text().split("\n")
 
         counter = 0
         for link in link_list: 
-            if link[:8] != "https://": continue
-            
             decision_html_file = self._get_filename(link)
-            if decision_html_file in [html_file.name for html_file in html_target_path.iterdir()]: 
-                print(f"{decision_html_file} already exists.")
+            if (not decision_html_file is None) and (decision_html_file in [html_file.name for html_file in html_target_path.iterdir()]): 
+                logging.info(f"{decision_html_file} already exists.")
                 continue
             try: 
                 response = requests.get(link, timeout=10)
             except Exception as e:
-                print(e)
+                logging.error(f"Could not download {decision_html_file} (added to missing links)", exc_info=True)
+                if not missing_links_file.exists():
+                    missing_links_file.touch()
+                with missing_links_file.open("a") as f: 
+                    f.write(f"{link}\n")
                 continue
             (html_target_path / decision_html_file).write_text(response.text, encoding="utf-8")
             counter += 1
@@ -175,7 +218,7 @@ class Decision_Downloader:
 
 
 class Link_Collection: 
-    def __init__(self, branch:str, year:str) -> None:
+    def __init__(self) -> None:
         self.year = year	
         self.branch = branch
         self.ns = {'ogd': 'http://ris.bka.gv.at/ogd/V2_6'}
@@ -185,7 +228,7 @@ class Link_Collection:
         self.link_collection = link_collection_file
 
 
-    def extract_xml_from_collection(self, branch:str, year:str) -> None:
+    def extract_xml_from_collection(self) -> None:
         """
         Extracts the xml from the metadata collection file for the given branch and year.
         """    
@@ -197,7 +240,8 @@ class Link_Collection:
 
     def extract_links_from_xml(self) -> None:   
         """
-        Finds all document links in the metadata collection and saves them to a list.
+        Finds all document links in the metadata collection and saves them to self.links 
+        for future use inside the Link_Collection object ie for saving to file.
         """
         content_reference_list = self.meta_collection_root.findall(f".//{self.content_reference_element}", namespaces=self.ns)
 
@@ -215,7 +259,7 @@ class Link_Collection:
                         new_link = content_url.find("ogd:Url", namespaces=self.ns).text
                         self.links.append(new_link)
             except AttributeError as e:
-                print(e)
+                logging.error(f"Could not extract link from meta_data xml.", exc_info=True)
                 continue    
 
 
@@ -241,7 +285,7 @@ class Link_Collection:
 
 
 class Meta_Data_Collection:
-    def __init__(self, branch:str, year:str) -> None:
+    def __init__(self) -> None:
         self.branch = branch
         self.year = year
         # get file path from global variable in init_script():
@@ -270,14 +314,17 @@ class Meta_Data_Collection:
         xml_doc = etree.parse(str(TEMP_FILE))
         xsd = etree.XMLSchema(file=str(XSD_PATH / VALIDATION_FILE))
 
+        xml_is_valid = True
+
         try: 
             xsd.assertValid(xml_doc)
-            TEMP_FILE.unlink()
-            return True
         except etree.DocumentInvalid as err:
-            print(f"XML is invalid: {str(TEMP_FILE)}")
-            print(err.error_log)
-            return False
+            logging.error(f"XML is invalid: {str(TEMP_FILE)}", exc_info=True)
+            xml_is_valid = False
+        finally: 
+            TEMP_FILE.unlink()
+        
+        return xml_is_valid
 
 
     def generate_xml_request(self, begin:str, end:str, page:int=1) -> str:
@@ -398,14 +445,12 @@ class Meta_Data_Collection:
 if __name__ == "__main__": 
     init_script()
     
-    meta_loader = Meta_Data_Collection(branch, year)
+    meta_loader = Meta_Data_Collection()
+    link_loader = Link_Collection()
+    downloader = Decision_Downloader()
+    converter = Decision_Json_Converter()
+    
     meta_loader.retrieve_meta()
-
-    link_loader = Link_Collection(branch, year)
     link_loader.retrieve_links()
-
-    downloader = Decision_Downloader(branch, year)
     downloader.download_decisions()
-
-    converter = Decision_Json_Converter(branch, year)
     converter.convert_all()
