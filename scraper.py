@@ -48,6 +48,14 @@ VALIDATION_FILE = "OGD_Request.xsd"
 
 RIS_API_WSDL = "https://data.bka.gv.at/ris/ogd/v2.6/?WSDL"
 
+branch = None
+year = None
+meta_collection_file = None
+link_collection_file = None
+html_target_path = None
+json_target_path = None
+missing_links_file = None
+meta_data_path = None
 
 
 def init_script() -> None:
@@ -56,6 +64,7 @@ def init_script() -> None:
     """
     global branch, year
     global meta_collection_file 
+    global meta_data_path
     global link_collection_file 
     global html_target_path
     global json_target_path
@@ -70,16 +79,24 @@ def init_script() -> None:
     year = args.year
 
 
+    # TODO: refactor argument check into a function and improve readability
     if not all([branch, year]): 
         print("Usage: python scraper.py -branch <branch> -year <year>")
         print("Example: python scraper.py -branch vfgh -year 2020")
         exit(2)
-    if not all([(branch in BRANCHES), 
-                (1946 <= int(year) <= datetime.datetime.now().year)]):
+    try: 
+        if not all([(branch in BRANCHES), 
+                    (1946 <= int(year) <= datetime.datetime.now().year)]):
+            print("Usage: python scraper.py -branch <branch> -year <year>")
+            print(f"<branch> must be one of {BRANCHES}. <year> must be between 1946 and today.")
+            print("Example: python scraper.py -branch vfgh -year 2020")
+            exit(2)
+    except ValueError as e:
         print("Usage: python scraper.py -branch <branch> -year <year>")
         print(f"<branch> must be one of {BRANCHES}. <year> must be between 1946 and today.")
         print("Example: python scraper.py -branch vfgh -year 2020")
         exit(2)
+
 
     # assert branch in BRANCHES, f"Invalid branch. Must be one of {BRANCHES}."
     # assert int(year) <= datetime.datetime.now().year, f"Invalid year. Must be between today and 1946"
