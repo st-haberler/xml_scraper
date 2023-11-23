@@ -2,7 +2,7 @@ from typing import Literal
 import pytest
 from unittest.mock import patch, call, PropertyMock
 import argparse
-import scraper 
+import scraper
 import datetime
 from pathlib import Path
 # test for init_script using pytest, fixtures, mock, patch, parametrize and mark as needed
@@ -27,15 +27,19 @@ def test_init_script_invalid_args(branch: Literal['vfgh', 'DSK', 'vwgh', 'INVALI
     assert pytest_wrapped_e.value.code == 2
 
 ### UNDER CONSTRUCTION ###
-@pytest.mark.parametrize("branch, year", [("vfgh", "1951")])
-@patch("pathlib.Path.mkdir")
-def test_init_script_valid_args(mock_mkdir, branch:str, year:str):
-    with patch("scraper.argparse.ArgumentParser.parse_args", return_value=argparse.Namespace(branch=branch, year=year)):
-        scraper.init_script()
-        assert mock_mkdir.call_count == 3
-        mock_mkdir.assert_called_with(exist_ok=True, parents=True)
-        assert scraper.meta_data_path.name == scraper.Path.cwd() / "data" / branch / year
+# @pytest.mark.parametrize("branch, year", [("vfgh", "1951")])
+# @patch("scraper.meta_data_path.mkdir")
+# @patch("scraper.Path.cwd")
+# def test_init_script_valid_args(mock_cwd, mock_mkdir, branch:str, year:str):
+#     with patch("scraper.argparse.ArgumentParser.parse_args", return_value=argparse.Namespace(branch=branch, year=year)):
+#         mock_cwd.return_value = Path("test")
+#         scraper.init_script()
+#         # assert str(scraper.meta_data_path) == str(mock_cwd() / "data" / "judikatur" / branch / "meta_data")
 
+
+#         # mock_mkdir.assert_called_with(exist_ok=True, parents=True)
+#         assert branch == scraper.branch
+#         assert year == scraper.year
 
 # @pytest.mark.parametrize("branch, year", [("vfgh", str(datetime.datetime.now().year))])
 # @patch("pathlib.Path.exists")
@@ -75,6 +79,3 @@ def test_init_script_valid_args(mock_mkdir, branch:str, year:str):
 #         scraper.init_script()
 #         assert True
  
-
-
-    

@@ -23,11 +23,12 @@ import requests
 import re
 import json
 import xml.etree.ElementTree as ET 
-import lxml.etree as etree
 from pathlib import Path
+
+import lxml.etree as etree
 from zeep import Client
 from bs4 import BeautifulSoup
-import os
+
 
 
 
