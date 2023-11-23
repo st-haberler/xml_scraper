@@ -103,17 +103,17 @@ def init_script() -> None:
     # assert int(year) >= 1946, f"Invalid year. Must be between today and 1946."
 
     meta_data_path = Path.cwd() / "data" / "judikatur" / branch / "meta_data"
-    if not meta_data_path.exists(): meta_data_path.mkdir(parents=True)
+    meta_data_path.mkdir(parents=True, exist_ok=True)
 
     meta_collection_file = meta_data_path / f"{branch}_meta_collection_all_{year}.xml" 
     link_collection_file = meta_data_path / f"{branch}_all_decision_links_{year}.links"
     missing_links_file = meta_data_path / f"{branch}_missing_links_{year}.links"
     
     html_target_path = Path.cwd() / "data" / "judikatur" / branch / f"html_{year}"
-    if not html_target_path.exists(): html_target_path.mkdir(parents=True)
+    html_target_path.mkdir(parents=True, exist_ok=True)
 
     json_target_path = Path.cwd() / "data" / "judikatur" / branch / f"json_database"
-    if not json_target_path.exists(): json_target_path.mkdir(parents=True)
+    json_target_path.mkdir(parents=True, exist_ok=True)
 
     logging.basicConfig(level=logging.INFO)
     logging.info(f"Starting scraper for {branch} from {year}.")

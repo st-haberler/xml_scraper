@@ -1,7 +1,7 @@
 # Unit tests for scraper.py using pytest
 
 import pytest
-import scraper
+import scr.scraper.scraper as scraper
 
 import argparse
 from unittest.mock import patch
@@ -106,4 +106,4 @@ def test_init_script():
 
 def test_get_meta_data():#
     # test case 1: current year
-        
+        pass
