@@ -66,7 +66,7 @@ class MetaLoader:
         return template_path
         
 
-    def generate_xml_request(self, page_number:int) -> str:
+    def get_xml_request(self, page_number:int) -> str:
         """Generates XML request for RIS API based on template file. Returns XML string.
         
         See https://data.bka.gv.at/ris/ogd/v2.6/Documents/Dokumentation_OGD-RIS_Service.pdf
@@ -99,6 +99,7 @@ class MetaLoader:
 
     def send_xml_request(self, xml_request:str) -> str:
         """Sends XML request to RIS API and returns response."""
+        return "abs"
 
         try: 
             client = Client(RIS_API_WSDL)
@@ -140,12 +141,12 @@ class MetaLoader:
         while True:
             print(f"Loading page {page_number}...")
 
-            xml_request = self.generate_xml_request(page_number)
+            xml_request = self.get_xml_request(page_number)
             response = self.send_xml_request(xml_request)
             response_meta_data = self.extract_meta_data(response)
-            meta_data.append(response_meta_data)
-            # meta_data.append(response_meta_data)
-
+            
+            meta_data.append(ET.fromstring(response_meta_data))
+            
             # for dev: only load first page
             break
 
