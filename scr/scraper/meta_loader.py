@@ -13,6 +13,8 @@ TEMPLATE_VWGH = Path(r"vwgh_query.xml")
 TEMPLATE_JUSTIZ = Path(r"justiz_query.xml")
 TEMPLATE_PATH = Path.cwd() / "xml" / "request_templates" 
 
+DATA_PATH = Path.cwd() / "data" / "judikatur" 
+
 
 class MetaLoader:
     """Loads meta data from RIS API to meta_data property."""
@@ -67,6 +69,13 @@ class MetaLoader:
 
 
 
+    def get_meta_data_file(self) -> Path:
+        """Returns path to data directory."""
+
+        return DATA_PATH / self.branch / "meta_data" / f"{self.branch}_meta_collection_all_{self.year}.xml"
+    
+
+    
     def get_xml_request(self, page_number:int=1) -> str:
         """Generates XML request for RIS API based on template file. Returns XML string.
         
@@ -117,7 +126,7 @@ class MetaLoader:
         
 
 
-    def extract_meta_data(self, response:str) -> list[dict]:
+    def extract_meta_data(self, response:str) -> list[ET.Element]:
         """Extracts meta data from XML response and returns a list of dicts."""
 
         response_root = ET.fromstring(response)
@@ -125,16 +134,10 @@ class MetaLoader:
         
         return doc_reference_elements
 
-        # new_root = ET.Element("root")
-        # for element in doc_reference_elements:
-        #     new_root.append(element)
-        # new_tree = ET.ElementTree(new_root)
-
-        # return new_tree
-    
+        
 
     
-    def load_meta_data(self):
+    def load_meta_data(self) -> list[ET.Element]:
         print(f"Loading meta data for {self.branch} from {self.year}...")
 
         page_number = 1 
@@ -156,6 +159,12 @@ class MetaLoader:
                 break
             
         return meta_data
+    
+
+
+    def save_meta_data(self, meta_data:list[ET.Element]) -> None:
+        
+        pass
 
 
 if __name__ == "__main__":

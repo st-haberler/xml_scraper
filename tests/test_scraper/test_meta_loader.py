@@ -1,9 +1,9 @@
 import argparse
 import datetime
-from pathlib import Path
+from pathlib import Path 
 
 import pytest
-from unittest.mock import Mock
+from unittest.mock import Mock, MagicMock
 from unittest.mock import patch 
 
 import xml.etree.ElementTree as ET
@@ -201,3 +201,51 @@ def test_get_hits():
     
     assert type(result) == int
     assert result == 666
+    
+
+
+# meta_loader.MetaLoader tests: meta_loader.MetaLoader.send_xml_request()
+@patch("meta_loader.Client", autospec=True)
+def test_send_xml_request(mock_client):
+	mock_service = MagicMock()
+	mock_service = MagicMock()
+	mock_service.SearchDocumentsXml.return_value = "test"
+	mock_client.return_value.service = mock_service
+    
+	result = meta_loader.MetaLoader("vfgh", 2020).send_xml_request("test")
+
+	assert result == "test"
+    
+
+
+# meta_loader.MetaLoader tests: meta_loader.MetaLoader.extract_meta_data()
+def test_extract_meta_data():
+	response = """<?xml version='1.0' encoding='utf-8'?>
+<root xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<OgdDocumentReference>A</OgdDocumentReference>
+<OgdDocumentReference>B</OgdDocumentReference>
+</root>"""
+	
+	test_loader = meta_loader.MetaLoader("vfgh", 2020)
+	result = test_loader.extract_meta_data(response)
+	
+	assert len(result) == 2
+	assert result[0].tag == "{http://ris.bka.gv.at/ogd/V2_6}OgdDocumentReference"
+	assert result[0].text == "A"
+	assert result[1].tag == "{http://ris.bka.gv.at/ogd/V2_6}OgdDocumentReference"	
+	assert result[1].text == "B"
+
+
+
+def test_get_meta_data_file():
+	test_loader = meta_loader.MetaLoader("vfgh", 2020)
+	result = test_loader.get_meta_data_file()
+	 
+	path = result.parent
+	
+	assert path.name == "meta_data"
+
+	assert path.exists() == True
+	assert path.is_file() == False   
+	assert result.name == "vfgh_meta_collection_all_2020.xml"
+
