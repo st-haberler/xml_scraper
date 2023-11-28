@@ -29,4 +29,5 @@ if __name__ == "__main__":
     parser = CLParser()
     loader = meta_loader.MetaLoader(parser.branch, parser.year)
     meta_data = loader.load_meta_data()
+    loader.save_meta_data(meta_data)
     
