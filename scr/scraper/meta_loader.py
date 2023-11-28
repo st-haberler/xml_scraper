@@ -103,11 +103,6 @@ class MetaLoader:
 
         try: 
             client = Client(RIS_API_WSDL)
-        except Exception as e:
-            print(e)
-            return None
-        
-        try: 
             response = client.service.SearchDocumentsXml(xml_request)
         except Exception as e:
             print(e)

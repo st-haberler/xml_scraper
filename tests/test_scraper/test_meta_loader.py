@@ -27,7 +27,7 @@ def test_load_meta_single_page(mock_page_size, mock_hits, mock_extract_meta, moc
     expected = [ET.fromstring("<test>ABC</test>"), 
                 ET.fromstring("<test>DEF</test>")]
 
-    test_loader = meta_loader.MetaLoader("vfgh", 2021)
+    test_loader = meta_loader.MetaLoader("vfgh", str(2021))
     result = test_loader.load_meta_data()
 
     for result_element, expected_element in zip(result, expected):
@@ -56,7 +56,7 @@ def test_load_meta_multi_page(mock_page_size, mock_hits, mock_extract_meta, mock
                 ET.fromstring("<test>GHI</test>"), 
                 ET.fromstring("<test>JKL</test>")]
     
-    test_loader = meta_loader.MetaLoader("vfgh", 2021)
+    test_loader = meta_loader.MetaLoader("vfgh", str(2021))
     result = test_loader.load_meta_data()
 
     assert len(result) == 4
@@ -76,7 +76,7 @@ def test_load_meta_multi_page(mock_page_size, mock_hits, mock_extract_meta, mock
 def test_get_xml_request(mock_get_date_range):
     mock_get_date_range.return_value = ("2022-01-01", "2022-12-31")
     
-    test_loader = meta_loader.MetaLoader("vfgh", 2021)
+    test_loader = meta_loader.MetaLoader("vfgh", str(2021))
     result = test_loader.get_xml_request(page_number=666)
     
     assert type(result) == str
@@ -100,13 +100,26 @@ def test_generate_date_range_current_year():
     assert result[1] == str(datetime.datetime.now().strftime("%Y-%m-%d"))
 
 
+
 def test_generate_date_range_not_current_year():
-    test_loader = meta_loader.MetaLoader("vfgh", 2020)
+    test_loader = meta_loader.MetaLoader("vfgh", str(2020))
     result = test_loader.generate_date_range()
     
     assert type(result) == tuple
     assert result[0] == "2020-01-01"
     assert result[1] == "2020-12-31"
+
+
+
+@patch("meta_loader.Client")
+def test_send_xml_request(mock_Client):
+	mock_Client.return_value =
+	test_meta_loader = meta_loader.MetaLoader("vfgh", str(2020))
+	
+	result = test_meta_loader.send_xml_request("test")
+	assert result == "test"
+	
+	
 
 
 # meta_loader.MetaLoader tests: meta_loader.MetaLoader.get_hits()
@@ -195,9 +208,14 @@ def test_get_hits():
 	</soap:Body>
 </soap:Envelope>"""
 
-       
-    test_loader = meta_loader.MetaLoader("vfgh", 2020)
+    test_loader = meta_loader.MetaLoader("vfgh", str(2020))
     result = test_loader.get_hits(mock_response)
     
     assert type(result) == int
     assert result == 666
+
+
+	
+	
+	
+	
