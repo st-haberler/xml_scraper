@@ -28,4 +28,5 @@ class CLParser(argparse.ArgumentParser):
 if __name__ == "__main__":
     parser = CLParser()
     loader = meta_loader.MetaLoader(parser.branch, parser.year)
-    loader.load_meta_data()
+    meta_data = loader.load_meta_data()
+    
