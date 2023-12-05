@@ -67,28 +67,11 @@ class MetaExtractor:
     pass
 
 
+class XML_Request():
 
-class MetaLoader:
-    """Loads meta data from RIS API to meta_data property."""
-
-    def __init__(self, branch:str, year:str):
+    def __init__(self, branch:str, year:str) -> None:
         self.branch = branch
         self.year = year
-
-        self.meta_data_file = self._get_meta_data_file()
-
-
-    def _generate_date_range(self) -> tuple[str, str]:
-        """Generates begin and end date for RIS API request."""
-
-        begin_date = f"{self.year}-01-01"
-        
-        if self.year == str(datetime.datetime.now().year):
-            end_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        else:
-            end_date = f"{self.year}-12-31"
-
-        return (begin_date, end_date)
 
 
     def _get_template_path(self) -> Path:
@@ -105,27 +88,29 @@ class MetaLoader:
                 raise ValueError("Invalid branch argument. Must be one of 'vfgh', 'vwgh' or 'justiz'.")
 
 
-    def _get_hits(self, response:str) -> int:
-        """Returns number of hits from XML response."""
+    def _generate_date_range(self) -> tuple[str, str]:
+        """Generates begin and end date for RIS API request."""
 
-        response_root = ET.fromstring(response)
-        hits_element = response_root.find(".//{http://ris.bka.gv.at/ogd/V2_6}Hits")
-        return int(hits_element.text)     
-
-
-    def _get_page_size(self) -> int:
+        begin_date = f"{self.year}-01-01"
         
-        return PAGE_SIZE
-   
+        if self.year == str(datetime.datetime.now().year):
+            end_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        else:
+            end_date = f"{self.year}-12-31"
 
-    def _get_xml_request(self, page_number:int=1) -> str:
+        return (begin_date, end_date)
+
+
+    def generate_xml_request(self, page_number:int=1) -> str:
         """Generates XML request for RIS API based on template file. Returns XML string.
         
         See https://data.bka.gv.at/ris/ogd/v2.6/Documents/Dokumentation_OGD-RIS_Service.pdf
-        for the API documentation."""
+        for the API documentation.
+        """
+        
+        print(f"generating xml request from {begin_date} to {end_date}")
 
         begin_date, end_date = self._generate_date_range()
-        print(f"generating xml request from {begin_date} to {end_date}")
 
         try: 
             template_file = ET.parse(self._get_template_path())
@@ -148,7 +133,7 @@ class MetaLoader:
         return xml_request
 
 
-    def _send_xml_request(self, xml_request:str) -> str:
+    def send_xml_request(self, xml_request:str) -> str:
         """Sends XML request to RIS API and returns response."""
 
         try: 
@@ -159,7 +144,31 @@ class MetaLoader:
             return None
 
         return response
+
+
+
+class MetaLoader:
+    """Loads meta data from RIS API to meta_data property."""
+
+    def __init__(self, branch:str, year:str):
+        self.branch = branch
+        self.year = year
+
+        self.meta_data_file = self._get_meta_data_file()
+
+
+    def _get_hits(self, response:str) -> int:
+        """Returns number of hits from XML response."""
+
+        response_root = ET.fromstring(response)
+        hits_element = response_root.find(".//{http://ris.bka.gv.at/ogd/V2_6}Hits")
+        return int(hits_element.text)     
+
+
+    def _get_page_size(self) -> int:
         
+        return PAGE_SIZE
+   
 
     def _extract_meta_data(self, response:str) -> list[ET.Element]:
         """Extracts meta data from XML response and returns a list of dicts."""
@@ -173,22 +182,25 @@ class MetaLoader:
     def load_meta_data(self) -> list[ET.Element]:
         print(f"Loading meta data for {self.branch} from {self.year}...")
 
+        xml_request = XML_Request(self.branch, self.year)
         page_number = 1 
         meta_data = []
 
         while True:
             print(f"Loading page {page_number}...")
 
-            xml_request = self._get_xml_request(page_number)
-            response = self._send_xml_request(xml_request)
+            request = xml_request.generate_xml_request(page_number)
+            response = xml_request.send_xml_request(request)
+
             response_meta_data = self._extract_meta_data(response)
-            
             meta_data += response_meta_data
             
             if self._get_hits(response) > page_number * self._get_page_size():
                 page_number += 1
             else: 
                 break
+
+        print(f"Loaded {len(meta_data)} meta data entries ({page_number} pages).")
             
         return meta_data
     
