@@ -154,7 +154,7 @@ class MetaLoader:
         self.branch = branch
         self.year = year
 
-        self.meta_data_file = self._get_meta_data_file()
+        # self.meta_data_file = self._get_meta_data_file()
 
 
     def _get_hits(self, response:str) -> int:
