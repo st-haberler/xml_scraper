@@ -16,6 +16,58 @@ TEMPLATE_PATH = Path.cwd() / "xml" / "request_templates"
 DATA_PATH = Path.cwd() / "data" / "judikatur" 
 
 
+class MetaInterface:
+    def __init__(self) -> None:
+        pass
+    
+    def retrieve_meta_data(self, branch, year) -> None:
+        """Orchestration method for retrieving meta data (download, extract, save)."""
+        
+        loader = MetaLoader(branch, year)
+        raw_meta_data = loader.load_meta_data()
+        
+        
+
+        
+
+
+class MetaSaver:
+    """Saves meta data to one XML file."""
+
+    def _get_meta_data_file(self) -> Path:
+        """Returns path to data directory."""
+
+        return DATA_PATH / self.branch / "meta_data" / f"{self.branch}_meta_collection_all_{self.year}.xml"
+    
+
+    def _save_meta_data(self, meta_data:list[ET.Element]) -> None:
+        """Saves meta data to XML file."""
+
+        meta_data_root = ET.Element("meta_data")
+        meta_data_root.set("branch", self.branch)
+        meta_data_root.set("year", self.year)
+
+        for meta_data_element in meta_data:
+            meta_data_root.append(meta_data_element)
+
+        meta_data_file = self._get_meta_data_file()
+        ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
+        meta_data_tree = ET.ElementTree(meta_data_root)
+        meta_data_tree.write(meta_data_file, encoding="utf-8", xml_declaration=True)
+
+        print(f"Meta data saved to {meta_data_file}.")
+
+
+
+
+
+class MetaExtractor:
+    """Extracts meta data from XML file."""
+
+    pass
+
+
+
 class MetaLoader:
     """Loads meta data from RIS API to meta_data property."""
 
@@ -24,7 +76,6 @@ class MetaLoader:
         self.year = year
 
         self.meta_data_file = self._get_meta_data_file()
-
 
 
     def _generate_date_range(self) -> tuple[str, str]:
@@ -38,7 +89,6 @@ class MetaLoader:
             end_date = f"{self.year}-12-31"
 
         return (begin_date, end_date)
-
 
 
     def _get_template_path(self) -> Path:
@@ -55,29 +105,19 @@ class MetaLoader:
                 raise ValueError("Invalid branch argument. Must be one of 'vfgh', 'vwgh' or 'justiz'.")
 
 
-
     def _get_hits(self, response:str) -> int:
         """Returns number of hits from XML response."""
 
         response_root = ET.fromstring(response)
         hits_element = response_root.find(".//{http://ris.bka.gv.at/ogd/V2_6}Hits")
-        return int(hits_element.text)
-        
+        return int(hits_element.text)     
 
 
     def _get_page_size(self) -> int:
         
         return PAGE_SIZE
+   
 
-
-
-    def _get_meta_data_file(self) -> Path:
-        """Returns path to data directory."""
-
-        return DATA_PATH / self.branch / "meta_data" / f"{self.branch}_meta_collection_all_{self.year}.xml"
-    
-
-    
     def _get_xml_request(self, page_number:int=1) -> str:
         """Generates XML request for RIS API based on template file. Returns XML string.
         
@@ -108,7 +148,6 @@ class MetaLoader:
         return xml_request
 
 
-
     def _send_xml_request(self, xml_request:str) -> str:
         """Sends XML request to RIS API and returns response."""
 
@@ -122,7 +161,6 @@ class MetaLoader:
         return response
         
 
-
     def _extract_meta_data(self, response:str) -> list[ET.Element]:
         """Extracts meta data from XML response and returns a list of dicts."""
 
@@ -131,8 +169,7 @@ class MetaLoader:
         
         return doc_reference_elements
 
-        
- 
+
     def load_meta_data(self) -> list[ET.Element]:
         print(f"Loading meta data for {self.branch} from {self.year}...")
 
@@ -148,7 +185,6 @@ class MetaLoader:
             
             meta_data += response_meta_data
             
-
             if self._get_hits(response) > page_number * self._get_page_size():
                 page_number += 1
             else: 
@@ -156,25 +192,6 @@ class MetaLoader:
             
         return meta_data
     
-
-
-    def save_meta_data(self, meta_data:list[ET.Element]) -> None:
-        """Saves meta data to XML file. Overwrites old file."""
-
-        # step 1: create new element tree out of the meta_data list 
-        new_root = ET.Element("MetaDataCollection")
-        for doc_reference in meta_data:
-            new_root.append(doc_reference)
-        new_tree = ET.ElementTree(new_root)        
-
-        # step 2: write new element tree to new file (overwrite old)
-        ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
-        try:
-            new_tree.write(self.meta_data_file, encoding="utf-8", xml_declaration=True)
-        except Exception as e:
-            print(e)
-            return None
-
 
 
 if __name__ == "__main__":
