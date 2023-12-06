@@ -13,7 +13,6 @@ if __name__ == "__main__":
     
     client = Client(wsdl="https://data.bka.gv.at/ris/ogd/v2.6/?WSDL")
     response = client.service.SearchDocumentsXml(request)
-    print(response[:400])
 
     test_request = Path(r"tests/test_scraper/test_response_2.xml")
     test_request.write_text(response, encoding="utf-8")
