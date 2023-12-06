@@ -1,6 +1,7 @@
 """test suite for meta_loader.py
 sut = system under test
 """
+import datetime
 from pathlib import Path
 from unittest.mock import patch, MagicMock
 from xml.etree import ElementTree as ET
@@ -55,16 +56,61 @@ class TestMetaLoader:
 		
 
 class TestXMLRequest:
+	"""Test if XML request (time constraints) is generated correctly."""
 
-	def test_old_year(self):
-		"""Test if XML request is generated correctly."""
+	def test_past_year(self):
 		sut = meta_loader.XML_Request("vfgh", 2022)
-		actual_result = sut.generate_xml_request(1)
+		actual_result = sut.generate_xml_request(page_number=1)
+		
 		expected_result = Path("./tests/test_scraper/test_request.xml").read_text(encoding="utf-8")
 
 		assert actual_result == expected_result
 
+
+	@patch("meta_loader.DatetimeWrapper")
+	def test_current_year(self, mock_wrapper): 
+		mock_now = MagicMock()
+		mock_now.return_value = "2023-05-05"
+		mock_year = MagicMock()
+		mock_year.return_value = "2023"
+		mock_wrapper.now = mock_now
+		mock_wrapper.year = mock_year
+
+		sut = meta_loader.XML_Request("vfgh", "2023")
+		
+		expected_result = Path("./tests/test_scraper/test_request2.xml").read_text(encoding="utf-8") 
+
+		actual_result = sut.generate_xml_request(page_number=1)
+
+		assert actual_result == expected_result
+
+
+
+class TestMetaSaver: 
+	def __get_meta_collection(self) -> list[ET.Element]:
+		e1 = ET.fromstring("<test1>abc</test1>")
+		e2 = ET.fromstring("<test2>abc</test2>")
+		
+		return [e1, e2]
+
 	
+	@patch("meta_loader.MetaSaver._get_meta_data_file")
+	def test_save_meta_data(self, mock_get_file):
+		# setup
+		test_file = Path("./tests/test_scraper/test_meta_data_actual.xml")
+		mock_get_file.return_value = test_file
+		expected_result_file = Path("./tests/test_scraper/test_meta_data_expected.xml")
+		
+		# act
+		meta_loader.MetaSaver.save_meta_data(self.__get_meta_collection(), branch="vfgh", year="2022")
+
+		# assert
+		actual_result = test_file.read_text(encoding="utf-8")
+		expected_result = expected_result_file.read_text(encoding="utf-8")
+		assert actual_result == expected_result
+
+		# teardown
+		test_file.unlink()
 
 		
 		

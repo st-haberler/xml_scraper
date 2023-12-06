@@ -20,51 +20,53 @@ class MetaInterface:
     def __init__(self) -> None:
         pass
     
-    def retrieve_meta_data(self, branch, year) -> None:
+    def retrieve_meta_data(self, branch:str="vfgh", year:str="2023", save_meta:bool=True) -> None:
         """Orchestration method for retrieving meta data (download, extract, save)."""
         
         loader = MetaLoader(branch, year)
         raw_meta_data = loader.load_meta_data()
-        
-        
+
+        if save_meta: 
+            MetaSaver.save_meta_data(raw_meta_data, branch, year)
+
+        return raw_meta_data
 
         
-
+class DatetimeWrapper: 
+    @classmethod
+    def now(cls) -> str:
+        return datetime.datetime.now().strftime("%Y-%m-%d")
+    
+    @classmethod
+    def year(cls) -> str:
+        return str(datetime.datetime.now().year)
+        
 
 class MetaSaver:
     """Saves meta data to one XML file."""
 
-    def _get_meta_data_file(self) -> Path:
+    @classmethod
+    def _get_meta_data_file(cls, branch:str="vfgh", year:str="2023") -> Path:
         """Returns path to data directory."""
 
-        return DATA_PATH / self.branch / "meta_data" / f"{self.branch}_meta_collection_all_{self.year}.xml"
+        return DATA_PATH / branch / "meta_data" / f"{branch}_meta_collection_all_{year}.xml"
     
 
-    def _save_meta_data(self, meta_data:list[ET.Element]) -> None:
+    @classmethod
+    def save_meta_data(cls, meta_data:list[ET.Element], branch:str="vfgh", year:str="2023") -> None:
         """Saves meta data to XML file."""
 
         meta_data_root = ET.Element("meta_data")
-        meta_data_root.set("branch", self.branch)
-        meta_data_root.set("year", self.year)
 
         for meta_data_element in meta_data:
             meta_data_root.append(meta_data_element)
 
-        meta_data_file = self._get_meta_data_file()
+        meta_data_file = cls._get_meta_data_file(branch=branch, year=year)
         ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
         meta_data_tree = ET.ElementTree(meta_data_root)
         meta_data_tree.write(meta_data_file, encoding="utf-8", xml_declaration=True)
 
         print(f"Meta data saved to {meta_data_file}.")
-
-
-
-
-
-class MetaExtractor:
-    """Extracts meta data from XML file."""
-
-    pass
 
 
 class XML_Request():
@@ -92,9 +94,9 @@ class XML_Request():
         """Generates begin and end date for RIS API request."""
 
         begin_date = f"{self.year}-01-01"
-        
-        if self.year == str(datetime.datetime.now().year):
-            end_date = datetime.datetime.now().strftime("%Y-%m-%d")
+
+        if self.year == DatetimeWrapper.year():
+            end_date = DatetimeWrapper.now()
         else:
             end_date = f"{self.year}-12-31"
 
@@ -108,9 +110,8 @@ class XML_Request():
         for the API documentation.
         """
         
-        print(f"generating xml request from {begin_date} to {end_date}")
-
         begin_date, end_date = self._generate_date_range()
+        print(f"generating xml request from {begin_date} to {end_date}")
 
         try: 
             template_file = ET.parse(self._get_template_path())
@@ -207,6 +208,7 @@ class MetaLoader:
 
 
 if __name__ == "__main__":
-    test = MetaLoader("vfgh", 2021)
-    result = test.load_meta_data()
-    test.save_meta_data(result)
+    interface = MetaInterface()
+    interface.retrieve_meta_data(branch="vfgh", year="2023", save_meta=True)
+    
+
