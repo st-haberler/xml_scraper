@@ -15,7 +15,7 @@ class TestMetaLoader:
 	def __get_response(self, page:int=1) -> str:
 		"""Returns test XML request."""
 
-		test_response_file = Path(f"./tests/test_scraper/test_response_{page}.xml")
+		test_response_file = Path(f"./tests/test_scraper/test_data/test_response_{page}.xml")
 		test_response = test_response_file.read_text(encoding="utf-8")
 
 		return test_response
@@ -23,7 +23,7 @@ class TestMetaLoader:
 
 	def __get_test_xml_list(self, page:int=1) -> list[str]:
 		"""Returns test XML list."""
-		test_response_file = Path(f"./tests/test_scraper/test_response_{page}.xml")
+		test_response_file = Path(f"./tests/test_scraper/test_data/test_response_{page}.xml")
 		test_response = test_response_file.read_text(encoding="utf-8")
 
 		test_xml = ET.fromstring(test_response)
@@ -62,7 +62,7 @@ class TestXMLRequest:
 		sut = meta_loader.XML_Request("vfgh", 2022)
 		actual_result = sut.generate_xml_request(page_number=1)
 		
-		expected_result = Path("./tests/test_scraper/test_request.xml").read_text(encoding="utf-8")
+		expected_result = Path("./tests/test_scraper/test_data/test_request.xml").read_text(encoding="utf-8")
 
 		assert actual_result == expected_result
 
@@ -78,7 +78,7 @@ class TestXMLRequest:
 
 		sut = meta_loader.XML_Request("vfgh", "2023")
 		
-		expected_result = Path("./tests/test_scraper/test_request2.xml").read_text(encoding="utf-8") 
+		expected_result = Path("./tests/test_scraper/test_data/test_request2.xml").read_text(encoding="utf-8") 
 
 		actual_result = sut.generate_xml_request(page_number=1)
 
@@ -97,9 +97,9 @@ class TestMetaSaver:
 	@patch("meta_loader.MetaSaver._get_meta_data_file")
 	def test_save_meta_data(self, mock_get_file):
 		# setup
-		test_file = Path("./tests/test_scraper/test_meta_data_actual.xml")
+		test_file = Path("./tests/test_scraper/test_data/test_meta_data_actual.xml")
 		mock_get_file.return_value = test_file
-		expected_result_file = Path("./tests/test_scraper/test_meta_data_expected.xml")
+		expected_result_file = Path("./tests/test_scraper/test_data/test_meta_data_expected.xml")
 		
 		# act
 		meta_loader.MetaSaver.save_meta_data(self.__get_meta_collection(), branch="vfgh", year="2022")
