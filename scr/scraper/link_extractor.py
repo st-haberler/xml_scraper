@@ -7,6 +7,9 @@ NAMESPACE = {'ogd': 'http://ris.bka.gv.at/ogd/V2_6'}
 CONTENT_REFERENCE_ELEMENT = "ogd:OgdDocumentReference/ogd:Data/ogd:Dokumentliste/ogd:ContentReference"
 
 DATA_PATH = Path.cwd() / "data" / "judikatur"
+META_PATH = "meta_data"
+
+logging.basicConfig(level=logging.INFO)
 
 
 class LinkExtractor:
@@ -18,7 +21,7 @@ class LinkExtractor:
         pass 
 
 
-    def _get_root_from_source(self, source:str) -> ET.Element:
+    def _get_root_from_source(self, source:Path) -> ET.Element:
         """Returns the root element of a given XML-Metadata collection file."""
 
         tree = ET.parse(source)
@@ -38,7 +41,7 @@ class LinkExtractor:
 
 
 
-    def _get_filtered_content_references(self, source:str) -> list[ET.Element]:
+    def _get_filtered_content_references(self, source:Path) -> list[ET.Element]:
         """Finds all content references in a given XML-Metadata collection file.
         Filters out references that are not decisions. Returns filters list.
         """
@@ -62,16 +65,21 @@ class LinkExtractor:
     def _save_links_to_file(self, links:list[str], year:str, branch:str) -> None:
         """Saves a list of links to a file."""
 
-        with open(f"links_{branch}_{year}.txt", "w") as f:
+        link_file = DATA_PATH / branch / META_PATH / f"{branch}_all decision_links_{year}.links"
+        
+        with open(link_file, "w") as f:
             for link in links:
                 f.write(link + "\n")
 
 
-    def get_links(self, source:str, todisk:bool=False, year:str="2022", branch:str="vfgh") -> list[str]:
+    def get_links(self, year:str, branch:str, source:Path=None, todisk:bool=False) -> list[str]:
         """Extracts links from a given XML-Metadata collection file or 
         from a list of xml-Elements with the same data.
         Returns a list of links.
         """
+
+        if source is None:
+            source = DATA_PATH / branch / META_PATH / f"{branch}_meta_collection_all_{year}.xml"
 
         content_references = self._get_filtered_content_references(source)
 
@@ -85,5 +93,5 @@ class LinkExtractor:
 
         if todisk:
             self._save_links_to_file(links, year, branch)
-
+            logging.info(f"Links saved to {DATA_PATH / branch / META_PATH / f'{branch}_all decision_links_{year}.links'}.")
         return links
