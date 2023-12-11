@@ -26,10 +26,11 @@ class Annotator {
         
     }
 
-    _chooseDoc() {
+    async _chooseDoc() {
         // choose document from server to annotate
         console.log("chooseDoc() not implemented yet");
         
+
     }
 
 
@@ -88,7 +89,13 @@ class Annotator {
             if (event.key === "ArrowLeft") { document.getElementById("prev").click(); };
         });
 
-        document.getElementById("choose-source").onclick = () => this._chooseDoc();
+        this._chooseForm = document.getElementById("choose-form");
+        this._chooseForm.onsubmit = function(event) {
+            event.preventDefault();
+            this._chooseDoc();
+        }.bind(this);
+
+        
     }
 
     _initStyle() {

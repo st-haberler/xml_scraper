@@ -12,7 +12,7 @@
         
         <fieldset>
             <legend>Choose Source for Tagging</legend>
-            <form action="/choose_source" method="post">
+            <form id="choose-form" action="/choose_source" method="post">
                 <ul>
                     <li>
                         <label for="branch-input">Branch:</label>
@@ -23,7 +23,7 @@
                         <input type="number" id="year-input" name="year-input" required placeholder="zB.: 2023">
                     </li>
                     <li>
-                        <button type="button" id="choose-source">Submit</button>
+                        <button type="submit" id="choose-button">Submit</button>
                     </li>
                 </ul>
                 
