@@ -1,5 +1,15 @@
 # Virtual Environment
 .venv/
+
+# VSCode
 .vscode/
+
+
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+
 .pytest_cache/
 .__pycache__/
