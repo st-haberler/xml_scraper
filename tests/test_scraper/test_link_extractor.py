@@ -16,7 +16,9 @@ class TestLinkExtractor:
     def test_extract_links(self): 
         source = Path("./tests/test_scraper/test_data/test_vfgh_2022_meta.xml")
         sut = link_extractor.LinkExtractor()
-        actual_result = sut.get_links(source, todisk=False)
+        
+        actual_result = sut.get_links(year="2022", branch="vfgh", source=source, todisk=False)
+        
         expected_result = self.__get_expected_links()
 
         for actual, expected in zip(actual_result, expected_result):
