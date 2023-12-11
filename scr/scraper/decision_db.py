@@ -38,15 +38,26 @@ class DecisionDB:
             self.db_path = db_path
 
     
+    def is_decision_in_db(self, decision_id:str, db_list:dict) -> bool:
+        for decision in db_list:
+            if decision["decision_id"] == decision_id:
+                return True
+        return False
+    
+    
     def add_year_to_db(self, year:str, branch:str) -> None:
         html_path = Path.cwd() / "data" / "judikatur" / branch / f"html_{year}" 
+        html_path.mkdir(parents=True, exist_ok=True)
         
         db_file = self.db_path / branch / "json_database" / f"all_{year}.json"
+        if not db_file.exists():
+            raise FileNotFoundError(f"Database file {db_file} does not exist. Wrong year or branch?")
 
         db_list = []
         for decision_file in html_path.glob("*.html"):
-            decision_struct = Decision.to_dict(decision_file)
-            db_list.append(decision_struct)
+            new_decision_dict = Decision.to_dict(decision_file)
+            if not self.is_decision_in_db(new_decision_dict["decision_id"], db_list):
+                db_list.append(new_decision_dict)
         
         db_file.write_text(json.dumps(db_list, indent=4), encoding="utf-8")
 
