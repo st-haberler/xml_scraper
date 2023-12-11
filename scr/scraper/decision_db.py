@@ -23,8 +23,8 @@ class Decision:
                         sr.decompose()
                     decision_body.append(para.text)
 
-        decision_struct = {"decision_id": decision_id, 
-                           "decision_body": decision_body
+        decision_struct = {"doc_id": decision_id, 
+                           "doc_body": decision_body
                            }     
         return decision_struct
 
@@ -56,7 +56,7 @@ class DecisionDB:
         db_list = []
         for decision_file in html_path.glob("*.html"):
             new_decision_dict = Decision.to_dict(decision_file)
-            if not self.is_decision_in_db(new_decision_dict["decision_id"], db_list):
+            if not self.is_decision_in_db(new_decision_dict["doc_id"], db_list):
                 db_list.append(new_decision_dict)
         
         db_file.write_text(json.dumps(db_list, indent=4), encoding="utf-8")

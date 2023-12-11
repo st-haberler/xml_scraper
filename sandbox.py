@@ -1,7 +1,9 @@
-import spacy
+from pathlib import Path
 
-nlp = spacy.load("de_core_news_sm")
-
-doc = nlp("Ich habe ein Auto gekauft.")
-
-print(nlp.pipeline)
+for file in (Path.cwd() / "data").rglob("*.json"):
+    print(file.name)
+    
+    # replace in file all occurences of "decision" with "doc"
+    text = file.read_text(encoding="utf-8")
+    text = text.replace("decision", "doc")
+    file.write_text(text, encoding="utf-8")
