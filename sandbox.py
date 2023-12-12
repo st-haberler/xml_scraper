@@ -1,9 +1,22 @@
-from pathlib import Path
+from dataclasses import dataclass, field, asdict
+import json
 
-for file in (Path.cwd() / "data").rglob("*.json"):
-    print(file.name)
-    
-    # replace in file all occurences of "decision" with "doc"
-    text = file.read_text(encoding="utf-8")
-    text = text.replace("decision", "doc")
-    file.write_text(text, encoding="utf-8")
+
+@dataclass
+class AnnotatedParagraph: 
+    paragraph: str
+    annotation_container: dict
+
+@dataclass
+class Document: 
+    """A single document in the database"""
+    doc_id: str = "hallo"
+    doc_body: int = 0
+    doc_ann2: list[AnnotatedParagraph] = field(default_factory=lambda : [AnnotatedParagraph("a", {"b": 1})])
+
+    def to_json(self):
+        return json.dumps(self.__dict__, indent=4)
+
+d = Document()
+doc_dict = asdict(d)
+print(json.dumps(doc_dict, indent=4))
