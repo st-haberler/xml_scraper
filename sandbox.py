@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field, asdict
+from pathlib import Path
 import json
 
 
@@ -25,6 +26,5 @@ class Document:
     def to_json(self):
         return json.dumps(self.__dict__, indent=4)
 
-d = Document.doc_factory()
-doc_dict = asdict(d)
-print(json.dumps(doc_dict, indent=4))
+f = Path.cwd() / "data" / "judikatur" / "vfgh" / "json_database" / "all_2022.json"
+print(f.parent)

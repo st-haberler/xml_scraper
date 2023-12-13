@@ -13,8 +13,8 @@ class Annotation:
 
 @dataclass
 class AnnotationContainer: 
-    dev_annotation: list[Annotation]
-    other_ann: list[Annotation]
+    dev_annotations: list[Annotation]
+    # other_anns: list[Annotation]
 
 
 @dataclass
@@ -50,10 +50,10 @@ class DB_entry:
                     paragraph_list.append(para.text)
       
         new_entry = DB_entry(document_id=decision_id, 
-                             document_body=[AnnotatedParagraph(para, AnnotationContainer(dev_annotation=[], other_ann=[])) for para in paragraph_list])
+                             document_body=[AnnotatedParagraph(para, 
+                                                               AnnotationContainer(dev_annotations=[])) for para in paragraph_list])
         
-        # TODO find out why after transfer to json some UniCode characters are escaped
-        # maybe thats ok and on re-transfer to python or js strings they will be unescaped again? 
+        # TODO (maybe) replace /xa0 with whitespace
         return new_entry
   
 
@@ -61,7 +61,7 @@ class DB_entry:
 class DBFile:
     """The actual json file for one year and one branch OR one other source.
     - DB_entries: List of Document objects
-        - Dcoument object
+        - Document object: 
             - document_id (string)
             - document_body 
                 - list of annotated paragraphs 
@@ -72,25 +72,48 @@ class DBFile:
                                 - start (int)
                                 - end (int)
                                 - label (string)
-                                # start and end are token indices per paragraph
+                                 start and end are token indices per paragraph
                         - other annotations (e.g. from other annotators or epochs)
     """
     
-    def convert_decisions_full_year(year:int, branch:str): 
+    def convert_decisions_full_year(self, year:int, branch:str): 
         """Converts all decisions for one year and one branch into the DB format"""
 
         html_path = Path.cwd() / "data" / "judikatur" / branch / f"html_{year}"
-        # CONTINUE HERE
-        pass
+        
+        entry_list = []
+        for html_file in html_path.glob("*.html"):
+            new_entry = DB_entry.get_DB_entry_from_html_decision(html_file)
+            entry_list.append(new_entry)
+            break
+
+        db_file = Path.cwd() / "data" / "judikatur" / branch / "json_database" / f"db_{year}.json"
+        db_file.parent.mkdir(parents=True, exist_ok=True)
+        db_file.write_text(json.dumps([asdict(entry) for entry in entry_list], indent=4), encoding="utf-8")
+
+    def get_decision_entry(self, year:int, branch:str): 
+        db_file = Path.cwd() / "data" / "judikatur" / branch / "json_database" / f"db_{year}.json"
+        data = json.loads(db_file.read_text(encoding="utf-8"))
+
+        return data
 
 
 if __name__ == "__main__":
+    test = DBFile()
+    # test.convert_decisions_full_year(2022, "vfgh")
+    entry = test.get_decision_entry(2022, "vfgh")
+
+    for p in entry[0]["document_body"]:
+        print(p["paragraph"])
+        # print(p["annotation_container"]["dev_annotations"])
+        print("------")
+    
     pass
     # html_file = Path(r".\data\judikatur\vfgh\html_2022\JFT_20220223_21V00315_00.html") 
     # new_entry = DB_entry.get_DB_entry_from_html_decision(html_file)
 
     # show_json = asdict(new_entry)
-    # print(json.dumps(show_json, indent=4))
+    # print(json.loads(json.dumps(show_json, indent=4)))
 
 
 
