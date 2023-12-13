@@ -3,6 +3,8 @@ from dataclasses import dataclass, field, fields, asdict, is_dataclass, replace
 import json
 from pathlib import Path
 
+from scr.tagger.utils import from_dict
+
 
 @dataclass
 class Annotation: 
@@ -47,6 +49,14 @@ class DB_entry:
 
     
     @classmethod
+    def from_db_dict(cls, entry_dict:dict) -> "DB_entry":
+        """Converts a dictionary from a database entry in dict format to a 
+        DB_entry object
+        """
+        return from_dict(cls, entry_dict)
+
+
+    @classmethod
     def get_DB_entry_from_html_decision(cls, html_decision:Path, document_source_type:str) -> "DB_entry":
         """Parses the html file and creates a Document object. 
         Make sure that source type is correct.
@@ -78,13 +88,10 @@ class DB_entry:
         return new_entry
   
 
-
 class DBFile:
     """The actual json file for one year and one branch OR one other source (gesetz etc.).
     """
     # TODO create two classes, one for decisions, one for norms that inherit from this class
-    # TODO make clean mapping functions for json database to DB_entry class conversion on load and save 
-
 
     def __init__(self, year:int=None, source_type:str=None, db_file:Path=None):
         if year: 
@@ -94,13 +101,8 @@ class DBFile:
 
         raw_data = json.loads(self.db_file.read_text(encoding="utf-8"))   
         
-        self.db_data = [DB_entry(**entry) for entry in raw_data]
+        self.db_data = [DB_entry.from_db_dict(entry) for entry in raw_data]
 
-
- 
-        
-
-    
 
     def convert_decisions_full_year(self): 
         """Converts all decisions for one year and one branch into the DB format"""
@@ -120,14 +122,12 @@ class DBFile:
         db_file.write_text(json.dumps([asdict(entry) for entry in entry_list], indent=4), encoding="utf-8")
 
 
-
     def get_decision_entry(self, index:int) -> DB_entry: 
         db_file = Path.cwd() / "data" / "judikatur" / self.document_source_type / "json_database" / f"db_{self.year}.json"
         data = json.loads(db_file.read_text(encoding="utf-8"))
 
         if index < len(data): 
-            return DB_entry(**data[index])
-             
+            return DB_entry.from_db_dict(data[index]) 
         else:
             raise IndexError(f"Index {index} is out of range for {db_file}")
         
