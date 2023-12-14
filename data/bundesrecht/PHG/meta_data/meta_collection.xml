@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OgdSearchResult status="ok" xmlns="http://ris.bka.gv.at/ogd/V2_6">
+  <OgdDocumentResults>
+    <Hits pageNumber="1" pageSize="100">36</Hits>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR11002887</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-12-12</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P0/NOR11002887</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Titel>Bundesgesetz vom 21. Jänner 1988 über die Haftung für ein fehlerhaftes Produkt (Produkthaftungsgesetz)&lt;br/&gt;StF: BGBl. Nr. 99/1988 (NR: GP XVII RV 272 AB 438 S. 48. BR: AB 3429 S. 496.)</Titel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P0/NOR11002887</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Norm</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 0</ArtikelParagraphAnlage>
+              <Paragraphnummer>0</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung>BGBl. Nr. 95/1993 idF BGBl. Nr. 437/1993 (DFB) (NR: GP XVIII RV 648 AB 779 S. 101. BR: AB 4469 S. 564.)
+[CELEX-Nr.: 385L0374]
+BGBl. Nr. 917/1993 (K über Idat)
+BGBl. Nr. 510/1994 (NR: GP XVIII IA 732/A AB 1730 S. 168. BR: AB 4827 S. 588.)
+[CELEX-Nr.: 390L0219, 390L0220]
+BGBl. I Nr. 185/1999 (NR: GP XX RV 1998 AB 2062 S. 180. BR: AB 6063 S. 657.)
+[CELEX-Nr.: 397L0007, 397L0055, 398L0027, 399L0034]
+BGBl. I Nr. 98/2001 (NR: GP XXI RV 621 AB 704 S. 75. BR: 6398 AB 6424 S. 679.)</Aenderung>
+              <Anmerkung>1. Zu dieser Rechtsvorschrift ist eine englische Übersetzung in der Applikation „Austrian Laws“ vorhanden: &lt;A href="http://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Erv&amp;Dokumentnummer=ERV_1988_99" target="_blank"&gt;Governing the Liability for a Defective Product&lt;/A&gt;</Anmerkung>
+              <Schlagworte>e-rk2,&lt;br/&gt;Fernabsatz-Gesetz (BGBl. I Nr. 185/1999), 1. Euro-Umstellungsgesetz - Bund (BGBl. I Nr. 98/2001)</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198810661E</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11002887/NOR11002887.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11002887/NOR11002887.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11002887/NOR11002887.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11002887/NOR11002887.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034518</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P1/NOR12034518</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P1/NOR12034518</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 1</ArtikelParagraphAnlage>
+              <Paragraphnummer>1</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>1. Zum Begriff "Unternehmen" (Abs. 1 und 2) siehe auch § 1 Abs. 2&lt;br/&gt;   KSchG, BGBl. Nr. 140/1979;&lt;br/&gt;2. Zum Übergangsrecht vgl. § 19;&lt;br/&gt;3. Zur Frage verwaltungsrechtlicher Schutzmaßnahmen siehe das&lt;br/&gt;   Produktsicherheitsgesetz, BGBl. Nr. 171/1983.</Anmerkung>
+              <Schlagworte>Produkthaftpflicht, Produzentenhaftung, Produzentenhaftpflicht,
+Erzeugerhaftung, Erzeugerhaftpflicht, Lieferantenhaftung, Einfuhr,
+Lieferantenhaftpflicht, Händlerhaftung, Händlerhaftpflicht,
+Ausfallshaftung, Ausfallshaftpflicht, Auffanghaftung, Sachschaden,
+Auffanghaftpflicht, Generalimporteur, Personenschaden, Pflegekosten,
+Heilungskosten, Verdienstentgang, Schmerzengeld, Unterhaltsentgang,
+Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817252R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034518/NOR12034518.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034518/NOR12034518.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034518/NOR12034518.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034518/NOR12034518.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036589</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P1/NOR12036589</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P1/NOR12036589</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 1</ArtikelParagraphAnlage>
+              <Paragraphnummer>1</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>1. Zum Begriff "Unternehmen" (Abs. 1 und 2) siehe auch § 1 Abs. 2&lt;br/&gt;   KSchG, BGBl. Nr. 140/1979;&lt;br/&gt;2. Zum Übergangsrecht vgl. § 19 und § 19a;&lt;br/&gt;3. Zur Frage verwaltungsrechtlicher Schutzmaßnahmen siehe das&lt;br/&gt;   Produktsicherheitsgesetz, BGBl. Nr. 171/1983;&lt;br/&gt;4. Zum Importeur siehe weiters § 17.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>Produkthaftpflicht, Produzentenhaftung, Produzentenhaftpflicht,&lt;br/&gt;Erzeugerhaftung, Erzeugerhaftpflicht, Lieferantenhaftung, Einfuhr,&lt;br/&gt;Lieferantenhaftpflicht, Händlerhaftung, Händlerhaftpflicht,&lt;br/&gt;Ausfallshaftung, Ausfallshaftpflicht, Auffanghaftung, Sachschaden,&lt;br/&gt;Auffanghaftpflicht, Generalimporteur, Personenschaden, Pflegekosten,&lt;br/&gt;Heilungskosten, Verdienstentgang, Schmerzengeld, Unterhaltsentgang,&lt;br/&gt;Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326023J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036589/NOR12036589.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036589/NOR12036589.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036589/NOR12036589.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036589/NOR12036589.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034519</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12034519</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12034519</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 2</ArtikelParagraphAnlage>
+              <Paragraphnummer>2</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zur Frage der Aufwertung der Betragsgrenze vgl. § 17.</Anmerkung>
+              <Schlagworte>Selbstbehalt, Selbstbeteiligung, Bagatellgrenze, Kleinschaden,
+Bagatellschaden, Haftungsbegrenzung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817253R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034519/NOR12034519.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034519/NOR12034519.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034519/NOR12034519.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034519/NOR12034519.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036590</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12036590</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12036590</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 2</ArtikelParagraphAnlage>
+              <Paragraphnummer>2</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Sachschaden, Selbstbehalt, Verbraucherschaden, Privatschaden</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326024J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036590/NOR12036590.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036590/NOR12036590.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036590/NOR12036590.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036590/NOR12036590.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40022050</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR40022050</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR40022050</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 2</ArtikelParagraphAnlage>
+              <Paragraphnummer>2</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Sachschaden, Selbstbehalt, Verbraucherschaden, Privatschaden</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022050/NOR40022050.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022050/NOR40022050.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022050/NOR40022050.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022050/NOR40022050.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034520</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P3/NOR12034520</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P3/NOR12034520</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 3</ArtikelParagraphAnlage>
+              <Paragraphnummer>3</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Produzent, Fabrikant, Zulieferer, Assembler, Rohstoff, Rohmaterial,&lt;br/&gt;Bodenschätze, Mineral, Ausgangsmaterial, Ausgangsstoff, Zutat,&lt;br/&gt;Scheinhersteller, Scheinproduzent, Anscheinshersteller, Warenzeichen,&lt;br/&gt;Anscheinsproduzent, Quasi-Hersteller, Quasi-Produzent, Lizenz, Firma,&lt;br/&gt;Als-ob-Hersteller, Als-ob-Produzent</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817254R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034520/NOR12034520.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034520/NOR12034520.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034520/NOR12034520.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034520/NOR12034520.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034521</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12034521</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12034521</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 4</ArtikelParagraphAnlage>
+              <Paragraphnummer>4</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1994-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.</Anmerkung>
+              <Schlagworte>Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,
+Zubehör, Elektrizität, Gas, Wärme, Fernwärme, Bodenerzeugnis, Ei,
+Getreide, Gemüse, Obst, Frucht, Feldfrucht, Viehzuchterzeugnis,
+Milch,</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817255R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034521/NOR12034521.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034521/NOR12034521.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034521/NOR12034521.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034521/NOR12034521.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12037621</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12037621</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12037621</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 510/1994 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 4</ArtikelParagraphAnlage>
+              <Paragraphnummer>4</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>510/1994</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1995-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1999-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.</Anmerkung>
+              <Schlagworte>Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,
+Zubehör, Elektrizität, Gas, Wärme, Fernwärme, Bodenerzeugnis, Ei,
+Getreide, Gemüse, Obst, Frucht, Feldfrucht, Viehzuchterzeugnis,
+Milch, landwirtschaftliches Naturprodukt,
+forstwirtschaftliches Naturprodukt</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199438718J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037621/NOR12037621.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037621/NOR12037621.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037621/NOR12037621.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037621/NOR12037621.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12041225</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12041225</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12041225</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. I Nr. 185/1999 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 4</ArtikelParagraphAnlage>
+              <Paragraphnummer>4</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>185/1999</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2000-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,&lt;br/&gt;Zubehör, Elektrizität, Gas, Wärme, Fernwärme</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199962025L</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041225/NOR12041225.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041225/NOR12041225.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041225/NOR12041225.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041225/NOR12041225.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034522</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P5/NOR12034522</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P5/NOR12034522</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 5</ArtikelParagraphAnlage>
+              <Paragraphnummer>5</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Defekt, Mangel, Schaden, Werbung, Anpreisung, Anweisung, Anleitung,&lt;br/&gt;Aufklärung, Gebrauchsanweisung, Gebrauchsanleitung, Warnpflicht,&lt;br/&gt;Warnhinweis, Gefahrenhinweis, Instruktionspflicht, Zweckbestimmung,&lt;br/&gt;Instruktionsfehler, Gefährlichkeit, Gesundheitsschädlichkeit,&lt;br/&gt;Sicherheitsvorstellung, Sicherheitserwartung, Gebrauchswidmung,&lt;br/&gt;Gebrauchserwartung, Benützerkreis, Benützungswidmung, Benützung,&lt;br/&gt;Mißbrauch, Fehlanwendung, Fabrikationsfehler, Ausreißer,&lt;br/&gt;Konstruktionsfehler, Konzeptionsfehler, Planungsfehler,&lt;br/&gt;Produktbeobachtungspflicht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817256R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034522/NOR12034522.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034522/NOR12034522.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034522/NOR12034522.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034522/NOR12034522.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034523</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P6/NOR12034523</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P6/NOR12034523</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 6</ArtikelParagraphAnlage>
+              <Paragraphnummer>6</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff "Unternehmer" siehe auch § 1 Abs. 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>Vertrieb, Handel, Verkauf, Vermietung, Leasing, Leihe, Eigentum,&lt;br/&gt;Übertragung, Überlassung, Gewahrsam, Besitz, Benützung, Übermittlung,&lt;br/&gt;Gebrauchseinräumung, Verschickung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817257R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034523/NOR12034523.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034523/NOR12034523.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034523/NOR12034523.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034523/NOR12034523.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034524</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P7/NOR12034524</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P7/NOR12034524</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 7</ArtikelParagraphAnlage>
+              <Paragraphnummer>7</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff "Unternehmer" siehe auch § 1 Abs. 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>Beweislastverteilung, Beweislastverschiebung, Anscheinsbeweis,&lt;br/&gt;prima-facie-Beweis, Entlastungsbeweis, Glaubhaftmachung,&lt;br/&gt;Bescheinigung, Befreiungsbeweis</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817258R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034524/NOR12034524.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034524/NOR12034524.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034524/NOR12034524.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034524/NOR12034524.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034525</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12034525</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12034525</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 8</ArtikelParagraphAnlage>
+              <Paragraphnummer>8</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1994-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,
+Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,
+Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,
+Entwicklungsrisiko, Wissensstand, Konstruktionsfehler, Anweisung,
+Konzeptionsfehler, Planungsfehler, Instruktionsfehler</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817259R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034525/NOR12034525.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034525/NOR12034525.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034525/NOR12034525.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034525/NOR12034525.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12037622</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12037622</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12037622</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 510/1994 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 8</ArtikelParagraphAnlage>
+              <Paragraphnummer>8</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>510/1994</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1995-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1999-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,
+Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,
+Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,
+Entwicklungsrisiko, Wissensstand, Konstruktionsfehler, Anweisung,
+Konzeptionsfehler, Planungsfehler, Instruktionsfehler,
+landwirtschaftliches Naturprodukt, forstwirtschaftliches Naturprodukt</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199438719J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037622/NOR12037622.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037622/NOR12037622.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037622/NOR12037622.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12037622/NOR12037622.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12041226</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12041226</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12041226</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. I Nr. 185/1999 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 8</ArtikelParagraphAnlage>
+              <Paragraphnummer>8</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>185/1999</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2000-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,&lt;br/&gt;Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,&lt;br/&gt;Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,&lt;br/&gt;Entwicklungsrisiko, Wissensstand, Konstruktionsfehler, Anweisung,&lt;br/&gt;Konzeptionsfehler, Planungsfehler, Instruktionsfehler</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199962026L</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041226/NOR12041226.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041226/NOR12041226.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041226/NOR12041226.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041226/NOR12041226.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034526</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P9/NOR12034526</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P9/NOR12034526</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 9</ArtikelParagraphAnlage>
+              <Paragraphnummer>9</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zum Begriff "Verbraucher" siehe auch § 1 Abs. 1 Z 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.</Anmerkung>
+              <Schlagworte>Freizeichnungsverbot, Freizeichnungsklausel, Unabdingbarkeit,
+Freizeichnungsvereinbarung, Haftungsausschluß, Haftungsbeschränkung,
+Haftungsbegrenzung, Verbraucherschutz, Verbraucherschaden,
+Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817260R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034526/NOR12034526.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034526/NOR12034526.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034526/NOR12034526.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034526/NOR12034526.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036591</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P9/NOR12036591</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P9/NOR12036591</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 9</ArtikelParagraphAnlage>
+              <Paragraphnummer>9</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Haftungsausschluß, Haftungseinschränkung, Freizeichnungsverbot</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326025J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036591/NOR12036591.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036591/NOR12036591.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036591/NOR12036591.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036591/NOR12036591.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034527</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P10/NOR12034527</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P10/NOR12034527</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 10</ArtikelParagraphAnlage>
+              <Paragraphnummer>10</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Gesamtschuld, Gesamthaftung, Gesamtschuldverhältnis, Korrealität</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817261R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034527/NOR12034527.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034527/NOR12034527.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034527/NOR12034527.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034527/NOR12034527.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034528</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P11/NOR12034528</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P11/NOR12034528</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 11</ArtikelParagraphAnlage>
+              <Paragraphnummer>11</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Schadensteilung, Schadensausgleich, Schadensminderung, Vorsatz,&lt;br/&gt;Rettungspflicht, Fahrlässigkeit, Mitverantwortung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817262R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034528/NOR12034528.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034528/NOR12034528.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034528/NOR12034528.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034528/NOR12034528.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034529</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P12/NOR12034529</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P12/NOR12034529</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 12</ArtikelParagraphAnlage>
+              <Paragraphnummer>12</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Regreß, Regreßhaftung, Regreßpflicht, Ausgleich, Regreßverhältnis,&lt;br/&gt;Ausgleichspflicht, Innenverhältnis, Auskunftspflicht,&lt;br/&gt;Benennungspflicht, Nennungspflicht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817263R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034529/NOR12034529.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034529/NOR12034529.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034529/NOR12034529.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034529/NOR12034529.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034530</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P13/NOR12034530</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P13/NOR12034530</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 13</ArtikelParagraphAnlage>
+              <Paragraphnummer>13</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Fristablauf, Zeitablauf, Befristung, Erlöschen</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817264R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034530/NOR12034530.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034530/NOR12034530.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034530/NOR12034530.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034530/NOR12034530.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036592</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P13/NOR12036592</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P13/NOR12036592</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 13</ArtikelParagraphAnlage>
+              <Paragraphnummer>13</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zur Verjährung von Schadenersatzansprüchen siehe auch § 1489 ABGB,&lt;br/&gt;JGS Nr. 943/1811.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>Präklusionsfrist</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326026J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036592/NOR12036592.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036592/NOR12036592.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036592/NOR12036592.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036592/NOR12036592.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034531</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P14/NOR12034531</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P14/NOR12034531</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 14</ArtikelParagraphAnlage>
+              <Paragraphnummer>14</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Verweisung, Zivilrecht, Schadenersatzrecht, Haftpflichtrecht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817265R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034531/NOR12034531.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034531/NOR12034531.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034531/NOR12034531.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034531/NOR12034531.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034532</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P15/NOR12034532</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P15/NOR12034532</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 15</ArtikelParagraphAnlage>
+              <Paragraphnummer>15</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zu Abs. 2: Zu den Schäden durch ein nukleares Ereignis vgl. das&lt;br/&gt;           Atomhaftpflichtgesetz, BGBl. Nr. 117/1964.</Anmerkung>
+              <Schlagworte>Gesetzbuch, Verschuldenshaftung, Vertragshaftung, Haftpflichtgesetz,
+Gefährdungshaftung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817266R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034532/NOR12034532.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034532/NOR12034532.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034532/NOR12034532.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034532/NOR12034532.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036593</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P15/NOR12036593</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P15/NOR12036593</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 15</ArtikelParagraphAnlage>
+              <Paragraphnummer>15</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Zu Abs. 2: Zu den Schäden durch ein nukleares Ereignis vgl. das&lt;br/&gt;           Atomhaftpflichtgesetz, BGBl. Nr. 117/1964.&lt;br/&gt;</Anmerkung>
+              <Schlagworte>Gesetzbuch, Verschuldenshaftung, Vertragshaftung, Haftpflichtgesetz,&lt;br/&gt;Gefährdungshaftung, Atomschaden</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326027J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036593/NOR12036593.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036593/NOR12036593.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036593/NOR12036593.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036593/NOR12036593.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034533</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P16/NOR12034533</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P16/NOR12034533</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 16</ArtikelParagraphAnlage>
+              <Paragraphnummer>16</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Haftpflichtversicherung, Rückstellung, Deckungszusage, Garantie,&lt;br/&gt;Betriebshaftpflichtversicherung, Bilanzrückstellung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817267R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034533/NOR12034533.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034533/NOR12034533.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034533/NOR12034533.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034533/NOR12034533.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034534</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P17/NOR12034534</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P17/NOR12034534</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 17</ArtikelParagraphAnlage>
+              <Paragraphnummer>17</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1993-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Aufwertung, Wertsicherung, Valorisierung</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817268R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034534/NOR12034534.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034534/NOR12034534.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034534/NOR12034534.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034534/NOR12034534.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036594</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P17/NOR12036594</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P17/NOR12036594</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 17</ArtikelParagraphAnlage>
+              <Paragraphnummer>17</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1994-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Beachte>Die Überschrift ist seit der Änderung durch die Novelle BGBl. Nr. 95/1993 gegenstandslos.</Beachte>
+              <Aenderung></Aenderung>
+              <Schlagworte>Zivilsache, Einfuhr, Generalimporteur</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326028J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036594/NOR12036594.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036594/NOR12036594.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036594/NOR12036594.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036594/NOR12036594.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034535</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P18/NOR12034535</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P18/NOR12034535</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 18</ArtikelParagraphAnlage>
+              <Paragraphnummer>18</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817269R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034535/NOR12034535.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034535/NOR12034535.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034535/NOR12034535.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034535/NOR12034535.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034536</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19/NOR12034536</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19/NOR12034536</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 19</ArtikelParagraphAnlage>
+              <Paragraphnummer>19</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Schlagworte>Übergangsrecht</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817270R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034536/NOR12034536.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034536/NOR12034536.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034536/NOR12034536.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034536/NOR12034536.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12036595</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12036595</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12036595</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. Nr. 95/1993 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 19a</ArtikelParagraphAnlage>
+              <Paragraphnummer>19</Paragraphnummer>
+              <Paragraphbuchstabe>a</Paragraphbuchstabe>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>95/1993</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1993-02-12</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>1999-08-19</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199326029J</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036595/NOR12036595.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036595/NOR12036595.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036595/NOR12036595.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12036595/NOR12036595.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12041227</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12041227</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12041227</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. I Nr. 185/1999 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 19a</ArtikelParagraphAnlage>
+              <Paragraphnummer>19</Paragraphnummer>
+              <Paragraphbuchstabe>a</Paragraphbuchstabe>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>185/1999</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>1999-08-20</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199962027L</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041227/NOR12041227.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041227/NOR12041227.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041227/NOR12041227.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12041227/NOR12041227.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40022052</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2015-01-28</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR40022052</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR40022052</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 19a</ArtikelParagraphAnlage>
+              <Paragraphnummer>19</Paragraphnummer>
+              <Paragraphbuchstabe>a</Paragraphbuchstabe>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Anmerkung>Abs. 3 wurde mit Novelle BGBl. I Nr. 98/2001 ein zweites Mal &lt;br/&gt;vergeben.</Anmerkung>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022052/NOR40022052.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022052/NOR40022052.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022052/NOR40022052.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40022052/NOR40022052.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12034537</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P20/NOR12034537</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P20/NOR12034537</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. Nr. 99/1988</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 20</ArtikelParagraphAnlage>
+              <Paragraphnummer>20</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>99/1988</StammnormBgblnummer>
+              <Inkrafttretensdatum>1988-07-01</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung></Aenderung>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2198817271R</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034537/NOR12034537.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034537/NOR12034537.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034537/NOR12034537.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12034537/NOR12034537.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12161819</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2014-10-09</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1999/185/A4/NOR12161819</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Produkthaftungsgesetz</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1999/185/A4/NOR12161819</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 185/1999</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>Art. 4</ArtikelParagraphAnlage>
+              <Artikelnummer>4</Artikelnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>185/1999</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-08-20</Inkrafttretensdatum>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Uebergangsrecht>EG</Uebergangsrecht>
+              <Aenderung></Aenderung>
+              <Schlagworte>Rechtsvorschrift</Schlagworte>
+              <Gesetzesnummer>10002864</Gesetzesnummer>
+              <AlteDokumentnummer>N2199962028L</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12161819/NOR12161819.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12161819/NOR12161819.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12161819/NOR12161819.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12161819/NOR12161819.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+  </OgdDocumentResults>
+</OgdSearchResult>

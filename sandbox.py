@@ -1,86 +1,19 @@
-from dataclasses import asdict, fields, is_dataclass, replace, dataclass, field
 from pathlib import Path
 import json
+import xml.etree.ElementTree as ET
+
+from zeep import Client
 
 
-@dataclass
-class Annotation: 
-    start: int
-    end: int
-    label: str
+request_file = Path(r"xml\request_templates\brkons_query.xml")
 
+request = request_file.read_text(encoding="utf-8")
 
-@dataclass
-class AnnotatedParagraph: 
-    text: str
-    annotation_container: list[Annotation]
+client = Client(wsdl="https://data.bka.gv.at/ris/ogd/v2.6/?WSDL")
 
-@dataclass
-class Document: 
-    """A single document in the database"""
-    doc_id: str
-    doc_ann: list[AnnotatedParagraph] = field(default_factory=lambda : [AnnotatedParagraph("Das ist der Beispielstext", [Annotation(0, 3, "ART"), Annotation(5, 7, "XXX")]), 
-                                                                        AnnotatedParagraph("Das ist der zweite Beispieltext", [Annotation(1, 2, "ABC"), Annotation(3, 4, "ZZZ")])])
+response = client.service.SearchDocumentsXml(request)
 
-   
-
-
-
-def from_dict(dataclass_type, data):
-    if not is_dataclass(dataclass_type):
-        raise ValueError(f"{dataclass_type} is not a dataclass")
-
-    # Get the fields of the dataclass
-    dataclass_fields = fields(dataclass_type)
-
-    # Initialize an empty dictionary to store the field values
-    field_values = {}
-
-    # Iterate over each field
-    for field in dataclass_fields:
-        field_name = field.name
-        field_type = field.type
-
-        print(field_name, field_type)
-
-        # Check if the field is a nested dataclass
-        if is_dataclass(field_type):
-            # Recursively call from_dict for nested dataclasses
-            nested_data = data.get(field_name)
-            nested_instance = from_dict(field_type, nested_data)
-            field_values[field_name] = nested_instance
-        elif (
-            getattr(field_type, "__origin__", None) == list
-            and is_dataclass(field_type.__args__[0])
-        ):
-            # Handle List of dataclasses
-            list_data = data.get(field_name, [])
-            list_instances = [from_dict(field_type.__args__[0], item) for item in list_data]
-            field_values[field_name] = list_instances
-        else:
-            # Use the value from the dictionary if present, or use the default value
-            print("else: field_name", field_name)
-            field_values[field_name] = data.get(field_name)
-
-    # Create an instance of the dataclass using dataclasses.replace
-    return dataclass_type(**field_values)
-
-
-
-
-
-d = Document("This is ID")
-d_dict = asdict(d)
-
-d2 = from_dict(Document, d_dict)
-print(d2.doc_id)
-for ann in d2.doc_ann: 
-    print(ann.text)
-    for a in ann.annotation_container: 
-        print(a.start, a.end, a.label)
-
-
-print(d2 == d)
-
-
+response_file = Path(r"data\bundesrecht\PHG\meta_data\meta_collection.xml")
+response_file.parent.mkdir(parents=True, exist_ok=True)
+response_file.write_text(response, encoding="utf-8")
 
