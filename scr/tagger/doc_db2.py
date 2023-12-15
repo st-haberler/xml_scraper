@@ -46,6 +46,20 @@ class DBCollection:
             self.db_path = db_path
 
         # set all path constants for Bundesrecht, Judikatur etc 
+
+    def get_entry(self, query): 
+        """Returns a DB_Document object including all annotations from the database."""
+        if query.year: 
+            filename = self.db_path / "judikatur" / query.source_type / str(query.year) / f"{query.index}.json"
+        else: 
+            filename = self.db_path / query.source_type / f"{query.index}.json"
+        
+        if filename.exists():
+            json_data = json.loads(filename.read_text(encoding="utf-8"))
+            return DBDocument.from_db_dict(json_data)
+        else:
+            raise FileNotFoundError(f"File {filename} does not exist")
+
     
     def add_html_decision(self, html_decision:Path):
         soup = bs(html_decision.read_text(encoding="utf-8"), "html.parser")
