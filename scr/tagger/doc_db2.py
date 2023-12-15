@@ -14,6 +14,7 @@ class DBQuery:
     year: int
     annotation_version: int
 
+
 @dataclass
 class Annotation: 
     start: int
@@ -42,18 +43,21 @@ class DBCollection:
 
         # set all path constants for Bundesrecht, Judikatur etc 
 
+
     def get_entry(self, query): 
         """Returns a DB_Document object including all annotations from the database."""
+        # TODO check if index is within range of available documents
+
         if query.year: 
-            filename = self.db_path / "judikatur" / query.source_type / str(query.year) / f"{query.index}.json"
-        else: 
-            filename = self.db_path / query.source_type / f"{query.index}.json"
-        
-        if filename.exists():
-            json_data = json.loads(filename.read_text(encoding="utf-8"))
-            return DBDocument.from_db_dict(json_data)
+            filepath = self.db_path / "judikatur" / query.source_type / str(query.year) / "json"
         else:
-            raise FileNotFoundError(f"File {filename} does not exist")
+            filepath = self.db_path / "judikatur" / query.source_type / "json"
+        
+        for file_index, json_file in enumerate(filepath.glob("*.json")):
+            if file_index == query.index: 
+                json_data = json.loads(json_file.read_text(encoding="utf-8"))
+        
+                return DBDocument.from_db_dict(json_data)
 
 
     def add_html_bundesrecht(self, html_bundesrecht:Path):
