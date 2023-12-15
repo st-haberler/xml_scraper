@@ -1,5 +1,11 @@
 from dataclasses import fields, is_dataclass
 
+
+def source_from_ecli(ecli: str) -> str:
+    # example: ECLI:AT:VFGH:2022:E1273.2019
+    return ecli.split(":")[2].lower()
+
+
 def from_dict(dataclass_type, data):
     if not is_dataclass(dataclass_type):
         raise ValueError(f"{dataclass_type} is not a dataclass")
