@@ -11,23 +11,38 @@ RIS_API_WSDL = "https://data.bka.gv.at/ris/ogd/v2.6/?WSDL"
 TEMPLATE_VFGH = Path(r"vfgh_query.xml")
 TEMPLATE_VWGH = Path(r"vwgh_query.xml")
 TEMPLATE_JUSTIZ = Path(r"justiz_query.xml")
+TEMPLATE_BUNDESRECHT = Path(r"brkons_query.xml")
 TEMPLATE_PATH = Path.cwd() / "xml" / "request_templates" 
 
-DATA_PATH = Path.cwd() / "data" / "judikatur" 
+DATA_PATH_JUDIKATUR = Path.cwd() / "data" / "judikatur" 
+DATA_PATH_BUNDESRECHT = Path.cwd() / "data" / "bundesrecht"
+
 
 
 class MetaInterface:
     def __init__(self) -> None:
         pass
     
-    def retrieve_meta_data(self, branch:str="vfgh", year:str="2023", save_meta:bool=True) -> None:
-        """Orchestration method for retrieving meta data (download, extract, save)."""
+    def retrieve_meta_decisions(self, source_type:str="vfgh", year:str="2023", save_meta:bool=True) -> None:
+        """Orchestration method for retrieving year-wise meta data for decisions (download, extract, save)."""
         
-        loader = MetaLoader(branch, year)
+        loader = MetaLoader(source_type, year=year, gesetzesnummer=None)
         raw_meta_data = loader.load_meta_data()
 
         if save_meta: 
-            MetaSaver.save_meta_data(raw_meta_data, branch, year)
+            MetaSaver.save_meta_judikatur(meta_data=raw_meta_data, source_type=source_type, year=year)
+
+        return raw_meta_data
+    
+    
+    def retrieve_meta_bundesrecht(self, source_type:str="PHG", gesetzesnummer="10002864", save_meta:bool=True) -> None: 
+        """Orchestration method for retrieving meta data for entire regulations (Gesetze)."""
+
+        loader = MetaLoader(source_type, year=None, gesetzesnummer=gesetzesnummer)
+        raw_meta_data = loader.load_meta_data()
+
+        if save_meta: 
+            MetaSaver.save_meta_bundesrecht(meta_data=raw_meta_data, source_type=source_type)
 
         return raw_meta_data
 
@@ -46,14 +61,21 @@ class MetaSaver:
     """Saves meta data to one XML file."""
 
     @classmethod
-    def _get_meta_data_file(cls, branch:str="vfgh", year:str="2023") -> Path:
+    def _get_meta_data_file(cls, source_type:str="vfgh", year:str="2023") -> Path:
         """Returns path to data directory."""
 
-        return DATA_PATH / branch / "meta_data" / f"{branch}_meta_collection_all_{year}.xml"
+        return DATA_PATH_JUDIKATUR / source_type / "meta_data" / f"{source_type}_meta_collection_all_{year}.xml"
     
 
     @classmethod
-    def save_meta_data(cls, meta_data:list[ET.Element], branch:str="vfgh", year:str="2023") -> None:
+    def _get_meta_data_file_bundesrecht(cls, source_type:str="PHG") -> Path:
+        """Returns path to data directory."""
+
+        return DATA_PATH_BUNDESRECHT / source_type / "meta_data" / f"{source_type}_meta_collection.xml"
+    
+
+    @classmethod
+    def save_meta_judikatur(cls, meta_data:list[ET.Element], source_type:str="vfgh", year:str="2023") -> None:
         """Saves meta data to XML file."""
 
         meta_data_root = ET.Element("meta_data")
@@ -61,7 +83,26 @@ class MetaSaver:
         for meta_data_element in meta_data:
             meta_data_root.append(meta_data_element)
 
-        meta_data_file = cls._get_meta_data_file(branch=branch, year=year)
+        meta_data_file = cls._get_meta_data_file(source_type=source_type, year=year)
+        meta_data_file.parent.mkdir(parents=True, exist_ok=True)
+        ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
+        meta_data_tree = ET.ElementTree(meta_data_root)
+        meta_data_tree.write(meta_data_file, encoding="utf-8", xml_declaration=True)
+
+        print(f"Meta data saved to {meta_data_file}.")
+
+
+    @classmethod
+    def save_meta_bundesrecht(cls, meta_data:list[ET.Element], source_type:str="PHG") -> None:
+        """Saves meta data to XML file."""
+
+        meta_data_root = ET.Element("meta_data")
+
+        for meta_data_element in meta_data:
+            meta_data_root.append(meta_data_element)
+
+        meta_data_file = cls._get_meta_data_file_bundesrecht(source_type=source_type)
+        meta_data_file.parent.mkdir(parents=True, exist_ok=True)
         ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
         meta_data_tree = ET.ElementTree(meta_data_root)
         meta_data_tree.write(meta_data_file, encoding="utf-8", xml_declaration=True)
@@ -71,15 +112,10 @@ class MetaSaver:
 
 class XML_Request():
 
-    def __init__(self, branch:str, year:str) -> None:
-        self.branch = branch
-        self.year = year
-
-
     def _get_template_path(self) -> Path:
         """Returns path to XML template file."""
 
-        match self.branch:
+        match self.source_type:
             case "vfgh":
                 return TEMPLATE_PATH / TEMPLATE_VFGH
             case "vwgh":
@@ -87,11 +123,31 @@ class XML_Request():
             case "justiz":
                 return TEMPLATE_PATH / TEMPLATE_JUSTIZ
             case _:
-                raise ValueError("Invalid branch argument. Must be one of 'vfgh', 'vwgh' or 'justiz'.")
+                return TEMPLATE_PATH / TEMPLATE_BUNDESRECHT
 
 
+    def send_xml_request(self, xml_request:str) -> str:
+        """Sends XML request to RIS API and returns response."""
+
+        try: 
+            client = Client(RIS_API_WSDL)
+            response = client.service.SearchDocumentsXml(xml_request)
+        except Exception as e:
+            print(e)
+            return None
+
+        return response
+
+
+class XML_Judikatur_Request(XML_Request):
+    def __init__(self, source_type:str, year:str) -> None:
+        self.source_type = source_type
+        self.year = year
+        print("init xml judikatur request")
+
+    
     def _generate_date_range(self) -> tuple[str, str]:
-        """Generates begin and end date for RIS API request."""
+        """Generates begin and end date for decision RIS API request."""
 
         begin_date = f"{self.year}-01-01"
 
@@ -104,8 +160,8 @@ class XML_Request():
 
 
     def generate_xml_request(self, page_number:int=1) -> str:
-        """Generates XML request for RIS API based on template file. Returns XML string.
-        
+        """Generates XML decision request for RIS API for full year based on template file. 
+        Returns XML string.
         See https://data.bka.gv.at/ris/ogd/v2.6/Documents/Dokumentation_OGD-RIS_Service.pdf
         for the API documentation.
         """
@@ -134,26 +190,51 @@ class XML_Request():
         return xml_request
 
 
-    def send_xml_request(self, xml_request:str) -> str:
-        """Sends XML request to RIS API and returns response."""
+class XML_Bundesrecht_Request(XML_Request):
+    def __init__(self, source_type:str, gesetzesnummer:str) -> None:
+        self.source_type = source_type
+        self.gesetzesnummer = gesetzesnummer
+        print("init xml Bundesrecht request")
+
+
+    def generate_xml_request(self, page_number:int=1) -> str:
+        """Generates XML Bundesrecht request for RIS API based on template file. 
+        Returns XML string.
+        See https://data.bka.gv.at/ris/ogd/v2.6/Documents/Dokumentation_OGD-RIS_Service.pdf
+        for the API documentation.
+        """
+        print("generating xml Bundesrecht request")
 
         try: 
-            client = Client(RIS_API_WSDL)
-            response = client.service.SearchDocumentsXml(xml_request)
-        except Exception as e:
+            template_file = ET.parse(self._get_template_path())
+        except Exception as e: 
             print(e)
             return None
+        
+        template_root = template_file.getroot()
+        
+        template_page_element = template_root.find(".//{http://ris.bka.gv.at/ogd/V2_6}Seitennummer")
+        template_page_element.text = str(page_number)
 
-        return response
+        template_gesetzesnummer_element = template_root.find(".//{http://ris.bka.gv.at/ogd/V2_6}Gesetzesnummer")
+        template_gesetzesnummer_element.text = str(self.gesetzesnummer)
 
+        ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
+        xml_request = ET.tostring(template_root, encoding="utf-8").decode("utf-8")
+        return xml_request
 
 
 class MetaLoader:
     """Loads meta data from RIS API to meta_data property."""
 
-    def __init__(self, branch:str, year:str):
-        self.branch = branch
+    def __init__(self, source_type:str, year:str=None, gesetzesnummer:str=None) -> None:
+        # TODO change type of year and gesetzesnummer to int in whole module 
+        self.source_type = source_type
+        if (year is None) and (gesetzesnummer is None):
+            raise ValueError("Either year or gesetzesnummer must be specified.")
         self.year = year
+        self.gesetzesnummer = gesetzesnummer
+
 
         # self.meta_data_file = self._get_meta_data_file()
 
@@ -167,7 +248,6 @@ class MetaLoader:
 
 
     def _get_page_size(self) -> int:
-        
         return PAGE_SIZE
    
 
@@ -180,10 +260,18 @@ class MetaLoader:
         return doc_reference_elements
 
 
-    def load_meta_data(self) -> list[ET.Element]:
-        print(f"Loading meta data for {self.branch} from {self.year}...")
+    def _is_request_Bundesrecht(self) -> bool:
+        # for now, its sufficient to check if year is None, because Bundesrecht is not organized by year
+        return self.year is None
 
-        xml_request = XML_Request(self.branch, self.year)
+
+    def load_meta_data(self) -> list[ET.Element]:
+        print(f"Loading meta data for {self.source_type} ...")
+
+        if self._is_request_Bundesrecht():
+            xml_request = XML_Bundesrecht_Request(self.source_type, self.gesetzesnummer)
+        else:
+            xml_request = XML_Judikatur_Request(self.source_type, self.year)
         page_number = 1 
         meta_data = []
 
@@ -209,6 +297,6 @@ class MetaLoader:
 
 if __name__ == "__main__":
     interface = MetaInterface()
-    interface.retrieve_meta_data(branch="vfgh", year="2023", save_meta=True)
+    interface.retrieve_meta_bundesrecht(source_type="PHG", gesetzesnummer="10002864", save_meta=True)
     
 

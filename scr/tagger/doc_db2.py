@@ -28,14 +28,9 @@ class AnnotatedParagraph:
 
 
 @dataclass
-class DBDocumentBody: 
-    annotated_paragraphs: list[AnnotatedParagraph]
-
-
-@dataclass
 class DBDocument: 
     document_id: str
-    document_body: list[DBDocumentBody]
+    document_body: list[AnnotatedParagraph]
     
 
 class DBCollection: 
@@ -59,6 +54,33 @@ class DBCollection:
             return DBDocument.from_db_dict(json_data)
         else:
             raise FileNotFoundError(f"File {filename} does not exist")
+
+
+    def add_html_bundesrecht(self, html_bundesrecht:Path):
+        # TODO: implement scraper first 
+        soup = bs(html_bundesrecht.read_text(), "html.parser")
+
+        document_id = html_bundesrecht.stem
+
+        # get source_type from the "grandparent" directory name, for lack of a better idea
+        source_type = html_bundesrecht.parent.parent.stem
+
+
+        paragraph_text_list = []
+        for div in soup.body.find_all("div"):
+            if div.h1 and ("Text" in div.h1.text):  
+                for para in div.find_all(["p", "ol", "ul"]):  
+                    # remove tags that are not meant for written text 
+                    for sr in para.find_all("span", class_="sr-only"): 
+                        sr.decompose()
+                    paragraph_text_list.append(para.text)
+
+        document_body = [AnnotatedParagraph(text=para, annotations=[]) for para in paragraph_text_list]
+        new_document = DBDocument(document_id=document_id, document_body=document_body)
+
+        new_file = self.db_path / "bundesrecht" / source_type / "json" / f"{document_id}.json"
+        new_file.parent.mkdir(parents=True, exist_ok=True)
+        new_file.write_text(json.dumps(asdict(new_document), indent=4), encoding="utf-8")
 
     
     def add_html_decision(self, html_decision:Path):
@@ -107,7 +129,7 @@ class DBCollection:
                     paragraph_text_list.append(para.text)
 
         # create the DBDocument object
-        document_body = [DBDocumentBody(annotated_paragraphs=[AnnotatedParagraph(text=para, annotations=[])]) for para in paragraph_text_list]
+        document_body = [AnnotatedParagraph(text=para, annotations=[]) for para in paragraph_text_list]
         new_document = DBDocument(document_id=document_id, document_body=document_body)
 
         # add the document to the database
@@ -118,6 +140,9 @@ class DBCollection:
         
 
 
-
+if __name__ == "__main__": 
+    html = Path.cwd() / "data/bundesrecht/PHG/html/NOR12034518.html"
+    db = DBCollection()
+    db.add_html_bundesrecht(html)
 
 

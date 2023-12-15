@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OgdSearchResult status="ok" xmlns="http://ris.bka.gv.at/ogd/V2_6">
-  <OgdDocumentResults>
-    <Hits pageNumber="1" pageSize="100">36</Hits>
-    <OgdDocumentReference>
+<?xml version='1.0' encoding='utf-8'?>
+<meta_data xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><OgdDocumentReference>
       <Data>
         <Metadaten>
           <Technisch>
             <ID>NOR11002887</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-12-12</Geaendert>
@@ -80,7 +77,7 @@ BGBl. I Nr. 98/2001 (NR: GP XXI RV 621 AB 704 S. 75. BR: 6398 AB 6424 S. 679.)</
             <ID>NOR12034518</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P1/NOR12034518</DokumentUrl>
@@ -101,7 +98,7 @@ BGBl. I Nr. 98/2001 (NR: GP XXI RV 621 AB 704 S. 75. BR: 6398 AB 6424 S. 679.)</
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>1. Zum Begriff "Unternehmen" (Abs. 1 und 2) siehe auch § 1 Abs. 2&lt;br/&gt;   KSchG, BGBl. Nr. 140/1979;&lt;br/&gt;2. Zum Übergangsrecht vgl. § 19;&lt;br/&gt;3. Zur Frage verwaltungsrechtlicher Schutzmaßnahmen siehe das&lt;br/&gt;   Produktsicherheitsgesetz, BGBl. Nr. 171/1983.</Anmerkung>
               <Schlagworte>Produkthaftpflicht, Produzentenhaftung, Produzentenhaftpflicht,
 Erzeugerhaftung, Erzeugerhaftpflicht, Lieferantenhaftung, Einfuhr,
@@ -149,7 +146,7 @@ Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
             <ID>NOR12036589</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -173,7 +170,7 @@ Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>1. Zum Begriff "Unternehmen" (Abs. 1 und 2) siehe auch § 1 Abs. 2&lt;br/&gt;   KSchG, BGBl. Nr. 140/1979;&lt;br/&gt;2. Zum Übergangsrecht vgl. § 19 und § 19a;&lt;br/&gt;3. Zur Frage verwaltungsrechtlicher Schutzmaßnahmen siehe das&lt;br/&gt;   Produktsicherheitsgesetz, BGBl. Nr. 171/1983;&lt;br/&gt;4. Zum Importeur siehe weiters § 17.&lt;br/&gt;</Anmerkung>
               <Schlagworte>Produkthaftpflicht, Produzentenhaftung, Produzentenhaftpflicht,&lt;br/&gt;Erzeugerhaftung, Erzeugerhaftpflicht, Lieferantenhaftung, Einfuhr,&lt;br/&gt;Lieferantenhaftpflicht, Händlerhaftung, Händlerhaftpflicht,&lt;br/&gt;Ausfallshaftung, Ausfallshaftpflicht, Auffanghaftung, Sachschaden,&lt;br/&gt;Auffanghaftpflicht, Generalimporteur, Personenschaden, Pflegekosten,&lt;br/&gt;Heilungskosten, Verdienstentgang, Schmerzengeld, Unterhaltsentgang,&lt;br/&gt;Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -215,7 +212,7 @@ Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
             <ID>NOR12034519</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12034519</DokumentUrl>
@@ -236,7 +233,7 @@ Auskunftspflicht, Benennungspflicht, Nennungspflicht</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zur Frage der Aufwertung der Betragsgrenze vgl. § 17.</Anmerkung>
               <Schlagworte>Selbstbehalt, Selbstbeteiligung, Bagatellgrenze, Kleinschaden,
 Bagatellschaden, Haftungsbegrenzung</Schlagworte>
@@ -279,7 +276,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
             <ID>NOR12036590</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P2/NOR12036590</DokumentUrl>
@@ -303,7 +300,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Sachschaden, Selbstbehalt, Verbraucherschaden, Privatschaden</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199326024J</AlteDokumentnummer>
@@ -344,7 +341,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
             <ID>NOR40022050</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -368,7 +365,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Sachschaden, Selbstbehalt, Verbraucherschaden, Privatschaden</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -408,7 +405,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
             <ID>NOR12034520</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -429,7 +426,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Produzent, Fabrikant, Zulieferer, Assembler, Rohstoff, Rohmaterial,&lt;br/&gt;Bodenschätze, Mineral, Ausgangsmaterial, Ausgangsstoff, Zutat,&lt;br/&gt;Scheinhersteller, Scheinproduzent, Anscheinshersteller, Warenzeichen,&lt;br/&gt;Anscheinsproduzent, Quasi-Hersteller, Quasi-Produzent, Lizenz, Firma,&lt;br/&gt;Als-ob-Hersteller, Als-ob-Produzent</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817254R</AlteDokumentnummer>
@@ -470,7 +467,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
             <ID>NOR12034521</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12034521</DokumentUrl>
@@ -491,7 +488,7 @@ Bagatellschaden, Haftungsbegrenzung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.</Anmerkung>
               <Schlagworte>Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,
 Zubehör, Elektrizität, Gas, Wärme, Fernwärme, Bodenerzeugnis, Ei,
@@ -536,7 +533,7 @@ Milch,</Schlagworte>
             <ID>NOR12037621</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P4/NOR12037621</DokumentUrl>
@@ -560,7 +557,7 @@ Milch,</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.</Anmerkung>
               <Schlagworte>Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,
 Zubehör, Elektrizität, Gas, Wärme, Fernwärme, Bodenerzeugnis, Ei,
@@ -606,7 +603,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
             <ID>NOR12041225</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -630,7 +627,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff der beweglichen körperlichen Sache vgl. die §§ 285, 292&lt;br/&gt;und 293 ABGB, JGS Nr. 946/1811.&lt;br/&gt;</Anmerkung>
               <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Gegenstand, Gerät, Ware, Fahrnis, Fabrikat, Bestandteil, Zugehör,&lt;br/&gt;Zubehör, Elektrizität, Gas, Wärme, Fernwärme</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -672,7 +669,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
             <ID>NOR12034522</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -693,7 +690,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Defekt, Mangel, Schaden, Werbung, Anpreisung, Anweisung, Anleitung,&lt;br/&gt;Aufklärung, Gebrauchsanweisung, Gebrauchsanleitung, Warnpflicht,&lt;br/&gt;Warnhinweis, Gefahrenhinweis, Instruktionspflicht, Zweckbestimmung,&lt;br/&gt;Instruktionsfehler, Gefährlichkeit, Gesundheitsschädlichkeit,&lt;br/&gt;Sicherheitsvorstellung, Sicherheitserwartung, Gebrauchswidmung,&lt;br/&gt;Gebrauchserwartung, Benützerkreis, Benützungswidmung, Benützung,&lt;br/&gt;Mißbrauch, Fehlanwendung, Fabrikationsfehler, Ausreißer,&lt;br/&gt;Konstruktionsfehler, Konzeptionsfehler, Planungsfehler,&lt;br/&gt;Produktbeobachtungspflicht</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817256R</AlteDokumentnummer>
@@ -734,7 +731,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
             <ID>NOR12034523</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -755,7 +752,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff "Unternehmer" siehe auch § 1 Abs. 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.&lt;br/&gt;</Anmerkung>
               <Schlagworte>Vertrieb, Handel, Verkauf, Vermietung, Leasing, Leihe, Eigentum,&lt;br/&gt;Übertragung, Überlassung, Gewahrsam, Besitz, Benützung, Übermittlung,&lt;br/&gt;Gebrauchseinräumung, Verschickung</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -797,7 +794,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
             <ID>NOR12034524</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -818,7 +815,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff "Unternehmer" siehe auch § 1 Abs. 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.&lt;br/&gt;</Anmerkung>
               <Schlagworte>Beweislastverteilung, Beweislastverschiebung, Anscheinsbeweis,&lt;br/&gt;prima-facie-Beweis, Entlastungsbeweis, Glaubhaftmachung,&lt;br/&gt;Bescheinigung, Befreiungsbeweis</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -860,7 +857,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
             <ID>NOR12034525</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12034525</DokumentUrl>
@@ -881,7 +878,7 @@ forstwirtschaftliches Naturprodukt</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,
 Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,
 Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,
@@ -926,7 +923,7 @@ Konzeptionsfehler, Planungsfehler, Instruktionsfehler</Schlagworte>
             <ID>NOR12037622</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P8/NOR12037622</DokumentUrl>
@@ -950,7 +947,7 @@ Konzeptionsfehler, Planungsfehler, Instruktionsfehler</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,
 Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,
 Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,
@@ -996,7 +993,7 @@ landwirtschaftliches Naturprodukt, forstwirtschaftliches Naturprodukt</Schlagwor
             <ID>NOR12041226</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1020,7 +1017,7 @@ landwirtschaftliches Naturprodukt, forstwirtschaftliches Naturprodukt</Schlagwor
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Haftungsbefreiung, Vorsatz, Fahrlässigkeit, Ausschlußgrund, Gesetz,&lt;br/&gt;Verordnung, Hoheitsakt, Bescheid, Norm, Gebot, Verbot, Sachkunde,&lt;br/&gt;Sicherheitsvorschrift, Produktionsnorm, Sicherheitsnorm, Fachkunde,&lt;br/&gt;Entwicklungsrisiko, Wissensstand, Konstruktionsfehler, Anweisung,&lt;br/&gt;Konzeptionsfehler, Planungsfehler, Instruktionsfehler</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199962026L</AlteDokumentnummer>
@@ -1061,7 +1058,7 @@ landwirtschaftliches Naturprodukt, forstwirtschaftliches Naturprodukt</Schlagwor
             <ID>NOR12034526</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P9/NOR12034526</DokumentUrl>
@@ -1082,7 +1079,7 @@ landwirtschaftliches Naturprodukt, forstwirtschaftliches Naturprodukt</Schlagwor
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zum Begriff "Verbraucher" siehe auch § 1 Abs. 1 Z 2 KSchG, BGBl.&lt;br/&gt;Nr. 140/1979.</Anmerkung>
               <Schlagworte>Freizeichnungsverbot, Freizeichnungsklausel, Unabdingbarkeit,
 Freizeichnungsvereinbarung, Haftungsausschluß, Haftungsbeschränkung,
@@ -1127,7 +1124,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12036591</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1151,7 +1148,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Haftungsausschluß, Haftungseinschränkung, Freizeichnungsverbot</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199326025J</AlteDokumentnummer>
@@ -1192,7 +1189,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034527</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1213,7 +1210,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Gesamtschuld, Gesamthaftung, Gesamtschuldverhältnis, Korrealität</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817261R</AlteDokumentnummer>
@@ -1254,7 +1251,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034528</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1275,7 +1272,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Schadensteilung, Schadensausgleich, Schadensminderung, Vorsatz,&lt;br/&gt;Rettungspflicht, Fahrlässigkeit, Mitverantwortung</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817262R</AlteDokumentnummer>
@@ -1316,7 +1313,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034529</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1337,7 +1334,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Regreß, Regreßhaftung, Regreßpflicht, Ausgleich, Regreßverhältnis,&lt;br/&gt;Ausgleichspflicht, Innenverhältnis, Auskunftspflicht,&lt;br/&gt;Benennungspflicht, Nennungspflicht</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817263R</AlteDokumentnummer>
@@ -1378,7 +1375,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034530</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P13/NOR12034530</DokumentUrl>
@@ -1399,7 +1396,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Fristablauf, Zeitablauf, Befristung, Erlöschen</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817264R</AlteDokumentnummer>
@@ -1440,7 +1437,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12036592</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1464,7 +1461,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zur Verjährung von Schadenersatzansprüchen siehe auch § 1489 ABGB,&lt;br/&gt;JGS Nr. 943/1811.&lt;br/&gt;</Anmerkung>
               <Schlagworte>Präklusionsfrist</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -1506,7 +1503,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034531</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1527,7 +1524,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Verweisung, Zivilrecht, Schadenersatzrecht, Haftpflichtrecht</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817265R</AlteDokumentnummer>
@@ -1568,7 +1565,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
             <ID>NOR12034532</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P15/NOR12034532</DokumentUrl>
@@ -1589,7 +1586,7 @@ Haftpflichtausschluß, Haftpflichtbeschränkung, Haftpflichtbegrenzung</Schlagwo
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zu Abs. 2: Zu den Schäden durch ein nukleares Ereignis vgl. das&lt;br/&gt;           Atomhaftpflichtgesetz, BGBl. Nr. 117/1964.</Anmerkung>
               <Schlagworte>Gesetzbuch, Verschuldenshaftung, Vertragshaftung, Haftpflichtgesetz,
 Gefährdungshaftung</Schlagworte>
@@ -1632,7 +1629,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12036593</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1656,7 +1653,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Zu Abs. 2: Zu den Schäden durch ein nukleares Ereignis vgl. das&lt;br/&gt;           Atomhaftpflichtgesetz, BGBl. Nr. 117/1964.&lt;br/&gt;</Anmerkung>
               <Schlagworte>Gesetzbuch, Verschuldenshaftung, Vertragshaftung, Haftpflichtgesetz,&lt;br/&gt;Gefährdungshaftung, Atomschaden</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
@@ -1698,7 +1695,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12034533</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1719,7 +1716,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Haftpflichtversicherung, Rückstellung, Deckungszusage, Garantie,&lt;br/&gt;Betriebshaftpflichtversicherung, Bilanzrückstellung</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817267R</AlteDokumentnummer>
@@ -1760,7 +1757,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12034534</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P17/NOR12034534</DokumentUrl>
@@ -1781,7 +1778,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Aufwertung, Wertsicherung, Valorisierung</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817268R</AlteDokumentnummer>
@@ -1822,7 +1819,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12036594</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1847,7 +1844,7 @@ Gefährdungshaftung</Schlagworte>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
               <Beachte>Die Überschrift ist seit der Änderung durch die Novelle BGBl. Nr. 95/1993 gegenstandslos.</Beachte>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Zivilsache, Einfuhr, Generalimporteur</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199326028J</AlteDokumentnummer>
@@ -1888,7 +1885,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12034535</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1909,7 +1906,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817269R</AlteDokumentnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -1949,7 +1946,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12034536</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -1970,7 +1967,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Übergangsrecht</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817270R</AlteDokumentnummer>
@@ -2011,7 +2008,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12036595</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12036595</DokumentUrl>
@@ -2036,7 +2033,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199326029J</AlteDokumentnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -2076,7 +2073,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12041227</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/1988/99/P19a/NOR12041227</DokumentUrl>
@@ -2101,7 +2098,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199962027L</AlteDokumentnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -2141,7 +2138,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR40022052</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2015-01-28</Geaendert>
@@ -2166,7 +2163,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Anmerkung>Abs. 3 wurde mit Novelle BGBl. I Nr. 98/2001 ein zweites Mal &lt;br/&gt;vergeben.</Anmerkung>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -2206,7 +2203,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12034537</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -2227,7 +2224,7 @@ Gefährdungshaftung</Schlagworte>
               <Indizes>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2198817271R</AlteDokumentnummer>
               <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10002864</GesamteRechtsvorschriftUrl>
@@ -2267,7 +2264,7 @@ Gefährdungshaftung</Schlagworte>
             <ID>NOR12161819</ID>
             <Applikation>BrKons</Applikation>
             <Organ>BKA (Bundeskanzleramt)</Organ>
-            <ImportTimestamp xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+            <ImportTimestamp xsi:nil="true" />
           </Technisch>
           <Allgemein>
             <Geaendert>2014-10-09</Geaendert>
@@ -2289,7 +2286,7 @@ Gefährdungshaftung</Schlagworte>
                 <item>20/07 Schadenersatz, Haftpflicht</item>
               </Indizes>
               <Uebergangsrecht>EG</Uebergangsrecht>
-              <Aenderung></Aenderung>
+              <Aenderung />
               <Schlagworte>Rechtsvorschrift</Schlagworte>
               <Gesetzesnummer>10002864</Gesetzesnummer>
               <AlteDokumentnummer>N2199962028L</AlteDokumentnummer>
@@ -2323,5 +2320,4 @@ Gefährdungshaftung</Schlagworte>
         </Dokumentliste>
       </Data>
     </OgdDocumentReference>
-  </OgdDocumentResults>
-</OgdSearchResult>
+  </meta_data>
