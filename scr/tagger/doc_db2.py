@@ -20,18 +20,27 @@ class Annotation:
     start: int
     end: int
     label: str
+    version: int
 
 
 @dataclass
 class AnnotatedParagraph:
     text: str
-    annotations: list[list[Annotation]]
+    annotations: list[Annotation]
 
 
 @dataclass
 class DBDocument: 
     document_id: str
     document_body: list[AnnotatedParagraph]
+
+    def get_all_annotations(self) -> list[Annotation]:
+        """Returns a list of all annotations in the document."""
+        all_annotations = []
+        for paragraph in self.document_body:
+            for annotation in paragraph.annotations:
+                all_annotations.append(annotation)
+        return all_annotations
     
 
 class DBCollection: 
@@ -44,7 +53,7 @@ class DBCollection:
         # set all path constants for Bundesrecht, Judikatur etc 
 
 
-    def get_entry(self, query): 
+    def get_entry_from_query(self, query) -> DBDocument: 
         """Returns a DB_Document object including all annotations from the database."""
         # TODO check if index is within range of available documents
 
@@ -58,6 +67,13 @@ class DBCollection:
                 json_data = json.loads(json_file.read_text(encoding="utf-8"))
         
                 return DBDocument.from_db_dict(json_data)
+            
+
+    def get_entry_from_file(self, json_file:Path) -> DBDocument:
+        """Returns a DB_Document object including all annotations from the database."""
+        json_data = json.loads(json_file.read_text(encoding="utf-8"))
+        
+        return DBDocument.from_db_dict(json_data)
 
 
     def add_html_bundesrecht(self, html_bundesrecht:Path):
@@ -142,7 +158,36 @@ class DBCollection:
         new_file.write_text(json.dumps(asdict(new_document), indent=4), encoding="utf-8")
 
         
+    def get_all_labels(self) -> dict:
+        
+        result_all_labels = dict()
 
+        # iterate over all json files in the database
+        for json_file in self.db_path.rglob("*.json"):
+            json_data = json.loads(json_file.read_text(encoding="utf-8"))
+            
+            # check if file is a DBDocument object
+            if json_data["document_id"] and json_data["document_body"]:
+                entry = self.get_entry_from_file(json_file)
+            else:
+                continue
+
+            # iterate over all annotations in the DBDocument object
+            for annotation in entry.get_all_annotations():
+                if result_all_labels[annotation.version]:
+                    result_all_labels[annotation.version].add(annotation.label)
+                else:
+                    result_all_labels[annotation.version] = {annotation.label}
+                    
+        return result_all_labels
+
+
+
+
+
+            
+                
+               
 
 if __name__ == "__main__": 
     html = Path.cwd() / "data/bundesrecht/PHG/html/NOR12034518.html"
