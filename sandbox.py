@@ -1,10 +1,8 @@
-from pathlib import Path
-import json
-import xml.etree.ElementTree as ET
+import spacy
 
-from zeep import Client
+nlp = spacy.load("de_core_news_sm")
+doc = nlp("Ich bin ein Satz.")
 
-d = {1: "ann1", 2: "ann2", 3: "ann3"}
-
-print(d[1])
+for token in doc:
+    print(token.text_with_ws, "-")
 
