@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
-import doc_db2
+import doc_db
 
 class TestDB_Collection:
 

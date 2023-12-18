@@ -63,7 +63,7 @@ class LinkExtractor:
                 return new_link
        
 
-    def _save_links_to_file(self, links:list[str], year:str, branch:str) -> None:
+    def _save_decision_links_to_file(self, links:list[str], year:str, branch:str) -> None:
         """Saves a list of links to a file."""
 
         link_file = DATA_PATH_JUDIKATUR / branch / META_PATH / f"{branch}_all decision_links_{year}.links"
@@ -105,16 +105,16 @@ class LinkExtractor:
         return links
     
 
-    def get_decision_links(self, year:str, branch:str, source:Path=None, todisk:bool=False) -> list[str]:
+    def get_decision_links(self, year:str, source_type:str, meta_collection:Path=None, todisk:bool=False) -> list[str]:
         """Extracts links from a given XML-Metadata collection file or 
         from a list of xml-Elements with the same data.
         Returns a list of links.
         """
 
-        if source is None:
-            source = DATA_PATH_JUDIKATUR / branch / META_PATH / f"{branch}_meta_collection_all_{year}.xml"
+        if meta_collection is None:
+            meta_collection = DATA_PATH_JUDIKATUR / source_type / META_PATH / f"{source_type}_meta_collection_all_{year}.xml"
 
-        content_references = self._get_filtered_content_references(source)
+        content_references = self._get_filtered_content_references(meta_collection)
 
         links = []
         for reference in content_references:
@@ -125,8 +125,8 @@ class LinkExtractor:
                 continue  
 
         if todisk:
-            self._save_links_to_file(links, year, branch)
-            logging.info(f"Links saved to {DATA_PATH_JUDIKATUR / branch / META_PATH / f'{branch}_all decision_links_{year}.links'}.")
+            self._save_decision_links_to_file(links, year, source_type)
+            logging.info(f"Links saved to {DATA_PATH_JUDIKATUR / source_type / META_PATH / f'{source_type}_all decision_links_{year}.links'}.")
         return links
 
 

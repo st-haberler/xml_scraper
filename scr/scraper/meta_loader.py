@@ -61,14 +61,14 @@ class MetaSaver:
     """Saves meta data to one XML file."""
 
     @classmethod
-    def _get_meta_data_file(cls, source_type:str="vfgh", year:str="2023") -> Path:
+    def _get_meta_data_judikatur(cls, source_type:str="vfgh", year:str="2023") -> Path:
         """Returns path to data directory."""
 
         return DATA_PATH_JUDIKATUR / source_type / "meta_data" / f"{source_type}_meta_collection_all_{year}.xml"
     
 
     @classmethod
-    def _get_meta_data_file_bundesrecht(cls, source_type:str="PHG") -> Path:
+    def _get_meta_data_bundesrecht(cls, source_type:str="PHG") -> Path:
         """Returns path to data directory."""
 
         return DATA_PATH_BUNDESRECHT / source_type / "meta_data" / f"{source_type}_meta_collection.xml"
@@ -83,7 +83,7 @@ class MetaSaver:
         for meta_data_element in meta_data:
             meta_data_root.append(meta_data_element)
 
-        meta_data_file = cls._get_meta_data_file(source_type=source_type, year=year)
+        meta_data_file = cls._get_meta_data_judikatur(source_type=source_type, year=year)
         meta_data_file.parent.mkdir(parents=True, exist_ok=True)
         ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
         meta_data_tree = ET.ElementTree(meta_data_root)
@@ -101,7 +101,7 @@ class MetaSaver:
         for meta_data_element in meta_data:
             meta_data_root.append(meta_data_element)
 
-        meta_data_file = cls._get_meta_data_file_bundesrecht(source_type=source_type)
+        meta_data_file = cls._get_meta_data_bundesrecht(source_type=source_type)
         meta_data_file.parent.mkdir(parents=True, exist_ok=True)
         ET.register_namespace("", "http://ris.bka.gv.at/ogd/V2_6")
         meta_data_tree = ET.ElementTree(meta_data_root)
