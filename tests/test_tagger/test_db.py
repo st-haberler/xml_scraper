@@ -118,15 +118,15 @@ class TestDB_Collection:
         if not html_file.exists():
             raise FileNotFoundError(f"File {html_file} does not exist, check your test data files")
         test_db_path = Path.cwd() / "tests/test_tagger/test_data/"
-        test_db = doc_db2.DBCollection(test_db_path)
+        test_db = doc_db.DBCollection(test_db_path)
 
         # act
         test_db.add_html_decision(html_file)
 
         # assert
         try: 
-            assert (test_db.db_path / "vfgh/2022/JFT_20220223_21V00315_00.json").exists()
-            json_data = json.loads((test_db.db_path / "vfgh/2022/JFT_20220223_21V00315_00.json").read_text(encoding="utf-8"))
+            assert (test_db.db_path.db_path_judikatur / "vfgh/2022/JFT_20220223_21V00315_00.json").exists()
+            json_data = json.loads((test_db.db_path.db_path_judikatur / "vfgh/2022/JFT_20220223_21V00315_00.json").read_text(encoding="utf-8"))
             assert json_data["document_id"] == "JFT_20220223_21V00315_00"
             # check first paragraph of db entry 
             assert json_data["document_body"][0]["text"] == "Begründung"
@@ -137,6 +137,5 @@ class TestDB_Collection:
 
         # cleanup
         finally: 
-            (test_db.db_path / "vfgh/2022/JFT_20220223_21V00315_00.json").unlink()
-            (test_db.db_path / "vfgh/2022").rmdir()
-            (test_db.db_path / "vfgh").rmdir()
+            (test_db.db_path.db_path_judikatur / "vfgh/2022/JFT_20220223_21V00315_00.json").unlink()
+            (test_db.db_path.db_path_judikatur / "vfgh/2022").rmdir()

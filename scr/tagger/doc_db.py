@@ -14,11 +14,11 @@ class DBQuery:
     year: int
     annotation_version: int
 
-
+@dataclass
 class DBPath: 
-    db_path: str = Path.cwd() / "data"
-    db_path_bundesrecht: str = db_path / "bundesrecht"
-    db_path_judikatur: str = db_path / "judikatur"
+    db_path: Path = Path.cwd() / "data"
+    db_path_bundesrecht: Path = db_path / "bundesrecht"
+    db_path_judikatur: Path = db_path / "judikatur"
 
     def get_jsonfile_from_query(self, query:DBQuery) -> Path:
         # set all path constants for Bundesrecht, Judikatur etc
@@ -71,7 +71,7 @@ class DBCollection:
         if db_path is None:
             self.db_path = DBPath()
         else:
-            self.db_path = DBPath(db_path)
+            self.db_path = DBPath(db_path=db_path)
 
 
 
@@ -166,7 +166,7 @@ class DBCollection:
         new_document = DBDocument(document_id=document_id, document_body=document_body)
 
         # add the document to the database
-        new_file = self.db_path / source_type / str(year) / f"{document_id}.json"
+        new_file = self.db_path.db_path_judikatur / source_type / str(year) / f"{document_id}.json"
         new_file.parent.mkdir(parents=True, exist_ok=True)
         new_file.write_text(json.dumps(asdict(new_document), indent=4), encoding="utf-8")
 
