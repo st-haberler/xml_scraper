@@ -3,8 +3,11 @@ from flask import (Flask,
                    render_template, 
                    send_from_directory, 
                    request, 
-                   jsonify
+                   jsonify, 
+                   abort
 )
+
+import doc_db
 
 
 
@@ -25,18 +28,22 @@ def submit():
     return "Form submitted successfully!"
 
 
-# TODO: rewrite this function: parameters should be source_type, year, branch, doc_number
-@app.route('/get_doc/<string:source>/<int:index>', methods=['GET'])
-def get_doc(source:str, index:int): 
-    """
-    returns a document as token_frame (metadata + list of tokens + list of entities)
-    """
+@app.route("/get_token_frame", methods=["GET"])
+def get_token_frame(source_type:str, index:int, year:int=None): 
+    database = doc_db.DBCollection()
+    query = doc_db.DBQuery(
+        source_type=source_type,
+        index=index,
+        year=year,
+        annotation_version=1
+    )
+
+    if year is None: 
+        return "all good (judikatur)"
     
-    if index < 0 or index >= doc.get_doc_count(source):
-        abort(404, f"Index {index} is out of bounds for source {source}")
-    else:
-        doc_data = doc.get_doc_as_token_frame(source, index)
-        return jsonify(doc_data)
+    return "all good (bundesrecht)"
+
+
 
 
 @app.route('/static/<path:path>')
@@ -51,7 +58,10 @@ def index():
     return render_template("index.html")
 
 
-def run_server():
-    global doc
-    doc = "TEST"
+def run_server():  
     app.run(debug=True)
+
+
+
+if __name__ == "__main__":
+    run_server()
