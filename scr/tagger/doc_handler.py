@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 
 import spacy
 
@@ -20,10 +20,10 @@ class DocumentHandler:
     # TODO: move get_token_frame function into doc_db.BDocument class 
 
     def __init__(self) -> None:
-        database = doc_db.DBCollection()        
+        self.database = doc_db.DBCollection()        
         
     
-    def get_token_frame(self, query:doc_db.Query) -> TokenFrame:
+    def get_token_frame(self, query:doc_db.DBQuery) -> TokenFrame:
         """Returns a token frame from database for a given query."""
         nlp = spacy.load("de_core_news_sm")
 
@@ -38,14 +38,35 @@ class DocumentHandler:
             spacy_doc = nlp(annotated_paragraph.text)
             new_annotated_tokens = AnnotatedTokens(
                 tokenized_text=[token.text_with_ws for token in spacy_doc],
-                annotation=annotated_paragraph.annotations
+                annotations=annotated_paragraph.annotations
             )
             new_token_frame.body.append(new_annotated_tokens)
 
         return new_token_frame
-     
+
+
+    def get_token_frame_as_json(self, query:doc_db.DBQuery) -> dict:
+        """Returns a token frame from database for a given query as json."""
+        token_frame = self.get_token_frame(query)
+        return asdict(token_frame)
+    
+
+    def save_token_frame_to_db(self, token_frame:TokenFrame) -> None:
+        """Saves a token frame to the database (actually, it updates the
+        annotations of the document in the database)."""
+        self.database.
+        
+        pass
 
 if __name__ == "__main__":
-    # ----------- TEST CODE ----------------
-    pass
-    # ----------- END OF TEST CODE ---------
+    d = DocumentHandler()
+    q = doc_db.DBQuery(
+        source_type="PHG",
+        index=0,
+        annotation_version=1
+    )
+    t = d.get_token_frame(q)
+
+    for token in t.body[0].tokenized_text: print(token)
+    print("---------------------------------")
+    for token in t.body[2].tokenized_text: print(token)

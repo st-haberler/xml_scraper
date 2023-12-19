@@ -11,8 +11,8 @@ from utils import source_from_ecli, from_dict
 class DBQuery:
     source_type: str
     index: int
-    year: int
-    annotation_version: int
+    year: int = None
+    annotation_version: int = None
 
 @dataclass
 class DBPath: 
@@ -58,13 +58,28 @@ class DBDocument:
     document_body: list[AnnotatedParagraph]
 
     def get_all_annotations(self) -> list[Annotation]:
-        """Returns a list of all annotations in the document."""
+        """Returns a list of all annotations in the document.
+        Since the annotations are removed from their text, this return 
+        value is only useful to get an overview of all annotations in 
+        the project. 
+        """
         all_annotations = []
         for paragraph in self.document_body:
             for annotation in paragraph.annotations:
                 all_annotations.append(annotation)
         return all_annotations
     
+
+    def update_annotation(self, doc_index, new_annotations=list[list[Annotation]]) -> None:
+        """Overwrites old with new annotation."""
+        if self.document_id != doc_index:
+            raise ValueError("Document ID does not match, can't update Document annotation")
+        if len(new_annotations) != len(self.document_body):
+            raise ValueError("New data list does not match old list of annotated paragraphs")
+    
+        for new_para_annotations, old_para in zip(new_annotations, self.document_body):
+            old_para.annotations = new_para_annotations
+
 
 class DBCollection: 
     def __init__(self, db_path:Path=None) -> None:
@@ -79,18 +94,32 @@ class DBCollection:
         """Returns a DB_Document object including all annotations from the database."""
         json_file = self.db_path.get_jsonfile_from_query(query)
         json_data = json.loads(json_file.read_text(encoding="utf-8"))
-        return from_dict(json_data)
-            
+        return from_dict(DBDocument, json_data)
+    
+
+    def update_entry_annotation(self, query:DBQuery, new_annotations:list[list[Annotation]]) -> None:
+        """Overwrites old with new annotation."""
+        json_file = self.db_path.get_jsonfile_from_query(query)
+        json_data = json.loads(json_file.read_text(encoding="utf-8"))
+        db_document = from_dict(DBDocument, json_data)
+        try: 
+            db_document.update_annotation(query.index, new_annotations)
+            json_file.write_text(json.dumps(asdict(db_document), indent=4), encoding="utf-8")
+        except ValueError as e:
+            print(e)
+            # TODO raise another DBError exception for doc_handler to catch and notify frontend 
+            # user
+                
 
     def get_entry_from_file(self, json_file:Path) -> DBDocument:
         """Returns a DB_Document object including all annotations from the database."""
         json_data = json.loads(json_file.read_text(encoding="utf-8"))
         
-        return from_dict(json_data)
+        return from_dict(DBDocument, json_data)
 
 
     def add_html_bundesrecht(self, html_bundesrecht:Path):
-        # TODO: implement scraper first 
+        # TODO: move to new class html_parser/html_to_db 
         soup = bs(html_bundesrecht.read_text(), "html.parser")
 
         document_id = html_bundesrecht.stem
@@ -116,7 +145,9 @@ class DBCollection:
         new_file.write_text(json.dumps(asdict(new_document), indent=4), encoding="utf-8")
 
     
-    def add_html_decision(self, html_decision:Path):
+    def add_html_judikatur(self, html_decision:Path):
+        # TODO: move to new class html_parser/html_to_db 
+
         soup = bs(html_decision.read_text(encoding="utf-8"), "html.parser")
 
         # we presume that the file name is the technical document number as per RIS standard

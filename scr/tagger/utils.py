@@ -21,8 +21,6 @@ def from_dict(dataclass_type, data):
         field_name = field.name
         field_type = field.type
 
-        print(field_name, field_type)
-
         # Check if the field is a nested dataclass
         if is_dataclass(field_type):
             # Recursively call from_dict for nested dataclasses
@@ -39,7 +37,6 @@ def from_dict(dataclass_type, data):
             field_values[field_name] = list_instances
         else:
             # Use the value from the dictionary if present, or use the default value
-            print("else: field_name", field_name)
             field_values[field_name] = data.get(field_name)
 
     # Create an instance of the dataclass using dataclasses.replace

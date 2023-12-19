@@ -6,6 +6,35 @@ const START = 0
 const END = 1
 const TYPE = 2
 
+
+class DBQuery {
+    constructor(source_type, index, year, annotation_version) {
+        this.source_type = source_type; 
+        this.index = index; 
+        this.year = year;
+        this.annotation_version = annotation_version; 
+    }
+}
+
+
+class AnnotatedTokens {
+    constructor(tokenized_text, annotation) {
+        this.tokenized_text = tokenized_text;
+        this.annotation = annotation;
+    }
+}
+
+
+class TokenFrame {
+    constructor(meta_data, annotated_tokens_list) {
+        this.meta_data = meta_data;
+        this.body = annotated_tokens_list;
+    }
+
+}
+
+
+
 class Annotator {
     constructor() {
         this._source_type = "Gesetz"; 
@@ -18,11 +47,11 @@ class Annotator {
         this._preselectedTokens = []; // array of preselected tokens
         
         this._initStyle();
-        this._initNavigation();
+        // this._initNavigation();
 
-        this._docHandler = new Doc("eo", 0);
+        // this._docHandler = new Doc("eo", 0);
         // it works, but this cannot be right -- check later ... 
-        this._initLabels().then(this._fetchDoc("eo", 0).then(() => { this._displayText() }))
+        // this._initLabels().then(this._fetchDoc("eo", 0).then(() => { this._displayText() }))
         
     }
 

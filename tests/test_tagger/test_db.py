@@ -121,7 +121,7 @@ class TestDB_Collection:
         test_db = doc_db.DBCollection(test_db_path)
 
         # act
-        test_db.add_html_decision(html_file)
+        test_db.add_html_judikatur(html_file)
 
         # assert
         try: 
