@@ -8,6 +8,7 @@ from flask import (Flask,
 )
 
 import doc_db
+import doc_handler
 
 
 
@@ -30,19 +31,14 @@ def submit():
 
 @app.route("/get_token_frame", methods=["GET"])
 def get_token_frame(source_type:str, index:int, year:int=None): 
-    database = doc_db.DBCollection()
+    document = doc_handler.DocumentHandler()
     query = doc_db.DBQuery(
         source_type=source_type,
         index=index,
-        year=year,
-        annotation_version=1
+        year=year
     )
-
-    if year is None: 
-        return "all good (judikatur)"
-    
-    return "all good (bundesrecht)"
-
+    token_frame = document.get_token_frame_as_json(query)
+    return jsonify(token_frame)
 
 
 
