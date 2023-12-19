@@ -1,7 +1,7 @@
 "use strict";
 
 class Doc {
-  constructor(source = "eo", index = 0) {
+  constructor(source_type = "eo", index = 0) {
     // LATER: check if index and source is really needed at object level
     // probably only for caching...
     // this._currentIndex = index;
@@ -9,9 +9,9 @@ class Doc {
     // this._document = null;
   }
 
-  loadDoc(source, index) {
+  loadDoc(source_type, index, year) {
     return new Promise((resolve, reject) => {
-      fetch(`/get_doc/${source}/${index}`)
+      fetch(`/get_token_frame/${source_type}/${index}/${year}`)
         .then((response) => { return response.json(); })
         .then((document) => { resolve(document); })
         .catch((error) => { reject(error); });

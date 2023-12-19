@@ -63,9 +63,9 @@ class Annotator {
     }
 
 
-    async _fetchDoc(source, index) {
+    async _fetchDoc(source_type, index, year) {
         try {
-            let doc = await this._docHandler.loadDoc(source, index);
+            let doc = await this._docHandler.loadDoc(source_type, index, year);
             this._tokenized_text = doc["tokenized_text"];
             this._entities = doc["entities"];
             this._source_type = doc["meta"]["type"];
