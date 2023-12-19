@@ -2,15 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annotation Tool -- for full paragraphs</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <script type="module" src="{{url_for('static', filename='Annotator.js')}}" defer></script>       
+
 </head>
 <body>
     <div id="container">
-        <script type="module" src="{{url_for('static', filename='Annotator.js')}}"></script>       
         <h1>Annotation Tool</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/load_source">Load Source</a></li>
+                    <li><a href="/set_label">Label Set</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
         
-        <fieldset>
+        <!-- <fieldset>
             <legend>Choose Source for Tagging</legend>
             <form id="choose-form" action="/choose_source" method="post">
                 <ul>
@@ -29,21 +41,9 @@
                 
             </form>
            
-        </fieldset>
+        </fieldset> -->
 
-        <!---form action="/submit" method="post" autocapitalize="on" target="_blank">
-            <label for="numberInput">Enter Year:</label>
-            <input type="number" id="numberInput" name="numberInput" required placeholder="2023">
-            
-            <br>
-            
-            <label for="stringInput">Enter Branch (vfgh/vwgh/justiz):</label>
-            <input type="text" id="stringInput" name="stringInput" placeholder="zB.: vfgh" required placeholder="vfgh">
-            
-            <br>
-    
-            <input type="submit" value="Submit">
-        </form--->
+  
         
         <menu class="navigation" id="label-navigation">
             <li><span id="label-buttons"></span></li>
