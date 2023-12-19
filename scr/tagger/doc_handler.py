@@ -5,7 +5,7 @@ import spacy
 import doc_db
 
 @dataclass
-class AnnotatedTokens:
+class AnnotatedTokenParagraph:
     tokenized_text: list[str]
     annotations: list[doc_db.Annotation]
 
@@ -13,7 +13,7 @@ class AnnotatedTokens:
 @dataclass
 class TokenFrame(): 
     meta_data: doc_db.DBQuery
-    body: list[AnnotatedTokens]
+    body: list[AnnotatedTokenParagraph]
 
 
 class DocumentHandler: 
@@ -36,7 +36,7 @@ class DocumentHandler:
 
         for annotated_paragraph in db_document.document_body:
             spacy_doc = nlp(annotated_paragraph.text)
-            new_annotated_tokens = AnnotatedTokens(
+            new_annotated_tokens = AnnotatedTokenParagraph(
                 tokenized_text=[token.text_with_ws for token in spacy_doc],
                 annotations=annotated_paragraph.annotations
             )
@@ -54,10 +54,11 @@ class DocumentHandler:
     def save_token_frame_to_db(self, token_frame:TokenFrame) -> None:
         """Saves a token frame to the database (actually, it updates the
         annotations of the document in the database)."""
-        self.database.
+        new_annotations = [annotated_paragraphs.annotations for annotated_paragraphs in token_frame.body]
         
-        pass
-
+        self.database.update_entry_annotation(token_frame.meta_data, new_annotations)
+   
+   
 if __name__ == "__main__":
     d = DocumentHandler()
     q = doc_db.DBQuery(
