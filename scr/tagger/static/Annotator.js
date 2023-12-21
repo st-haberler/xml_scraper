@@ -13,6 +13,7 @@ class DBQuery {
         this.index = index; 
         this.year = year;
         this.annotation_version = annotation_version; 
+        this.doc_id = null;
     }
 }
 
@@ -62,6 +63,16 @@ class Annotator {
 
     }
 
+
+    async _fetchTF(query) {
+        try {
+            let token_frame = await this._docHandler.get_tf(query);
+            console.log(token_frame);
+        } catch (error) {
+            console.log("_fetchTF() request failed, we stay with the same doc");
+            // delete log message later - only for debugging
+        }
+    }
 
     async _fetchDoc(source_type, index, year) {
         try {
@@ -123,6 +134,12 @@ class Annotator {
             event.preventDefault();
             this._chooseDoc();
         }.bind(this);
+
+        this._getTF = document.getElementById("load_source").onclick = function() {
+            let query = new DBQuery("PHG", 0, null, null);
+            this._fetchTF(query);
+
+        }
 
         
     }

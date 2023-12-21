@@ -1,5 +1,6 @@
 
 from flask import (Flask,
+                   request, 
                    render_template, 
                    send_from_directory, 
                    request, 
@@ -29,15 +30,21 @@ def submit():
     return "Form submitted successfully!"
 
 
-@app.route("/get_token_frame", methods=["GET"])
-def get_token_frame(source_type:str, index:int, year:int=None): 
-    document = doc_handler.DocumentHandler()
+@app.route("/get_token_frame", methods=["POST"])
+def get_token_frame(): 
+    query_dict = request.get_json()
     query = doc_db.DBQuery(
-        source_type=source_type,
-        index=index,
-        year=year
+        source_type=query_dict.get("source_type"),
+        index=query_dict.get("index"),
+        year=query_dict.get("year"),
+        annotation_version=query_dict.get("annotation_version"),
+        doc_id=query_dict.get("doc_id")
     )
+    
+    document = doc_handler.DocumentHandler()
+    
     token_frame = document.get_token_frame_as_json(query)
+    print("success on server side")
     return jsonify(token_frame)
 
 
