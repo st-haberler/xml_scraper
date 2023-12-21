@@ -240,8 +240,8 @@ class DBCollection:
                
 
 if __name__ == "__main__": 
-    html = Path.cwd() / "data/bundesrecht/PHG/html/NOR12034518.html"
     db = DBCollection()
-    db.add_html_bundesrecht(html)
+    for html_file in (Path.cwd() / "data/judikatur/vfgh/html_2023").glob("*.html"):
+        db.add_html_judikatur(html_file)
 
 
