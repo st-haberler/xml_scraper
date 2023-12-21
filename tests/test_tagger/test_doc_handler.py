@@ -23,6 +23,39 @@ def query_fixture():
         )
     return query
 
+
+@pytest.fixture
+def token_frame_fixture():
+    token_frame = doc_handler.TokenFrame(
+        meta_data=doc_db.DBQuery(
+            source_type="PHG",
+            index=0
+        ),
+        body=[
+            doc_handler.AnnotatedTokenParagraph(
+                tokenized_text=["Haftung"],
+                annotations=[doc_db.Annotation(start=0, end=1, label="TEST", version=0)]
+            ),
+            doc_handler.AnnotatedTokenParagraph(
+                tokenized_text=["XXX"],
+                annotations=[]
+            ),
+            doc_handler.AnnotatedTokenParagraph(
+                tokenized_text=["XXX"],
+                annotations=[]
+            ),
+            doc_handler.AnnotatedTokenParagraph(
+                tokenized_text=["XXX"],
+                annotations=[]
+            ),
+            doc_handler.AnnotatedTokenParagraph(
+                tokenized_text=["XXX"],
+                annotations=[]
+            )
+        ]
+    )
+    return token_frame
+
 class TestDocHandler:
 
     def test_get_token_frame(self, collection_fixture, query_fixture):
@@ -39,5 +72,24 @@ class TestDocHandler:
         assert actual_token_frame.body[0].tokenized_text == ["Haftung"]
         assert actual_token_frame.body[0].annotations == []
 
-    def test_save_tf_to_db
+    pytest.mark.skip(reason="not ready yet")
+    def test_save_tf_to_db(self, collection_fixture, query_fixture, token_frame_fixture): 
+        temp_file = Path.cwd() / "tests/test_tagger/test_data/PHG/json/NOR12034518.json"
+        temp_data = temp_file.read_text(encoding="utf-8")
+        
+        sut = doc_handler.DocumentHandler(collection_fixture)
+
+        try: 
+            sut.save_token_frame_to_db(token_frame_fixture)
+            
+            actual_db_data = sut.database.get_entry_from_query(query_fixture)
+            assert actual_db_data.document_body[0].annotations[0].start == 0
+            assert actual_db_data.document_body[0].annotations[0].end == 1
+            assert actual_db_data.document_body[0].annotations[0].label == "TEST"
+            assert actual_db_data.document_body[0].annotations[0].version == 0
+
+        finally:
+            temp_file.write_text(temp_data, encoding="utf-8")
+
+
 
