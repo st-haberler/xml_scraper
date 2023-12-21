@@ -13,6 +13,8 @@ class DBQuery:
     index: int
     year: int = None
     annotation_version: int = None
+    doc_id: int = None
+    
 
 @dataclass
 class DBPath: 
@@ -22,15 +24,19 @@ class DBPath:
 
     def get_jsonfile_from_query(self, query:DBQuery) -> Path:
         # set all path constants for Bundesrecht, Judikatur etc
+  
         if query.year:
             file_path = self.db_path_judikatur / query.source_type / str(query.year) / "json" 
         else:
             file_path = self.db_path_bundesrecht / query.source_type / "json"
 
-        for file_index, json_file in enumerate(file_path.glob("*.json")):
-            if file_index == query.index: 
-                return json_file
-        raise ValueError("Query index out of range or otherwise invalid index")
+        if query.doc_id:	
+            return file_path / f"{query.doc_id}.json"
+        else: 
+            for file_index, json_file in enumerate(file_path.glob("*.json")):
+                if file_index == query.index: 
+                    return json_file
+            raise ValueError("Query index out of range or otherwise invalid index")
 
 
     def get_jsonfile(self, source_type:str, document_id:str) -> Path:
@@ -70,9 +76,9 @@ class DBDocument:
         return all_annotations
     
 
-    def update_annotation(self, doc_index, new_annotations=list[list[Annotation]]) -> None:
+    def update_annotation(self, query, new_annotations=list[list[Annotation]]) -> None:
         """Overwrites old with new annotation."""
-        if self.document_id != doc_index:
+        if self.document_id != query.doc_id:
             raise ValueError("Document ID does not match, can't update Document annotation")
         if len(new_annotations) != len(self.document_body):
             raise ValueError("New data list does not match old list of annotated paragraphs")
@@ -103,7 +109,7 @@ class DBCollection:
         json_data = json.loads(json_file.read_text(encoding="utf-8"))
         db_document = from_dict(DBDocument, json_data)
         try: 
-            db_document.update_annotation(query.index, new_annotations)
+            db_document.update_annotation(query, new_annotations)
             json_file.write_text(json.dumps(asdict(db_document), indent=4), encoding="utf-8")
         except ValueError as e:
             print(e)

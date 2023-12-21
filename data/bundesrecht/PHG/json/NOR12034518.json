@@ -3,7 +3,14 @@
     "document_body": [
         {
             "text": "Haftung",
-            "annotations": []
+            "annotations": [
+                {
+                    "start": 0,
+                    "end": 1,
+                    "label": "TEST",
+                    "version": 0
+                }
+            ]
         },
         {
             "text": "",

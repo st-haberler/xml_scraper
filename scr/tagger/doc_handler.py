@@ -31,6 +31,8 @@ class DocumentHandler:
         nlp = spacy.load("de_core_news_sm")
 
         db_document = self.database.get_entry_from_query(query)
+        if query.doc_id is None: 
+            query.doc_id = db_document.document_id
 
         new_token_frame = TokenFrame(
             meta_data=query,

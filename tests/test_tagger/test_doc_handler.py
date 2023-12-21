@@ -29,7 +29,8 @@ def token_frame_fixture():
     token_frame = doc_handler.TokenFrame(
         meta_data=doc_db.DBQuery(
             source_type="PHG",
-            index=0
+            index=0, 
+            doc_id = "NOR12034518"
         ),
         body=[
             doc_handler.AnnotatedTokenParagraph(
@@ -72,7 +73,7 @@ class TestDocHandler:
         assert actual_token_frame.body[0].tokenized_text == ["Haftung"]
         assert actual_token_frame.body[0].annotations == []
 
-    pytest.mark.skip(reason="not ready yet")
+    # pytest.mark.skip(reason="not ready yet")
     def test_save_tf_to_db(self, collection_fixture, query_fixture, token_frame_fixture): 
         temp_file = Path.cwd() / "tests/test_tagger/test_data/PHG/json/NOR12034518.json"
         temp_data = temp_file.read_text(encoding="utf-8")
