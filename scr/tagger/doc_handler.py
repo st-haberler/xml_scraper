@@ -19,8 +19,11 @@ class TokenFrame():
 class DocumentHandler: 
     # TODO: move get_token_frame function into doc_db.BDocument class 
 
-    def __init__(self) -> None:
-        self.database = doc_db.DBCollection()        
+    def __init__(self, collection:doc_db.DBCollection=None) -> None:
+        if collection is None:
+            self.database = doc_db.DBCollection()
+        else:
+            self.database = collection       
         
     
     def get_token_frame(self, query:doc_db.DBQuery) -> TokenFrame:
