@@ -1,5 +1,22 @@
 "use strict";
 
+const dbInterface = {
+  getTF(query) {
+    return new Promise((resolve, reject) => {
+      fetch("/get_token_frame", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(query),
+      })
+        .then((response) => response.json()) // Assuming the response is in JSON format
+        .then((token_frame) => resolve(token_frame))
+        .catch((error) => reject(error));
+    });
+  }
+}
+
 class Doc {
   constructor(source_type = "eo", index = 0) {
     // LATER: check if index and source is really needed at object level
@@ -60,3 +77,4 @@ class Doc {
 }
 
 export { Doc };
+export { dbInterface };

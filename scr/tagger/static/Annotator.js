@@ -1,6 +1,7 @@
 "uses strict"
 
-import {Doc} from "./DocHandler.js";
+import { Doc } from "./DocHandler.js";
+import { dbInterface } from "./DocHandler.js";
 
 const START = 0
 const END = 1
@@ -48,7 +49,7 @@ class Annotator {
         this._preselectedTokens = []; // array of preselected tokens
         
         this._initStyle();
-        // this._initNavigation();
+        this._initNavigation();
 
         // this._docHandler = new Doc("eo", 0);
         // it works, but this cannot be right -- check later ... 
@@ -66,7 +67,7 @@ class Annotator {
 
     async _fetchTF(query) {
         try {
-            let token_frame = await this._docHandler.get_tf(query);
+            let token_frame = await dbInterface.getTF(query);
             console.log(token_frame);
         } catch (error) {
             console.log("_fetchTF() request failed, we stay with the same doc");
@@ -129,17 +130,16 @@ class Annotator {
             if (event.key === "ArrowLeft") { document.getElementById("prev").click(); };
         });
 
-        this._chooseForm = document.getElementById("choose-form");
-        this._chooseForm.onsubmit = function(event) {
-            event.preventDefault();
-            this._chooseDoc();
-        }.bind(this);
+        // this._chooseForm = document.getElementById("choose-form");
+        // this._chooseForm.onsubmit = function(event) {
+        //     event.preventDefault();
+        //     this._chooseDoc();
+        // }.bind(this);
 
-        this._getTF = document.getElementById("load_source").onclick = function() {
+        document.getElementById("get_tf").onclick = function() {
             let query = new DBQuery("PHG", 0, null, null);
             this._fetchTF(query);
-
-        }
+        }.bind(this);
 
         
     }
