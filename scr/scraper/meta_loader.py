@@ -297,6 +297,6 @@ class MetaLoader:
 
 if __name__ == "__main__":
     interface = MetaInterface()
-    interface.retrieve_meta_bundesrecht(source_type="PHG", gesetzesnummer="10002864", save_meta=True)
+    interface.retrieve_meta_bundesrecht(source_type="B-VG", gesetzesnummer="10000138", save_meta=True)
     
 
