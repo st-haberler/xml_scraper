@@ -65,21 +65,24 @@ class Annotation(Base):
 
 
 if __name__ == "__main__":
-    engine = create_engine("sqlite:///test.db", echo=True)
-    # Base.metadata.create_all(engine)
+    engine = create_engine("sqlite:///test.db", echo=False)
+    Base.metadata.create_all(engine)
 
     meta_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
     tree = ET.parse(meta_file)
     root = tree.getroot()
     xml_docs = root.findall(".//ogd:OgdDocumentReference", namespaces=NAMESPACE)
 
-    new_documents = []
+
     judikatur_source = SourceType(name="judikatur")
 
     for xml_doc in xml_docs: 
         tech_id = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Technisch/ogd:ID", namespaces=NAMESPACE).text
         applikation = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Technisch/ogd:Applikation", namespaces=NAMESPACE).text
-        gericht = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Judikatur/ogd:Justiz/ogd:Gericht", namespaces=NAMESPACE).text
+        if xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Judikatur/ogd:Justiz/ogd:Gericht", namespaces=NAMESPACE) is not None: 
+            gericht = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Judikatur/ogd:Justiz/ogd:Gericht", namespaces=NAMESPACE).text
+        else: 
+            print(f"No gericht found: {tech_id = }\n{applikation = }")
         geschaeftszahl = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Judikatur/ogd:Geschaeftszahl/ogd:item", namespaces=NAMESPACE).text
         entscheidungsdatum = xml_doc.find("ogd:Data/ogd:Metadaten/ogd:Judikatur/ogd:Entscheidungsdatum", namespaces=NAMESPACE).text
         kurztitel = None
@@ -87,6 +90,26 @@ if __name__ == "__main__":
         gesetzesnummer = None
         artikelnummer = None
         paragraphennummer = None
-        print(f"{tech_id = }\n{applikation = }\n{gericht = }\n{geschaeftszahl = }\n{entscheidungsdatum = }\n{kurztitel = }\n{langtitel = }\n{gesetzesnummer = }\n{artikelnummer = }\n{paragraphennummer = }\n")
-        break
+        # print(f"{tech_id = }\n{applikation = }\n{gericht = }\n{geschaeftszahl = }\n{entscheidungsdatum = }\n{kurztitel = }\n{langtitel = }\n{gesetzesnummer = }\n{artikelnummer = }\n{paragraphennummer = }\n")
+        # break
+        new_document = Document(
+            tech_id=tech_id,
+            applikation=applikation,
+            gericht=gericht,
+            geschaeftszahl=geschaeftszahl,
+            entscheidungsdatum=entscheidungsdatum,
+            kurztitel=kurztitel,
+            langtitel=langtitel,
+            gesetzesnummer=gesetzesnummer,
+            artikelnummer=artikelnummer,
+            paragraphennummer=paragraphennummer,
+            source_type=judikatur_source
+        )
+        with Session(engine) as session: 
+            session.add(new_document)
+            session.commit()
+            session.expire(new_document)
+            # print(new_document.id)
+            # break
+       
 
