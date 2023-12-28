@@ -23,7 +23,7 @@ class SourceType(Base):
 class Document(Base): 
     __tablename__ = "document"
     id: Mapped[int] = mapped_column(primary_key=True)
-    tech_id: Mapped[str] = mapped_column()
+    tech_id: Mapped[str] = mapped_column(unique=True)
     source_type_id: Mapped[int] = mapped_column("source_type_id", ForeignKey("source_type.id"))
     applikation: Mapped[str] = mapped_column(nullable=True)
     gericht: Mapped[str] = mapped_column(nullable=True)
@@ -34,6 +34,7 @@ class Document(Base):
     gesetzesnummer: Mapped[int] = mapped_column(nullable=True)
     artikelnummer: Mapped[int] = mapped_column(nullable=True)
     paragraphennummer: Mapped[int] = mapped_column(nullable=True)
+    ris_link: Mapped[str] 
 
     source_type: Mapped["SourceType"] = relationship(back_populates="sources")
     paragraphs: Mapped[List["Paragraph"]] = relationship(back_populates="document")
@@ -72,7 +73,7 @@ if __name__ == "__main__":
     tree = ET.parse(meta_file)
     root = tree.getroot()
     xml_docs = root.findall(".//ogd:OgdDocumentReference", namespaces=NAMESPACE)
-
+    
 
     judikatur_source = SourceType(name="judikatur")
 
