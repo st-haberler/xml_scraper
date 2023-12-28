@@ -1,10 +1,14 @@
 import logging
 from pathlib import Path
+import requests
+from typing import List
 import xml.etree.ElementTree as ET
+
+from bs4 import BeautifulSoup as bs
 
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
-from sqlalchemy.exc import IntegrityError	
+from sqlalchemy.exc import IntegrityError, InvalidRequestError, OperationalError, ProgrammingError
 
 import models
 
@@ -143,11 +147,59 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
     print(f"{counter = }")
 
 
+def html_splitter_judikatur(html_decision:str) -> List[str]:
+        soup = bs(html_decision, "html.parser")
+
+        # find the decision body: 
+        # <body><div><div><h1>Begründung</h1><p>...</p><p>...</p>...
+        paragraph_text_list = []
+        for div in soup.body.div.find_all("div"): 
+            # check if h1 tag exists and if it contains "Begründung"
+            if div.h1 and (("Begründung" in div.h1.text)
+                        or ("Text" in div.h1.text)
+                        or ("Rechtliche Beurteilung" in div.h1.text)): 
+                for para in div.find_all("p"):  
+                    # remove tags that are not meant for written text 
+                    for sr in para.find_all("span", class_="sr-only"): 
+                        sr.decompose()
+                    paragraph_text_list.append(para.text)
+
+        return paragraph_text_list
+
+
+def html_splitter_bundesrecht(html_decision:str) -> List[str]:
+    pass 
+
+
 def populate_from_html(session: Session) -> None:
     stmt = select(models.Document).where(models.Document.paragraphs == None)
     documents = session.scalars(stmt)
 
-    print(len(list(documents)))
+    for index, document in enumerate(documents): 
+        if index % 100 == 0: 
+            logging.info(f"Processing document {index}")
+
+        # TODO add try except block for requests.get and add timeout
+        html = requests.get(document.ris_link).text
+        match document.applikation: 
+            case "Justiz": new_paragraphs = html_splitter_judikatur(html)
+            case "Vwgh": new_paragraphs = html_splitter_judikatur(html)
+            case "Vfgh": new_paragraphs = html_splitter_judikatur(html)
+            case "BrKons": new_paragraphs = html_splitter_bundesrecht(html)
+
+        # TODO add and apply filter for irregular whitespace characters
+
+        for para_index, new_paragraph in enumerate(new_paragraphs): 
+            new_db_paragraph = models.Paragraph(text=new_paragraph, document=document, index=para_index)
+            session.add(new_db_paragraph)
+            logging.info(f"Added paragraph {para_index} to document {document.id}")
+        try: 
+            session.commit()
+        except (IntegrityError, InvalidRequestError, OperationalError, ProgrammingError) as e: 
+            session.rollback()
+            session.expunge_all()
+            logging.info(f"Paragraphs of {document.tech_id = } not added to database")
+
 
 
 if __name__ == "__main__":
