@@ -1,5 +1,6 @@
 import logging
 from pathlib import Path
+import re
 import requests
 from typing import List
 import xml.etree.ElementTree as ET
@@ -167,27 +168,59 @@ def html_splitter_judikatur(html_decision:str) -> List[str]:
         return paragraph_text_list
 
 
-def html_splitter_bundesrecht(html_decision:str) -> List[str]:
-    pass 
+def html_splitter_bundesrecht(html_bundesrecht:str) -> List[str]:
+    soup = bs(html_bundesrecht, "html.parser")
+
+    paragraph_text_list = []
+    for div in soup.body.find_all("div"):
+        if div.h1 and ("Text" in div.h1.text):  
+            for para in div.find_all(["p", "ol", "ul"]):  
+                # remove tags that are not meant for written text 
+                for sr in para.find_all("span", class_="sr-only"): 
+                    sr.decompose()
+                paragraph_text_list.append(para.text)
+
+    return paragraph_text_list
+
+
+def augment_text(text:str) -> str: 
+    return re.sub(r"\xa0+", " ", text)
 
 
 def populate_from_html(session: Session) -> None:
-    stmt = select(models.Document).where(models.Document.paragraphs == None)
+    # stmt = select(models.Document).where(models.Document.paragraphs == None)
+    # select statement for all rows in documents that are not referenced by any paragraph
+    stmt = select(models.Document).where(~models.Document.paragraphs.any())
+
+
     documents = session.scalars(stmt)
+    print(f"{len(list(documents)) = }")
+    timeout_counter = 0
 
     for index, document in enumerate(documents): 
         if index % 100 == 0: 
             logging.info(f"Processing document {index}")
 
-        # TODO add try except block for requests.get and add timeout
-        html = requests.get(document.ris_link).text
+        # TODO move loading of html to separate function; Not trivial because retries continue the loop
+        try: 
+            html = requests.get(document.ris_link, timeout=10).text
+        except requests.exceptions.Timeout:
+            timeout_counter += 1
+            if timeout_counter > 5: 
+                logging.info(f"Timeout counter exceeded, stopping")
+                break
+            continue
+        except requests.exceptions.RequestException as e: 
+            logging.info(f"Error {e} while requesting {document.ris_link = }")
+            continue
+
         match document.applikation: 
             case "Justiz": new_paragraphs = html_splitter_judikatur(html)
             case "Vwgh": new_paragraphs = html_splitter_judikatur(html)
             case "Vfgh": new_paragraphs = html_splitter_judikatur(html)
             case "BrKons": new_paragraphs = html_splitter_bundesrecht(html)
 
-        # TODO add and apply filter for irregular whitespace characters
+        new_paragraphs = [augment_text(para) for para in new_paragraphs]
 
         for para_index, new_paragraph in enumerate(new_paragraphs): 
             new_db_paragraph = models.Paragraph(text=new_paragraph, document=document, index=para_index)
@@ -208,6 +241,7 @@ if __name__ == "__main__":
     xml_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
 
     with Session(engine) as session:
+        populate_from_xml_collection(session)
         populate_from_html(session)
 
 
