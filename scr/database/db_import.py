@@ -204,6 +204,7 @@ def populate_from_html(session: Session) -> None:
         # TODO move loading of html to separate function; Not trivial because retries continue the loop
         try: 
             html = requests.get(document.ris_link, timeout=10).text
+            logging.info(f"Requesting {document.ris_link = }")
         except requests.exceptions.Timeout:
             timeout_counter += 1
             if timeout_counter > 5: 
@@ -213,6 +214,8 @@ def populate_from_html(session: Session) -> None:
         except requests.exceptions.RequestException as e: 
             logging.info(f"Error {e} while requesting {document.ris_link = }")
             continue
+
+        logging.info(f"Splitting html of {document.ris_link = }")
 
         match document.applikation: 
             case "Justiz": new_paragraphs = html_splitter_judikatur(html)
@@ -241,7 +244,7 @@ if __name__ == "__main__":
     xml_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
 
     with Session(engine) as session:
-        populate_from_xml_collection(xml_file, session)
+        # populate_from_xml_collection(xml_file, session)
         populate_from_html(session)
 
 
