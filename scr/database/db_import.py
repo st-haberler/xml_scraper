@@ -241,7 +241,7 @@ if __name__ == "__main__":
     xml_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
 
     with Session(engine) as session:
-        populate_from_xml_collection(session)
+        populate_from_xml_collection(xml_file, session)
         populate_from_html(session)
 
 
