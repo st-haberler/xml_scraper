@@ -188,23 +188,17 @@ def augment_text(text:str) -> str:
 
 
 def populate_from_html(session: Session) -> None:
-    # stmt = select(models.Document).where(models.Document.paragraphs == None)
     # select statement for all rows in documents that are not referenced by any paragraph
-    stmt = select(models.Document).where(~models.Document.paragraphs.any())
-
-
+    stmt = select(models.Document).where(models.Document.paragraphs == None)
     documents = session.scalars(stmt)
-    print(f"{len(list(documents)) = }")
+   
     timeout_counter = 0
 
-    for index, document in enumerate(documents): 
-        if index % 100 == 0: 
-            logging.info(f"Processing document {index}")
-
-        # TODO move loading of html to separate function; Not trivial because retries continue the loop
+    for document in documents: 
+        # TODO move loading of html to separate function; Not trivial because timeouts continue the loop
         try: 
-            html = requests.get(document.ris_link, timeout=10).text
             logging.info(f"Requesting {document.ris_link = }")
+            html = requests.get(document.ris_link, timeout=10).text
         except requests.exceptions.Timeout:
             timeout_counter += 1
             if timeout_counter > 5: 
@@ -246,5 +240,7 @@ if __name__ == "__main__":
     with Session(engine) as session:
         # populate_from_xml_collection(xml_file, session)
         populate_from_html(session)
+
+   
 
 

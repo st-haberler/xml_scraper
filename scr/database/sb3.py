@@ -6,8 +6,7 @@ c = conn.cursor()
 
 
 
-c.execute("SELECT COUNT(*) FROM paragraphs;")
-print(c.fetchall())
+
 c.execute("SELECT text FROM paragraphs JOIN documents ON paragraphs.document_id = documents.id WHERE documents.id = 3;")
 # for p in c.fetchall():
 #     print(p, "\n------------------\n")
@@ -30,4 +29,10 @@ c.execute("""SELECT COUNT(geschaeftszahl)
           FROM documents 
           WHERE documents.id NOT IN (SELECT document_id FROM paragraphs);""")
 
-print(c.fetchall())
+print("not referenced:", c.fetchall())
+
+# find all documents 
+c.execute("""SELECT COUNT(*)
+          FROM documents;""")
+
+print("all documents:", c.fetchall())
