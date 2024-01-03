@@ -29,10 +29,10 @@ c.execute("""SELECT COUNT(geschaeftszahl)
           FROM documents 
           WHERE documents.id NOT IN (SELECT document_id FROM paragraphs);""")
 
-print("not referenced:", c.fetchall())
+print("not referenced:", c.fetchone())
 
 # find all documents 
 c.execute("""SELECT COUNT(*)
           FROM documents;""")
 
-print("all documents:", c.fetchall())
+print("all documents:", c.fetchone())

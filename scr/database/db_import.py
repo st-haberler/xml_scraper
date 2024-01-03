@@ -17,7 +17,7 @@ import models
 NAMESPACE = {"ogd": "http://ris.bka.gv.at/ogd/V2_6"}
 
 
-def init_logging() -> None:
+def _init_logging() -> None:
     logging.basicConfig(level=logging.INFO)
 
 
@@ -148,7 +148,7 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
     print(f"{counter = }")
 
 
-def html_splitter_judikatur(html_decision:str) -> List[str]:
+def _html_splitter_judikatur(html_decision:str) -> List[str]:
         soup = bs(html_decision, "html.parser")
 
         # find the decision body: 
@@ -168,7 +168,7 @@ def html_splitter_judikatur(html_decision:str) -> List[str]:
         return paragraph_text_list
 
 
-def html_splitter_bundesrecht(html_bundesrecht:str) -> List[str]:
+def _html_splitter_bundesrecht(html_bundesrecht:str) -> List[str]:
     soup = bs(html_bundesrecht, "html.parser")
 
     paragraph_text_list = []
@@ -183,7 +183,7 @@ def html_splitter_bundesrecht(html_bundesrecht:str) -> List[str]:
     return paragraph_text_list
 
 
-def augment_text(text:str) -> str: 
+def _augment_text(text:str) -> str: 
     return re.sub(r"\xa0+", " ", text)
 
 
@@ -212,12 +212,12 @@ def populate_from_html(session: Session) -> None:
         logging.info(f"Splitting html of {document.ris_link = }")
 
         match document.applikation: 
-            case "Justiz": new_paragraphs = html_splitter_judikatur(html)
-            case "Vwgh": new_paragraphs = html_splitter_judikatur(html)
-            case "Vfgh": new_paragraphs = html_splitter_judikatur(html)
-            case "BrKons": new_paragraphs = html_splitter_bundesrecht(html)
+            case "Justiz": new_paragraphs = _html_splitter_judikatur(html)
+            case "Vwgh": new_paragraphs = _html_splitter_judikatur(html)
+            case "Vfgh": new_paragraphs = _html_splitter_judikatur(html)
+            case "BrKons": new_paragraphs = _html_splitter_bundesrecht(html)
 
-        new_paragraphs = [augment_text(para) for para in new_paragraphs]
+        new_paragraphs = [_augment_text(para) for para in new_paragraphs]
 
         for para_index, new_paragraph in enumerate(new_paragraphs): 
             new_db_paragraph = models.Paragraph(text=new_paragraph, document=document, index=para_index)
@@ -232,14 +232,20 @@ def populate_from_html(session: Session) -> None:
 
 
 
+
+
 if __name__ == "__main__":
-    init_logging()
-    engine = create_engine("sqlite:///test.db", echo=False)
+    _init_logging()
+    engine = create_engine("sqlite:///:memory:", echo=False)
+    models.Base.metadata.create_all(engine)
     xml_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
 
+
     with Session(engine) as session:
-        # populate_from_xml_collection(xml_file, session)
-        populate_from_html(session)
+        populate_from_xml_collection(xml_file, session)
+        # populate_from_html(session)
+        pass
+
 
    
 
