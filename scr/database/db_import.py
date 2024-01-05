@@ -236,14 +236,14 @@ def populate_from_html(session: Session) -> None:
 
 if __name__ == "__main__":
     _init_logging()
-    engine = create_engine("sqlite:///:memory:", echo=False)
+    engine = create_engine("sqlite:///test.db", echo=False)
     models.Base.metadata.create_all(engine)
-    xml_file = Path.cwd() / r"data\judikatur\justiz\justiz_meta_collection_all_2023.xml"
+    xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
 
 
     with Session(engine) as session:
         populate_from_xml_collection(xml_file, session)
-        # populate_from_html(session)
+        populate_from_html(session)
         pass
 
 
