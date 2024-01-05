@@ -40,6 +40,7 @@ class TokenFrame:
     annotations: List[Annotation]
 
 
+
     # standard entry point for creating a TokenFrame
     @classmethod
     def create_token_frame(cls, tech_id:str, doc_paragraph_id:int) -> "TokenFrame":
@@ -54,9 +55,40 @@ class TokenFrame:
             if doc_paragraph_id >= len(db_document.paragraphs): 
                 raise ValueError(f"Document with tech_id {tech_id} has no paragraph with id {doc_paragraph_id}")
             
-            print(len(db_document.paragraphs))
-            print(db_document.kurztitel, "§ ", db_document.paragraphennummer)
+           
             print(db_document.paragraphs[doc_paragraph_id].text)
+            print(db_document.paragraphs[doc_paragraph_id].id)
+            print(db_document.paragraphs[doc_paragraph_id].index)
 
+
+            nlp = spacy.load("de_core_news_sm")
+            spacy_document = nlp(db_document.paragraphs[doc_paragraph_id].text)
+            tokenized_text = [token.text_with_ws for token in spacy_document]
+
+            annotations = db_document.paragraphs[doc_paragraph_id].annotations
+
+            return cls(
+                tech_id=db_document.tech_id,
+                doc_paragraph_id=doc_paragraph_id,
+                applikation=db_document.applikation,
+                gericht=db_document.gericht,
+                geschaeftszahl=db_document.geschaeftszahl,
+                entscheidungsdatum=db_document.entscheidungsdatum,
+                kurztitel=db_document.kurztitel,
+                langtitel=db_document.langtitel,
+                gesetzesnummer=db_document.gesetzesnummer,
+                artikelnummer=db_document.artikelnummer,
+                paragraphennummer=db_document.paragraphennummer,
+                tokenized_text=tokenized_text,
+                annotations=annotations
+            )
+            
+
+            
+
+            
+            
 if __name__ == "__main__":
-    TokenFrame.create_token_frame("NOR12034529", 0)
+    t = TokenFrame.create_token_frame("NOR40045767", 0)
+    print(t.langtitel)
+    

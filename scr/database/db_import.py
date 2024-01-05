@@ -178,6 +178,9 @@ def _html_splitter_bundesrecht(html_bundesrecht:str) -> List[str]:
                 # remove tags that are not meant for written text 
                 for sr in para.find_all("span", class_="sr-only"): 
                     sr.decompose()
+                # add whitespace after Absatzzahl to separate it from the following text
+                for span in para.find_all("span", class_="Absatzzahl"): 
+                    span.string = span.text + " "
                 paragraph_text_list.append(para.text)
 
     return paragraph_text_list
@@ -237,14 +240,14 @@ def populate_from_html(session: Session) -> None:
 if __name__ == "__main__":
     _init_logging()
     engine = create_engine("sqlite:///test.db", echo=False)
-    models.Base.metadata.create_all(engine)
-    xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
+    # models.Base.metadata.create_all(engine)
+    xml_file = Path.cwd() / r"data\judikatur\vfgh\meta_data\vfgh_meta_collection_all_2021.xml"
 
 
     with Session(engine) as session:
         populate_from_xml_collection(xml_file, session)
-        populate_from_html(session)
-        pass
+        # populate_from_html(session)
+
 
 
    
