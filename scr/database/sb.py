@@ -19,7 +19,7 @@ def get_all_Gesetze() -> List[models.Document]:
 
 def get_all_judikatur() -> List[models.Document]:
     with Session(engine) as session:
-        q = select(models.Document).where(models.Document.applikation == "Vfgh").group_by(models.Document.gericht)
+        q = select(models.Document).where(models.Document.applikation != "BrKons").group_by(models.Document.gericht)
         result = session.scalars(q).all()
         return result
 
@@ -31,9 +31,9 @@ def get_all_applikations() -> List[models.Document]:
         return result
 
 
-def get_all_annotion_labels() -> List[models.Annotation]:
+def get_all_annotion_labels(version:int) -> List[models.Annotation]:
     with Session(engine) as session:
-        q = select(models.Annotation).group_by(models.Annotation.label)
+        q = select(models.Annotation).where(models.Annotation.version == version).group_by(models.Annotation.label)
         result = session.scalars(q).all()
         return result
 
@@ -53,9 +53,16 @@ def update_para_text(tech_id:str, paragraph_index:int, new_text:str):
         session.commit()
 
 
-print(models.Document.query.all())
+print(get_all_annotion_labels(0))
 
+r = get_all_applikations()
+for d in r:
+    print(f"{d.applikation = }")
 
+r = get_all_judikatur()
+
+for d in r:
+    print(f"{d.gericht = }")
 
 
       

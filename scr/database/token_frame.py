@@ -78,7 +78,7 @@ class TokenFrame:
                 langtitel=db_document.langtitel,
                 gesetzesnummer=db_document.gesetzesnummer,
                 artikelnummer=db_document.artikelnummer,
-                paragraphennummer=db_document.paragraphennummer,
+                paragraphennummer=db_document.paragraphnummer,
                 tokenized_text=tokenized_text,
                 annotations=annotations
             )
@@ -89,6 +89,6 @@ class TokenFrame:
             
             
 if __name__ == "__main__":
-    t = TokenFrame.create_token_frame("NOR40045767", 0)
-    print(t.langtitel)
+    t = TokenFrame.create_token_frame("NOR12036589", 0)
+    print(t.kurztitel)
     

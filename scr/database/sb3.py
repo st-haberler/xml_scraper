@@ -1,38 +1,34 @@
-import sqlite3
+from sqlalchemy import create_engine, select
+from sqlalchemy.orm import Session
 
-conn = sqlite3.connect('test.db')
-
-c = conn.cursor()
-
+import models
 
 
+engine = create_engine("sqlite:///test.db", echo=False)
+with Session(engine) as session: 
+    q = select(models.Document).where(models.Document.applikation == "VfGH")
+    db_documents = session.scalars(q).all()
+    
+    for d in db_documents[:1]: 
+        print(d.kurztitel)
+        print(f"{d.tech_id = }, {d.id = }")
+        print(f"{len(d.paragraphs) = }")
+        print(f"{d.paragraphnummer = }")
+        for p in d.paragraphs:
+            print(f"    {p.document_id = }") 
+            print(f"    {p.index = }")
+            print(f"    {p.text = }")
+            print(f"    {p.id = }")
+            print("-------------------")
+        print("=====================================")
 
-c.execute("SELECT text FROM paragraphs JOIN documents ON paragraphs.document_id = documents.id WHERE documents.id = 3;")
-# for p in c.fetchall():
-#     print(p, "\n------------------\n")
+
+    l1 = models.Annotation(label="TEST", begin=0, end=1, version=0, )
+    l2 = models.Annotation(label="TEST", begin=3, end=4, version=0)
+    l3 = models.Annotation(label="TEST_2", begin=6, end=7, version=0)
+    l4 = models.Annotation(label="TEST_3", begin=9, end=10, version=0)
+    l5 = models.Annotation(label="TEST_3", begin=10, end=11, version=0)
 
 
-
-
-
-# find all documents with exactly one paragraph
-c.execute("""SELECT ris_link, geschaeftszahl 
-          FROM documents JOIN paragraphs ON documents.id = paragraphs.document_id 
-          GROUP BY documents.id 
-          HAVING COUNT(*) = 1;""")
-
-# for res in c.fetchall():
-#     print(res)
-
-# find all documents that are not referenced by any paragraph
-c.execute("""SELECT COUNT(geschaeftszahl)
-          FROM documents 
-          WHERE documents.id NOT IN (SELECT document_id FROM paragraphs);""")
-
-print("not referenced:", c.fetchone())
-
-# find all documents 
-c.execute("""SELECT COUNT(*)
-          FROM documents;""")
-
-print("all documents:", c.fetchone())
+    for ann in [l1, l2, l3, l4, l5]:
+        session.add(ann)

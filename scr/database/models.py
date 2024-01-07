@@ -21,7 +21,7 @@ class Document(Base):
     langtitel: Mapped[str] = mapped_column(nullable=True)
     gesetzesnummer: Mapped[int] = mapped_column(nullable=True)
     artikelnummer: Mapped[int] = mapped_column(nullable=True)
-    paragraphennummer: Mapped[int] = mapped_column(nullable=True)
+    paragraphnummer: Mapped[int] = mapped_column(nullable=True)
     ris_link: Mapped[str] 
 
     paragraphs: Mapped[List["Paragraph"]] = relationship(back_populates="document")

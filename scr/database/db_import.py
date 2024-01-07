@@ -41,7 +41,7 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
             logging.info(f"Skipping entry with tag {document.tag}")
             continue
             
-        gericht_tag = document.find(".//ogd:Justiz/ogd:Gericht", namespaces=NAMESPACE)
+        gericht_tag = document.find(".//ogd:Gericht", namespaces=NAMESPACE)
         if gericht_tag is None:
             gericht = None
         else:  
@@ -94,19 +94,19 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
                 artikelnummer = None
                 logging.info(f"[{kurztitel}] Could not convert Artikelnummer '{artikelnummer_tag.text}' to int")
         
-        paragraphennummer_tag = document.find(".//ogd:BrKons/ogd:Paragraphennummer", namespaces=NAMESPACE)
-        if paragraphennummer_tag is None: 
-            paragraphennummer = None
+        paragraphnummer_tag = document.find(".//ogd:BrKons/ogd:Paragraphnummer", namespaces=NAMESPACE)
+        if paragraphnummer_tag is None: 
+            paragraphnummer = None
         else:
             try: 
-                paragraphennummer = int(paragraphennummer_tag.text)
+                paragraphnummer = int(paragraphnummer_tag.text)
             except ValueError: 
-                paragraphennummer = None
-                logging.info(f"[{kurztitel}] Could not convert Paragraphennummer '{paragraphennummer_tag.text}' to int")
+                paragraphnummer = None
+                logging.info(f"[{kurztitel}] Could not convert Paragraphnummer '{paragraphnummer_tag.text}' to int")
         
         urls_tag = document.find(".//ogd:ContentReference/ogd:Urls", namespaces=NAMESPACE)
         if urls_tag is None:
-            logging.info(f"{kurztitel} / {artikelnummer}{paragraphennummer}: No urls found")
+            logging.info(f"{kurztitel} / {artikelnummer}{paragraphnummer}: No urls found")
             continue
         else:
             for content_url_tag in urls_tag: 
@@ -114,7 +114,7 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
                     ris_link = content_url_tag.find(".//ogd:Url", namespaces=NAMESPACE).text
                     break
             if ris_link is None: 
-                logging.info(f"{kurztitel} / {artikelnummer}{paragraphennummer}: No html url found")
+                logging.info(f"{kurztitel} / {artikelnummer}{paragraphnummer}: No html url found")
                 continue
 
         new_document = models.Document(
@@ -127,7 +127,7 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
             langtitel=langtitel,
             gesetzesnummer=gesetzesnummer,
             artikelnummer=artikelnummer,
-            paragraphennummer=paragraphennummer,
+            paragraphnummer=paragraphnummer,
             ris_link=ris_link
         )
         session.add(new_document)
@@ -240,13 +240,14 @@ def populate_from_html(session: Session) -> None:
 if __name__ == "__main__":
     _init_logging()
     engine = create_engine("sqlite:///test.db", echo=False)
-    # models.Base.metadata.create_all(engine)
-    xml_file = Path.cwd() / r"data\judikatur\vfgh\meta_data\vfgh_meta_collection_all_2021.xml"
+    models.Base.metadata.create_all(engine)
+    xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
+    xml_file_2 = Path.cwd() / r"data\judikatur\vfgh\meta_data\vfgh_meta_collection_all_2021.xml"
 
 
     with Session(engine) as session:
-        populate_from_xml_collection(xml_file, session)
-        # populate_from_html(session)
+        populate_from_xml_collection(xml_file_2, session)
+        populate_from_html(session)
 
 
 
