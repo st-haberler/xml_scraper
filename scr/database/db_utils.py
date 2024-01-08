@@ -3,7 +3,7 @@ from typing import List
 from sqlalchemy import create_engine, select, func
 from sqlalchemy.orm import Session
 
-import models
+import scr.database.models as models
 
 
 
@@ -53,16 +53,6 @@ def update_para_text(tech_id:str, paragraph_index:int, new_text:str):
         session.commit()
 
 
-print(get_all_annotion_labels(0))
-
-r = get_all_applikations()
-for d in r:
-    print(f"{d.applikation = }")
-
-r = get_all_judikatur()
-
-for d in r:
-    print(f"{d.gericht = }")
 
 
       

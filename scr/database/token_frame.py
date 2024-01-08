@@ -2,11 +2,12 @@ from dataclasses import dataclass
 from typing import List
 
 import spacy
-from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, select, and_, Select
 from sqlalchemy.orm import Session 
 from sqlalchemy.orm.exc import NoResultFound, MultipleResultsFound
 
-import models
+import scr.database.models as models 
+# import models
 
 
 DATABASE = "sqlite:///test.db"
@@ -41,25 +42,18 @@ class TokenFrame:
 
 
 
-    # standard entry point for creating a TokenFrame
+    # standard entry points for creating a TokenFrame
     @classmethod
-    def create_token_frame(cls, tech_id:str, doc_paragraph_id:int) -> "TokenFrame":
+    def create_token_frame(cls, sql_stmt, doc_paragraph_id:int) -> "TokenFrame":
         with Session(engine) as session: 
-            query_stmt = select(models.Document).where(models.Document.tech_id == tech_id)
             try: 
-                db_document = session.scalars(query_stmt).one()
+                db_document = session.scalars(sql_stmt).one()
             except NoResultFound:
-                raise ValueError(f"Document with tech_id {tech_id} not found in database")
+                raise ValueError(f"Document not found in database")
             except MultipleResultsFound:
-                raise ValueError(f"Multiple documents with tech_id {tech_id} found in database")
+                raise ValueError(f"Multiple documents found in database")
             if doc_paragraph_id >= len(db_document.paragraphs): 
-                raise ValueError(f"Document with tech_id {tech_id} has no paragraph with id {doc_paragraph_id}")
-            
-           
-            print(db_document.paragraphs[doc_paragraph_id].text)
-            print(db_document.paragraphs[doc_paragraph_id].id)
-            print(db_document.paragraphs[doc_paragraph_id].index)
-
+                raise ValueError(f"Document has no paragraph with id {doc_paragraph_id}")
 
             nlp = spacy.load("de_core_news_sm")
             spacy_document = nlp(db_document.paragraphs[doc_paragraph_id].text)
@@ -84,11 +78,33 @@ class TokenFrame:
             )
             
 
-            
+    @classmethod
+    def create_token_frame_from_gz(cls, gz:str, doc_paragraph_id:int) -> "TokenFrame": 
+        with Session(engine) as session:
+            query_stmt = select(models.Document).where(models.Document.geschaeftszahl == gz)
+            return cls.create_token_frame(query_stmt, doc_paragraph_id)
+        
+    
+    @classmethod
+    def create_token_frame_from_gesetzesnummer(cls, gesetzesnummer:int, paragraphennummer:int, artikelnummer:int, doc_paragraph_id:int) -> "TokenFrame": 
+        with Session(engine) as session:
+            query_stmt = select(models.Document).where(and_((models.Document.gesetzesnummer == gesetzesnummer), 
+                                                            (models.Document.paragraphnummer == paragraphennummer), 
+                                                            (models.Document.artikelnummer == artikelnummer)))
+            return cls.create_token_frame(query_stmt, doc_paragraph_id)
 
-            
-            
+                        
 if __name__ == "__main__":
-    t = TokenFrame.create_token_frame("NOR12036589", 0)
+    t = TokenFrame.create_token_frame_from_gesetzesnummer(gesetzesnummer=10002864, 
+                                                          paragraphennummer=5, 
+                                                          artikelnummer=None, 
+                                                          doc_paragraph_id=0)
     print(t.kurztitel)
+    print(t.tokenized_text)
+    print(t.annotations)
+
+    t = TokenFrame.create_token_frame_from_gz(gz="V153/2021 (V153/2021-13)", doc_paragraph_id=3)
+    print(t.gericht)
+    print(t.tokenized_text)
+    print(t.annotations)
     
