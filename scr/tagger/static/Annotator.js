@@ -36,13 +36,13 @@ class TokenFrame {
 }
 
 
-
+//NEXT STEP: UPDATE LABEL INIT 
 class Annotator {
     constructor() {
-        this._source_type = "Gesetz"; 
-        this._source = "eo";
-        this._paragraph_index = 0;
-        this._tokenized_text = ["This ", "is ", "a ", "test", "."]; //array of tokens 
+        //this._source_type = "Gesetz"; 
+        //this._source = "eo";
+        //this._paragraph_index = 0;
+        //this._tokenized_text = ["This ", "is ", "a ", "test", "."]; //array of tokens 
         this._entities = [[0, 1, "PER"], [2, 3, "LOC"]]; // array of entities
         this._currentLabel = "PER"; // current label
         
@@ -50,6 +50,27 @@ class Annotator {
         
         this._initStyle();
         this._initNavigation();
+
+
+        this._token_frame = {
+            tech_id: "TEST0001", 
+            doc_paragraph_index: 0,
+            applikation: "BrKons", 
+            gericht: null,
+            geschaeftszahl: null,
+            entscheidungsdatum: null,
+            kurztitel: "Testgesetz, Kurztitel", 
+            langtitel: "Testgesetz, Langtitel",
+            gesetzesnummer: 12345678890,
+            artikelnummer: null,
+            paragraphennummer: 1,
+            tokenized_text: ["This ", "is ", "a ", "test", ". ", "Get ", "TF ", "button ", "works ", "now", "."],
+            annotations: [{start: 0, end: 1, label: "PER", version: 0}, 
+                            {start: 2, end: 3, label: "LOC", version: 0}, 
+                            {start: 5, end: 6, label: "PER", version: 1}]
+        }
+        this._currentAnnotationVersion = 0;
+        this._displayText();
 
         // this._docHandler = new Doc("eo", 0);
         // it works, but this cannot be right -- check later ... 
@@ -273,29 +294,29 @@ class Annotator {
         text.innerHTML = "";
 
         // create token_spans and add them to the workspace first 
-        for (let i = 0; i < this._tokenized_text.length; i++) {
+        for (let i = 0; i < this._token_frame.tokenized_text.length; i++) {
             let token_span = document.createElement("span");
             token_span.id = i;
             token_span.className = "doc-token";
-            token_span.innerHTML = this._tokenized_text[i];
+            token_span.innerHTML = this._token_frame.tokenized_text[i];
 
             // event listener for token_span
             token_span.onclick = function() {
                 
                 // check if token is already labeled (ie part of an entity); in this case remove label and return
-                for (let j = 0; j < this._entities.length; j++) {
-                    if (this._entities[j][START] <= token_span.id && token_span.id < this._entities[j][END]) {
+                for (let j = 0; j < this._token_frame.annotations.length; j++) {
+                    if (this._token_frame.annotations[j].start <= token_span.id && token_span.id < this._token_frame.annotations[j].end) {
                         
                         // remove subscript from token_span if exists
                         // undo highlighting of token_span if exists
                         let selection = []; 
-                        for (let k = this._entities[j][START]; k < this._entities[j][END]; k++) {
+                        for (let k = this._token_frame.annotations[j].start; k < this._token_frame.annotations[j].end; k++) {
                             selection.push(k);
                         }
                         this._resetLabel(selection)
                         
                         // remove label
-                        this._entities.splice(j, 1);
+                        this._token_frame.annotations.splice(j, 1);
                         return;
                     }
                 }
@@ -323,14 +344,16 @@ class Annotator {
                 
             text.appendChild(token_span);
         };
+        
+
 
         // add labels that came from the server to text 
-        for (let entity of this._entities) {
+        for (let entity of this._token_frame.annotations) {
             let selection = [];
-            for (let i = entity[START]; i < entity[END]; i++) {
+            for (let i = entity.start; i < entity.end; i++) {
                 selection.push(i);
             }
-            this._applyLabel(selection, entity[TYPE])
+            this._applyLabel(selection, entity.label)
         }   
     }
 }

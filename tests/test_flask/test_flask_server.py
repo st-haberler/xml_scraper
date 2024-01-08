@@ -14,10 +14,11 @@ def test_get_token_frame_from_gz(base_url):
 
     assert actual_response.status_code == 200
     assert actual_response.json()["tech_id"] == "JFT_20230227_21E04603_00"
-    
+    assert actual_response.json()["gesetzesnummer"] is None
     
 def test_get_token_from_gesetz(base_url): 
     actual_response =  requests.get(f"{base_url}/get_token_frame", json={"gesetzesnummer": 10002864, "paragraphennummer": 5, "doc_paragraph_id": 0})
 
     assert actual_response.status_code == 200
     assert actual_response.json()["tech_id"] == "NOR12034522"
+    assert actual_response.json()["geschaeftszahl"] is None
