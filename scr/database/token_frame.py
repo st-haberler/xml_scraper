@@ -93,7 +93,26 @@ class TokenFrame:
                                                             (models.Document.artikelnummer == artikelnummer)))
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
 
-                        
+
+    @classmethod
+    def create_token_frame_from_request(cls, request:dict) -> "TokenFrame":
+        if (request.get("geschaeftszahl") and 
+            (request.get("doc_paragraph_id") is not None)):
+            return cls.create_token_frame_from_gz(
+                gz=request.get("geschaeftszahl"),
+                doc_paragraph_id=request.get("doc_paragraph_id"))
+        if (request.get("gesetzesnummer") and 
+            (request.get("doc_paragraph_id") is not None) and
+            ((request.get("paragraphennummer") is not None) or 
+             ((request.get("artikelnummer")) is not None))):          
+            return cls.create_token_frame_from_gesetzesnummer(gesetzesnummer=request.get("gesetzesnummer"),
+                                                               paragraphennummer=request.get("paragraphennummer", None),
+                                                               artikelnummer=request.get("artikelnummer", None),
+                                                               doc_paragraph_id=request.get("doc_paragraph_id"))
+        else:
+            raise ValueError("Request does not contain the required fields")
+
+
 if __name__ == "__main__":
     t = TokenFrame.create_token_frame_from_gesetzesnummer(gesetzesnummer=10002864, 
                                                           paragraphennummer=5, 
