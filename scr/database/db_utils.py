@@ -3,7 +3,7 @@ from typing import List
 from sqlalchemy import create_engine, select, func
 from sqlalchemy.orm import Session
 
-import models
+import scr.database.models as models
 
 
 

@@ -1,52 +1,39 @@
+import logging
+import logging
 
 from flask import (Flask,
                    request, 
                    render_template, 
                    send_from_directory, 
-                   request, 
                    jsonify, 
                    abort
 )
 
-import doc_db
-import doc_handler
+import scr.database.db_utils as db_utils 
+from scr.database.token_frame import TokenFrame 
 
 
 
+logging.basicConfig(level=logging.INFO)
 app = Flask(__name__, static_url_path="")
 
-@app.route('/choose_source', methods=['POST'])
-def submit():
-    query_year = request.form["year-input"]
-    query_doc_number = request.form["doc-number-input"]
-    query_branch = request.form["branch-input"]
 
-    # TODO: load token_frame from database via doc_handler; 
-    # TODO: load .ann file for the given source
-    # TODO: return token_frame and .ann file to frontend 
-    
-    print(f"Number Input: {query_year}, String Input: {query_branch}")
-    
-    return "Form submitted successfully!"
-
-
-@app.route("/get_token_frame", methods=["POST"])
+@app.route("/get_token_frame")
 def get_token_frame(): 
-    query_dict = request.get_json()
-    query = doc_db.DBQuery(
-        source_type=query_dict.get("source_type"),
-        index=query_dict.get("index"),
-        year=query_dict.get("year"),
-        annotation_version=query_dict.get("annotation_version"),
-        doc_id=query_dict.get("doc_id")
-    )
-    
-    document = doc_handler.DocumentHandler()
-    
-    token_frame = document.get_token_frame_as_json(query)
-    print("success on server side")
-    return jsonify(token_frame)
+    if request.method == "GET":
+        query_dict = request.get_json()
+        logging.info(query_dict)
+        try: 
+            new_token_frame = TokenFrame.create_token_frame_from_request(query_dict)
+            return jsonify(new_token_frame)
+        except ValueError as e:
+            logging.error(e)
+            abort(400)
 
+    else:
+        abort(405)
+    
+   
 
 
 @app.route('/static/<path:path>')
@@ -54,12 +41,12 @@ def send_static(path):
     return send_from_directory('static', path)
 
 
-
-
 @app.route('/')
 def index():
     return render_template("index.html")
 
+
+app.run(debug=True)
 
 
 if __name__ == "__main__":

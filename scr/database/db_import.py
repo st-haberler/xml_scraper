@@ -242,7 +242,7 @@ if __name__ == "__main__":
     engine = create_engine("sqlite:///test.db", echo=False)
     models.Base.metadata.create_all(engine)
     xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
-    xml_file_2 = Path.cwd() / r"data\judikatur\vfgh\meta_data\vfgh_meta_collection_all_2021.xml"
+    xml_file_2 = Path.cwd() / r"tests\test_database\data\test_vfgh_collection.xml"
 
 
     with Session(engine) as session:

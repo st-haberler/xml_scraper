@@ -9,55 +9,53 @@
 
 </head>
 <body>
-    <div id="container">
-        <h1>Annotation Tool</h1>
-        <header>
-            <nav>
-                <ul>
-                    <li><button id="get_tf">GET TF</button></li>
-                    <li><a id="load_source" href="/load_source">Load Source</a></li>
-                    <li><a href="/set_label">Label Set</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </nav>
-        </header>
+    <h1>Annotation Tool</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><button id="get_tf">GET TF</button></li>
+                <li><a id="load_source" href="/load_source">Load Source</a></li>
+                <li><a href="/set_label">Label Set</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    
+    <!-- <fieldset>
+        <legend>Choose Source for Tagging</legend>
+        <form id="choose-form" action="/choose_source" method="post">
+            <ul>
+                <li>
+                    <label for="branch-input">Branch:</label>
+                    <input type="text" id="branch-input" name="branch-input" required placeholder="zB.: vfgh">
+                </li>
+                <li>
+                    <label for="year-input">Year:</label>
+                    <input type="number" id="year-input" name="year-input" required placeholder="zB.: 2023">
+                </li>
+                <li>
+                    <button type="submit" id="choose-button">Submit</button>
+                </li>
+            </ul>
+            
+        </form>
         
-        <!-- <fieldset>
-            <legend>Choose Source for Tagging</legend>
-            <form id="choose-form" action="/choose_source" method="post">
-                <ul>
-                    <li>
-                        <label for="branch-input">Branch:</label>
-                        <input type="text" id="branch-input" name="branch-input" required placeholder="zB.: vfgh">
-                    </li>
-                    <li>
-                        <label for="year-input">Year:</label>
-                        <input type="number" id="year-input" name="year-input" required placeholder="zB.: 2023">
-                    </li>
-                    <li>
-                        <button type="submit" id="choose-button">Submit</button>
-                    </li>
-                </ul>
-                
-            </form>
-           
-        </fieldset> -->
+    </fieldset> -->
 
-  
-        
-        <menu class="navigation" id="label-navigation">
-            <li><span id="label-buttons"></span></li>
-            <li><span id="new-label"></span></li>
-        </menu>
-        <div id="text-container">
-            <p id="text">insert text here</p>
-        </div>
-        <menu class="navigation" id="buttons">
-            <li><button id="prev">Previous</button></li>
-            <li><button id="next">Next</button></li>
-            <li><button id="commit">Commit</button></li>
-            <li><button id="save">Save</button></li>
-        </menu>
+
+    
+    <menu class="navigation" id="label-navigation">
+        <li><span id="label-buttons"></span></li>
+        <li><span id="new-label"></span></li>
+    </menu>
+    <div id="text-container">
+        <p id="text">insert text here</p>
     </div>
+    <menu class="navigation" id="buttons">
+        <li><button id="prev">Previous</button></li>
+        <li><button id="next">Next</button></li>
+        <li><button id="commit">Commit</button></li>
+        <li><button id="save">Save</button></li>
+    </menu>
 </html>
