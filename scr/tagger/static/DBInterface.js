@@ -12,7 +12,7 @@ const dbInterface = {
   },
 
 
-  getTF(query) {
+  getTF: function (query){
     return new Promise((resolve, reject) => {
       fetch("/get_token_frame", {
         method: "POST",

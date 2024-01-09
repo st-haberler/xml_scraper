@@ -1,4 +1,5 @@
 from dataclasses import dataclass, asdict
+import logging
 from typing import List
 
 import spacy
@@ -17,7 +18,7 @@ engine = create_engine(DATABASE, echo=False)
 
 @dataclass
 class Annotation:
-    start: int
+    begin: int
     end: int
     label: str
     version: int
@@ -45,6 +46,7 @@ class TokenFrame:
     # standard entry points for creating a TokenFrame
     @classmethod
     def create_token_frame(cls, sql_stmt, doc_paragraph_id:int) -> "TokenFrame":
+        logging.info(f"from token_frame.py/create_token_frame(): {sql_stmt = } ; {doc_paragraph_id = }")
         with Session(engine) as session: 
             try: 
                 db_document = session.scalars(sql_stmt).one()
@@ -53,14 +55,15 @@ class TokenFrame:
             except MultipleResultsFound:
                 raise ValueError(f"Multiple documents found in database")
             if doc_paragraph_id >= len(db_document.paragraphs): 
-
                 raise ValueError(f"Document has no paragraph with id {doc_paragraph_id}")
 
             nlp = spacy.load("de_core_news_sm")
             spacy_document = nlp(db_document.paragraphs[doc_paragraph_id].text)
             tokenized_text = [token.text_with_ws for token in spacy_document]
 
-            annotations = db_document.paragraphs[doc_paragraph_id].annotations
+            annotations = [annotation.as_dict() for annotation in db_document.paragraphs[doc_paragraph_id].annotations]
+
+            logging.info(f"from token_frame.py/create_token_frame(): {annotations = }")
 
             return cls(
                 tech_id=db_document.tech_id,
@@ -75,12 +78,13 @@ class TokenFrame:
                 artikelnummer=db_document.artikelnummer,
                 paragraphennummer=db_document.paragraphnummer,
                 tokenized_text=tokenized_text,
-                annotations=annotations
+                annotations= annotations
             )
             
 
     @classmethod
     def create_token_frame_from_gz(cls, gz:str, doc_paragraph_id:int) -> "TokenFrame": 
+        logging.info(f"from token_frame.py/create_token_frame_from_gz(): {gz = } ; {doc_paragraph_id = }")
         with Session(engine) as session:
             query_stmt = select(models.Document).where(models.Document.geschaeftszahl == gz)
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
@@ -97,6 +101,7 @@ class TokenFrame:
 
     @classmethod
     def create_token_frame_from_request(cls, request:dict) -> "TokenFrame":
+        logging.info(f"from token_frame.py/create_token_frame_from_request(): {request = }")
         if (request.get("geschaeftszahl") and 
             (request.get("doc_paragraph_id") is not None)):
             return cls.create_token_frame_from_gz(

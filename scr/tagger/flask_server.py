@@ -18,11 +18,11 @@ logging.basicConfig(level=logging.INFO)
 app = Flask(__name__, static_url_path="")
 
 
-@app.route("/get_token_frame")
+@app.route("/get_token_frame", methods=["GET", "POST"])
 def get_token_frame(): 
-    if request.method == "GET":
+    if request.method == "POST":
         query_dict = request.get_json()
-        logging.info(query_dict)
+        logging.info(f"from flask_server.py/get_token_frame() {query_dict = }")
         try: 
             new_token_frame = TokenFrame.create_token_frame_from_request(query_dict)
             return jsonify(new_token_frame)

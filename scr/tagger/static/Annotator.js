@@ -3,37 +3,6 @@
 import { Doc } from "./DBInterface.js";
 import { dbInterface } from "./DBInterface.js";
 
-const START = 0
-const END = 1
-const TYPE = 2
-
-
-class DBQuery {
-    constructor(source_type, index, year, annotation_version) {
-        this.source_type = source_type; 
-        this.index = index; 
-        this.year = year;
-        this.annotation_version = annotation_version; 
-        this.doc_id = null;
-    }
-}
-
-
-class AnnotatedTokens {
-    constructor(tokenized_text, annotation) {
-        this.tokenized_text = tokenized_text;
-        this.annotation = annotation;
-    }
-}
-
-
-class TokenFrame {
-    constructor(meta_data, annotated_tokens_list) {
-        this.meta_data = meta_data;
-        this.body = annotated_tokens_list;
-    }
-
-}
 
 
 //NEXT STEP: UPDATE LABEL INIT 
@@ -58,9 +27,9 @@ class Annotator {
             artikelnummer: null,
             paragraphennummer: 1,
             tokenized_text: ["This ", "is ", "a ", "test", ". ", "Get ", "TF ", "button ", "works ", "now", "."],
-            annotations: [{start: 0, end: 1, label: "PER", version: 0}, 
-                            {start: 2, end: 3, label: "LOC", version: 0}, 
-                            {start: 5, end: 6, label: "PER", version: 1}]
+            annotations: [{begin: 0, end: 1, label: "PER", version: 0}, 
+                            {begin: 2, end: 3, label: "LOC", version: 0}, 
+                            {begin: 5, end: 6, label: "PER", version: 1}]
         }
         this._preselectedTokens = []; // array of preselected tokens
         this._currentAnnotationVersion = 0;
@@ -88,8 +57,10 @@ class Annotator {
 
     async _fetchTF(query) {
         try {
-            let token_frame = await dbInterface.getTF(query);
-            console.log(token_frame);
+            let newTokenFrame = await dbInterface.getTF(query);
+            console.log(newTokenFrame);
+            this._token_frame = newTokenFrame;
+            this._displayText();
         } catch (error) {
             console.log("_fetchTF() request failed, we stay with the same doc");
             // delete log message later - only for debugging
@@ -158,8 +129,14 @@ class Annotator {
         // }.bind(this);
 
         document.getElementById("get_tf").onclick = function() {
-            let query = new DBQuery("PHG", 0, null, null);
-            this._fetchTF(query);
+            // for now, we use a dummy query. later: get query data from form
+            const query = {
+                geschaeftszahl: "E4603/2021",
+                gesetzesnummer: null,
+                paragraph: null,
+                doc_paragraph_id: 0
+              };
+            this._fetchTF(query)
         }.bind(this);
 
         
@@ -246,7 +223,7 @@ class Annotator {
             let label = this._currentLabel;
 
             this._token_frame.annotations.push({
-                start: this._preselectedTokens[0],
+                begin: this._preselectedTokens[0],
                 end: this._preselectedTokens[this._preselectedTokens.length - 1] + 1,
                 label: label,
                 version: this._currentAnnotationVersion
@@ -279,7 +256,7 @@ class Annotator {
     }
 
     _applyLabel(selection, label) {
-        // let start = selection[0];
+        // let begin = selection[0];
         // let end = selection[selection.length - 1];
         let highlight = this._labelColormap[label];
 
@@ -313,12 +290,12 @@ class Annotator {
                 
                 // check if token is already labeled (ie part of an entity); in this case remove label and return
                 for (let j = 0; j < this._token_frame.annotations.length; j++) {
-                    if (this._token_frame.annotations[j].start <= token_span.id && token_span.id < this._token_frame.annotations[j].end) {
+                    if (this._token_frame.annotations[j].begin <= token_span.id && token_span.id < this._token_frame.annotations[j].end) {
                         
                         // remove subscript from token_span if exists
                         // undo highlighting of token_span if exists
                         let selection = []; 
-                        for (let k = this._token_frame.annotations[j].start; k < this._token_frame.annotations[j].end; k++) {
+                        for (let k = this._token_frame.annotations[j].begin; k < this._token_frame.annotations[j].end; k++) {
                             selection.push(k);
                         }
                         this._resetLabel(selection)
@@ -356,12 +333,17 @@ class Annotator {
 
 
         // add labels that came from the server to text 
-        for (let entity of this._token_frame.annotations) {
+        let visibleAnnotations = this._token_frame.annotations
+            .filter(annotation => annotation.version === this._currentAnnotationVersion);
+        console.log("visible annotations: " + visibleAnnotations);
+        for (let annotation of visibleAnnotations) {
             let selection = [];
-            for (let i = entity.start; i < entity.end; i++) {
+            for (let i = annotation.begin; i < annotation.end; i++) {
                 selection.push(i);
             }
-            this._applyLabel(selection, entity.label)
+            console.log("selection for annotated tokens per server: " + selection)
+            console.log(selection)
+            this._applyLabel(selection, annotation.label)
         }   
     }
 }
