@@ -1,4 +1,4 @@
-import logging
+import json
 import logging
 
 from flask import (Flask,
@@ -32,8 +32,21 @@ def get_token_frame():
 
     else:
         abort(405)
-    
-   
+
+
+@app.route("/get_labels")
+def get_labels():
+    version = request.args.get("version")
+    logging.info(f"getting all labels of version: {version}") 
+    try: 
+        serialized_labels = db_utils.get_all_annotion_labels_asdict(version)
+        logging.info(f"from flask_server: {serialized_labels = }")
+        return jsonify(serialized_labels)
+    except ValueError as e:
+        logging.error(e)
+        abort(400)
+
+
 
 
 @app.route('/static/<path:path>')

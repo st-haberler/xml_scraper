@@ -1,7 +1,7 @@
 "uses strict"
 
-import { Doc } from "./DocHandler.js";
-import { dbInterface } from "./DocHandler.js";
+import { Doc } from "./DBInterface.js";
+import { dbInterface } from "./DBInterface.js";
 
 const START = 0
 const END = 1
@@ -43,15 +43,8 @@ class Annotator {
         //this._source = "eo";
         //this._paragraph_index = 0;
         //this._tokenized_text = ["This ", "is ", "a ", "test", "."]; //array of tokens 
-        this._entities = [[0, 1, "PER"], [2, 3, "LOC"]]; // array of entities
-        this._currentLabel = "PER"; // current label
+        //this._entities = [[0, 1, "PER"], [2, 3, "LOC"]]; // array of entities
         
-        this._preselectedTokens = []; // array of preselected tokens
-        
-        this._initStyle();
-        this._initNavigation();
-
-
         this._token_frame = {
             tech_id: "TEST0001", 
             doc_paragraph_index: 0,
@@ -69,8 +62,15 @@ class Annotator {
                             {start: 2, end: 3, label: "LOC", version: 0}, 
                             {start: 5, end: 6, label: "PER", version: 1}]
         }
+        this._preselectedTokens = []; // array of preselected tokens
         this._currentAnnotationVersion = 0;
-        this._displayText();
+        this._labels = ["PER", "LOC", "ORG"]; // array of labels
+        this._currentLabel = "PER"; // current label
+
+        this._initStyle();
+        this._initNavigation();
+        this._initLabels()
+            .then(() => { this._displayText() });
 
         // this._docHandler = new Doc("eo", 0);
         // it works, but this cannot be right -- check later ... 
@@ -173,20 +173,23 @@ class Annotator {
 
     async _initLabels() {
         // get labels from server and initialize label navigation
-        this._labels = await this._docHandler.getLabels();
+        // until server is ready, use dummy labels
         let colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "brown"]; 
-
+        let annotationList = await dbInterface.getLabels(this._currentAnnotationVersion);
+        
         this._labelColormap = {};
-        for (let label of this._labels) {
+        this._labels = [];
+
+        for (let annotation of annotationList) {
             // step 1: create color map for labels
-            this._labelColormap[label] = colors.pop();
+            this._labelColormap[annotation.label] = colors.pop();
 
             // step 2: create button for label
             let button = document.createElement("button");
-            button.id = label;
-            button.innerHTML = label;
+            button.id = annotation.label;
+            button.innerHTML = annotation.label;
             button.onclick = function() {
-                this._currentLabel = label;
+                this._currentLabel = annotation.label;
             }.bind(this);
             document.getElementById("label-buttons").appendChild(button);
         }
@@ -242,7 +245,12 @@ class Annotator {
         if (this._preselectedTokens && this._is_continuous()) {
             let label = this._currentLabel;
 
-            this._entities.push([this._preselectedTokens[0], this._preselectedTokens[this._preselectedTokens.length - 1] + 1, label]);
+            this._token_frame.annotations.push({
+                start: this._preselectedTokens[0],
+                end: this._preselectedTokens[this._preselectedTokens.length - 1] + 1,
+                label: label,
+                version: this._currentAnnotationVersion
+            });
             this._applyLabel(this._preselectedTokens, label);
             this._preselectedTokens = [];
         }

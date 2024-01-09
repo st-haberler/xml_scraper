@@ -21,13 +21,13 @@ with Session(engine) as session:
     q = select(models.Document).where(models.Document.applikation == "Vfgh")
     result = session.scalars(q).all()
 
-    for decision in result[:2]:
+    for decision in result[:1]:
         print(f"{decision.applikation = }")
         print(f"{decision.gericht = }")
         print(f"{decision.geschaeftszahl = }")
         print(f"{decision.tech_id = }")
         print(f"{decision.id = }")
-        for para in decision.paragraphs:
+        for para in decision.paragraphs[:2]:
             print(f"{para.text[:50] = }")
             print(f"{para.id = }")
             print(f"{para.index = }")
@@ -35,4 +35,20 @@ with Session(engine) as session:
             print("-------------------")
         print("=====================================")
 
-# Path("test.db").unlink()
+a1 = models.Annotation(label="TEST_1", begin=0, end=1, version=0, paragraph_id=70)
+a2 = models.Annotation(label="TEST_2", begin=3, end=4, version=0, paragraph_id=71)
+
+with Session(engine) as session:
+    # session.add(a1)
+    # session.add(a2)
+    # session.commit()
+    q = select(models.Annotation)
+    result = session.scalars(q).all()
+    for a in result:
+        print(f"{a.label = }")
+        print(f"{a.begin = }")
+        print(f"{a.end = }")
+        print(f"{a.version = }")
+        print(f"{a.paragraph_id = }")
+        print(f"{a.id = }")
+        print("-------------------")

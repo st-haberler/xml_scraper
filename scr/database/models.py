@@ -1,11 +1,14 @@
 from typing import List
 
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
-from sqlalchemy import create_engine, ForeignKey
+from sqlalchemy import create_engine, ForeignKey, inspect
 
 
 class Base(DeclarativeBase):
-    pass
+    __abstract__ = True
+
+    def as_dict(self):
+        return {c.key: getattr(self, c.key) for c in inspect(self).mapper.column_attrs}
   
 
 class Document(Base): 

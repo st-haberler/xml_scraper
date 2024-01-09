@@ -1,6 +1,17 @@
 "use strict";
 
 const dbInterface = {
+  getLabels: function (annotationVersion) {
+    let url = `/get_labels?version=${annotationVersion}`;
+    return new Promise((resolve, reject) => {
+      fetch(url)
+        .then((response) => response.json())
+        .then((labels) => resolve(labels))
+        .catch((error) => reject(error));
+    });
+  },
+
+
   getTF(query) {
     return new Promise((resolve, reject) => {
       fetch("/get_token_frame", {
@@ -64,16 +75,6 @@ class Doc {
     });
   }
 
-  getLabels() {
-    return new Promise((resolve, reject) => {
-      fetch("/get_labels")
-        .then((response) => response.json())
-        .then((labels) => {
-          resolve(labels);
-        })
-        .catch((error) => console.error(error));
-    });
-  }
 }
 
 export { Doc };
