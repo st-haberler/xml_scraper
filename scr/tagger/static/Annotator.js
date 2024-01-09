@@ -58,7 +58,6 @@ class Annotator {
     async _fetchTF(query) {
         try {
             let newTokenFrame = await dbInterface.getTF(query);
-            console.log(newTokenFrame);
             this._token_frame = newTokenFrame;
             this._displayText();
         } catch (error) {
@@ -335,14 +334,11 @@ class Annotator {
         // add labels that came from the server to text 
         let visibleAnnotations = this._token_frame.annotations
             .filter(annotation => annotation.version === this._currentAnnotationVersion);
-        console.log("visible annotations: " + visibleAnnotations);
         for (let annotation of visibleAnnotations) {
             let selection = [];
             for (let i = annotation.begin; i < annotation.end; i++) {
                 selection.push(i);
             }
-            console.log("selection for annotated tokens per server: " + selection)
-            console.log(selection)
             this._applyLabel(selection, annotation.label)
         }   
     }
