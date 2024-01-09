@@ -61,8 +61,9 @@ for d in r:
 
 r = get_all_judikatur()
 
+
+# the current test.db has the field gericht not filled out for the VfgH documents; the code is already fixed
 for d in r:
     print(f"{d.gericht = }")
-
 
       

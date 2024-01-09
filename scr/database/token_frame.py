@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from typing import List
 
 import spacy
@@ -55,12 +55,6 @@ class TokenFrame:
             if doc_paragraph_id >= len(db_document.paragraphs): 
                 raise ValueError(f"Document with tech_id {tech_id} has no paragraph with id {doc_paragraph_id}")
             
-           
-            print(db_document.paragraphs[doc_paragraph_id].text)
-            print(db_document.paragraphs[doc_paragraph_id].id)
-            print(db_document.paragraphs[doc_paragraph_id].index)
-
-
             nlp = spacy.load("de_core_news_sm")
             spacy_document = nlp(db_document.paragraphs[doc_paragraph_id].text)
             tokenized_text = [token.text_with_ws for token in spacy_document]
@@ -91,4 +85,9 @@ class TokenFrame:
 if __name__ == "__main__":
     t = TokenFrame.create_token_frame("NOR12036589", 0)
     print(t.kurztitel)
+
+    d = asdict(t)
+
+    print(d)
+    
     
