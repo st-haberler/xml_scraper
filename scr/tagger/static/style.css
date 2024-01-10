@@ -9,6 +9,11 @@ header {
   border: 4px solid #000;
 }
 
+
+.hidden {
+  display: none;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
