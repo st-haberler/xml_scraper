@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annotation Tool -- for full paragraphs</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
-    <script type="module" src="{{url_for('static', filename='Annotator.js')}}" defer></script>       
+    <script type="module" src="{{url_for('static', filename='Annotator.js')}}" defer></script>   
+    <script type="module" src="{{url_for('static', filename='uix.js')}}" defer></script>    
 
 </head>
 <body>
@@ -13,35 +14,30 @@
     <header>
         <nav>
             <ul>
-                <li><button id="get_tf">GET TF</button></li>
-                <li><a id="load_source" href="/load_source">Load Source</a></li>
+                <li><button id="get_tf">LOAD TF</button></li>
+                <li><a id="load-BrKons" href="/load_source">Load Source</a></li>
                 <li><a href="/set_label">Label Set</a></li>
                 <li><a href="/about">About</a></li>
+                <li id="set-current-version">Current Annotation Version: <span id="current-version"></span> CHANGE VERSION
+                    <div class="hidden" id="setVersionFormContainer">
+                        <form id="setVersionForm">
+                            <ul>
+                                <li>
+                                    <label for="version-input">Version:</label>
+                                    <input type="number" id="version-input" name="version-input" required placeholder="zB.: 1">
+                                </li>
+                                <li>
+                                    <button type="button" id="set-version-button">CHANGE</button>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>    
+                </li>
             </ul>
         </nav>
     </header>
 
     
-    <!-- <fieldset>
-        <legend>Choose Source for Tagging</legend>
-        <form id="choose-form" action="/choose_source" method="post">
-            <ul>
-                <li>
-                    <label for="branch-input">Branch:</label>
-                    <input type="text" id="branch-input" name="branch-input" required placeholder="zB.: vfgh">
-                </li>
-                <li>
-                    <label for="year-input">Year:</label>
-                    <input type="number" id="year-input" name="year-input" required placeholder="zB.: 2023">
-                </li>
-                <li>
-                    <button type="submit" id="choose-button">Submit</button>
-                </li>
-            </ul>
-            
-        </form>
-        
-    </fieldset> -->
 
 
     

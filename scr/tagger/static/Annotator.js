@@ -138,6 +138,15 @@ class Annotator {
             this._fetchTF(query)
         }.bind(this);
 
+        document.getElementById("set-version-button").onclick = function() {
+            let new_version = parseInt(document.getElementById("version-input").value);
+            if (new_version >= 0) {
+                this._currentAnnotationVersion = new_version;
+                this._displayText();
+            }
+            console.log("set-version-button clicked");
+            console.log("new version: " + this._currentAnnotationVersion.toString());
+        }.bind(this);
         
     }
 
@@ -341,6 +350,9 @@ class Annotator {
             }
             this._applyLabel(selection, annotation.label)
         }   
+
+        // display current annotation version
+        document.getElementById("current-version").innerHTML = this._currentAnnotationVersion.toString();
     }
 }
      
