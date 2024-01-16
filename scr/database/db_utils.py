@@ -62,9 +62,6 @@ def update_para_text(tech_id:str, paragraph_index:int, new_text:str):
 
 
 if __name__ == "__main__":
-    with Session(engine) as session: 
-        q = select(models.Document).where(models.Document.applikation == "BrKons")
-        result = session.scalars(q).all()
-
-        for r in result: 
-            print(r.kurztitel, r.paragraphnummer)
+    r = get_all_Gesetze()
+    for g in r: 
+        print(g.kurztitel, g.gesetzesnummer)

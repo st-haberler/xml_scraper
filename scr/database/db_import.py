@@ -243,10 +243,10 @@ if __name__ == "__main__":
     models.Base.metadata.create_all(engine)
     xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
     xml_file_2 = Path.cwd() / r"tests\test_database\data\test_vfgh_collection.xml"
-
+    xml_file_3 = Path.cwd() / r"data\bundesrecht\B-VG\meta_data\B-VG_meta_collection.xml"
 
     with Session(engine) as session:
-        populate_from_xml_collection(xml_file_2, session)
+        populate_from_xml_collection(xml_file_3, session)
         populate_from_html(session)
 
 
