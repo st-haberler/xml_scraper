@@ -127,16 +127,33 @@ class Annotator {
         //     this._chooseDoc();
         // }.bind(this);
 
-        document.getElementById("get_tf").onclick = function() {
-            // for now, we use a dummy query. later: get query data from form
-            const query = {
-                geschaeftszahl: "E4603/2021",
-                gesetzesnummer: null,
-                paragraph: null,
-                doc_paragraph_id: 0
-              };
-            this._fetchTF(query)
+        // document.getElementById("get_tf").onclick = function() {
+        //     // for now, we use a dummy query. later: get query data from form
+        //     console.log("get_tf button clicked");
+        //     const formdata = new FormData(document.getElementById("choose-bundesrecht"));
+        //     for (let entry of formdata.entries()) {
+        //         console.log(entry);
+        //     }
+        //     const q = JSON.stringify(formdata.entries());
+        //     console.log(q);
+        //     // const query = {
+        //     //     geschaeftszahl: "E4603/2021",
+        //     //     gesetzesnummer: null,
+        //     //     paragraph: null,
+        //     //     doc_paragraph_id: 0
+        //     //   };
+        //     // this._fetchTF(query)
+        // }.bind(this);
+
+        const bundesrechtForm = document.getElementById("choose-bundesrecht");
+        bundesrechtForm.onsubmit = function (event) {
+            event.preventDefault();
+            const formdata = new FormData(event.target);
+            const formdataObj = Object.fromEntries(formdata.entries());
+            console.log(formdataObj);
+            this._fetchTF(formdataObj);
         }.bind(this);
+
 
         document.getElementById("set-version-button").onclick = function() {
             let new_version = parseInt(document.getElementById("version-input").value);

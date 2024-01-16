@@ -20,7 +20,7 @@ app = Flask(__name__, static_url_path="")
 
 @app.route("/get_token_frame", methods=["GET", "POST"])
 def get_token_frame(): 
-    if request.method == "POST":
+    if request.method == "POST" or request.method == "GET":
         query_dict = request.get_json()
         logging.info(f"from flask_server.py/get_token_frame() {query_dict = }")
         try: 
@@ -47,6 +47,17 @@ def get_labels():
         abort(400)
 
 
+@app.route("/get_gesetze", methods=["GET"])
+def get_gesetze():
+    logging.info(f"getting kurztitel+gesetzesnummer of all documents from BrKons application")
+    try: 
+        all_gesetze = db_utils.get_all_Gesetze()
+        logging.info(f"from flask_server: {len(all_gesetze) = }")
+        kurztitel_list = [(document.kurztitel, document.gesetzesnummer) for document in all_gesetze]
+        return jsonify(kurztitel_list)
+    except ValueError as e:
+        logging.error(e)
+        abort(400)
 
 
 @app.route('/static/<path:path>')

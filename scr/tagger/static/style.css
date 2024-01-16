@@ -5,8 +5,16 @@ body {
 
 /*==========================================*/
 /* CSS for the navigation */
-
-
+.main-navbar {
+    background-color: #8f8f8f;
+    border: 2px solid black;
+}
+.navbar ul {
+    background-color: #8f8f8f;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5em;
+}
 
 /* ==========================================*/ 
 /* CSS for the annotation part  */

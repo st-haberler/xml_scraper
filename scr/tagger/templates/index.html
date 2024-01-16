@@ -10,34 +10,40 @@
 
 </head>
 <body>
-    <h1>Annotation Tool</h1>
+    <h1>TF Annotation Tool</h1>
     <header>
         <nav>
-            <ul class="dropdown">
-                <li><button id="get_tf">LOAD TF</button></li>
-                <li><a id="load-BrKons" href="/load_source">Load Source</a></li>
-                <li><a href="/set_label">Label Set</a></li>
-                <li><a href="/about">About</a></li>
-                <li id="set-current-version">Current Annotation Version: <span id="current-version"></span> CHANGE VERSION
-                    <div class="hidden" id="setVersionFormContainer">
-                        <form id="setVersionForm">
-                            <ul>
-                                <li>
-                                    <label for="version-input">Version:</label>
-                                    <input type="number" id="version-input" name="version-input" required placeholder="zB.: 1">
-                                </li>
-                                <li>
-                                    <button type="button" id="set-version-button">CHANGE</button>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>    
+            <ul class="main-navbar">
+                <li class="navbar-item">
+                    <div id="main-get-tf">Get new TF</div>
+                    <div id="choose-applikation">
+                        <ul>
+                            <li>
+                                <div>Bundesrecht</div>
+                                <form id="choose-bundesrecht" action="/get_token_frame" method="get">
+                                    <input type="hidden" name="geschaeftszahl" value="">
+                                    <label for="gesetzesnummer">Gesetzesnummer:</label>
+                                    <input type="tel" name="gesetzesnummer" id="gesetzesnummer" placeholder="10002864" required>
+                                    <label for="paragraph">Paragraph (§):</label>
+                                    <input type="number" name="paragraphennummer" id="paragraph" placeholder="1" required>
+                                    <label for="doc-paragraph">Absatz:</label>
+                                    <input type="number" name="doc_paragraph_id" id="doc-paragraph" placeholder="1" required>
+                                    <button type="submit" id="get_tf">Get TF</button>
+                                </form>
+                            </li>
+                            <li><div>Judikatur</div></li>
+                        </ul>
+
+                     </div>
+                
                 </li>
+                <li class="navbar-item">Set Version - Current:<span id="current-version"></span></li>
             </ul>
         </nav>
     </header>
 
-    
+
+   <div id="set-version-button">YYY</div>
 
 
     
