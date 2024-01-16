@@ -21,17 +21,29 @@
                             <li>
                                 <div>Bundesrecht</div>
                                 <form id="choose-bundesrecht" action="/get_token_frame" method="get">
-                                    <input type="hidden" name="geschaeftszahl" value="">
+                                    <label for="gesetzesnummer-select">Select Gesetzesnummer:</label>
+                                    <select id="gesetzesnummer-select" onchange="document.getElementById('gesetzesnummer').value = this.value">
+                                        <option value="10002864">PHG</option>
+                                        <option value="10002757">StGB</option>
+                                    </select>
                                     <label for="gesetzesnummer">Gesetzesnummer:</label>
                                     <input type="tel" name="gesetzesnummer" id="gesetzesnummer" placeholder="10002864" required>
                                     <label for="paragraph">Paragraph (§):</label>
-                                    <input type="number" name="paragraphennummer" id="paragraph" placeholder="1" required>
-                                    <label for="doc-paragraph">Absatz:</label>
-                                    <input type="number" name="doc_paragraph_id" id="doc-paragraph" placeholder="1" required>
-                                    <button type="submit" id="get_tf">Get TF</button>
+                                    <input type="number" name="paragraphnummer" id="paragraph" placeholder="1" required>
+                                    <label for="br-doc-paragraph">Absatz:</label>
+                                    <input type="number" name="doc_paragraph_id" id="br-doc-paragraph" placeholder="0" required>
+                                    <button type="submit" id="get_tf_br">Get TF</button>
                                 </form>
                             </li>
-                            <li><div>Judikatur</div></li>
+                            <li>
+                                <div>Judikatur</div>
+                                <form id="choose-judikatur" action="/get_token_frame" method="get">
+                                    <label for="gz">Geschäftszahl:</label>
+                                    <input type="text" name="geschaeftszahl" id="gz" placeholder="E4603/2021" required>
+                                    <label for="jud-doc-paragraph">Absatz:</label>
+                                    <input type="number" name="doc_paragraph_id" id="jud-doc-paragraph" placeholder="0" required>
+                                    <button type="submit" id="get_tf_jud">Get TF</button>
+                            </li>
                         </ul>
 
                      </div>

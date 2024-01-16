@@ -147,10 +147,31 @@ class Annotator {
 
         const bundesrechtForm = document.getElementById("choose-bundesrecht");
         bundesrechtForm.onsubmit = function (event) {
+            // This function converts formdata to object and string to integer where possible.
+            // See: https://stackabuse.com/convert-form-data-to-javascript-object/
             event.preventDefault();
             const formdata = new FormData(event.target);
-            const formdataObj = Object.fromEntries(formdata.entries());
-            console.log(formdataObj);
+            let formdataObj = Object.fromEntries(formdata.entries());
+            for (let key in formdataObj) {
+                let placeholder = parseInt(formdataObj[key])
+                if (!isNaN(placeholder)) {
+                    formdataObj[key] = placeholder;
+                }
+            }
+            this._fetchTF(formdataObj);
+        }.bind(this);
+
+        const judikaturForm = document.getElementById("choose-judikatur");
+        judikaturForm.onsubmit = function (event) {
+            event.preventDefault();
+            const formdata = new FormData(event.target);
+            let formdataObj = Object.fromEntries(formdata.entries());
+            for (let key in formdataObj) {
+                let placeholder = parseInt(formdataObj[key])
+                if (!isNaN(placeholder)) {
+                    formdataObj[key] = placeholder;
+                }
+            }
             this._fetchTF(formdataObj);
         }.bind(this);
 

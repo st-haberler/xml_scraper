@@ -36,7 +36,7 @@ class TokenFrame:
     langtitel: str
     gesetzesnummer: int
     artikelnummer: int
-    paragraphennummer: int
+    paragraphnummer: int
 
     tokenized_text: List[str]
     annotations: List[Annotation]
@@ -73,7 +73,7 @@ class TokenFrame:
                 langtitel=db_document.langtitel,
                 gesetzesnummer=db_document.gesetzesnummer,
                 artikelnummer=db_document.artikelnummer,
-                paragraphennummer=db_document.paragraphnummer,
+                paragraphnummer=db_document.paragraphnummer,
                 tokenized_text=tokenized_text,
                 annotations= annotations
             )
@@ -87,10 +87,10 @@ class TokenFrame:
         
     
     @classmethod
-    def create_token_frame_from_gesetzesnummer(cls, gesetzesnummer:int, paragraphennummer:int, artikelnummer:int, doc_paragraph_id:int) -> "TokenFrame": 
+    def create_token_frame_from_gesetzesnummer(cls, gesetzesnummer:int, paragraphnummer:int, artikelnummer:int, doc_paragraph_id:int) -> "TokenFrame": 
         with Session(engine) as session:
             query_stmt = select(models.Document).where(and_((models.Document.gesetzesnummer == gesetzesnummer), 
-                                                            (models.Document.paragraphnummer == paragraphennummer), 
+                                                            (models.Document.paragraphnummer == paragraphnummer), 
                                                             (models.Document.artikelnummer == artikelnummer)))
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
 
@@ -104,10 +104,10 @@ class TokenFrame:
                 doc_paragraph_id=request.get("doc_paragraph_id"))
         if (request.get("gesetzesnummer") and 
             (request.get("doc_paragraph_id") is not None) and
-            ((request.get("paragraphennummer") is not None) or 
+            ((request.get("paragraphnummer") is not None) or 
              ((request.get("artikelnummer")) is not None))):          
             return cls.create_token_frame_from_gesetzesnummer(gesetzesnummer=request.get("gesetzesnummer"),
-                                                               paragraphennummer=request.get("paragraphennummer", None),
+                                                               paragraphnummer=request.get("paragraphnummer", None),
                                                                artikelnummer=request.get("artikelnummer", None),
                                                                doc_paragraph_id=request.get("doc_paragraph_id"))
         else:
@@ -116,7 +116,7 @@ class TokenFrame:
 
 if __name__ == "__main__":
     t = TokenFrame.create_token_frame_from_gesetzesnummer(gesetzesnummer=10002864, 
-                                                          paragraphennummer=5, 
+                                                          paragraphnummer=5, 
                                                           artikelnummer=None, 
                                                           doc_paragraph_id=0)
     print(t.kurztitel)

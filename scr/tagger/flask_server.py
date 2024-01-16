@@ -52,8 +52,9 @@ def get_gesetze():
     logging.info(f"getting kurztitel+gesetzesnummer of all documents from BrKons application")
     try: 
         all_gesetze = db_utils.get_all_Gesetze()
-        logging.info(f"from flask_server: {len(all_gesetze) = }")
-        kurztitel_list = [(document.kurztitel, document.gesetzesnummer) for document in all_gesetze]
+        logging.info(f"returning Gesetze Liste from flask_server: {len(all_gesetze) = }")
+        # kurztitel_list = [(document.kurztitel, document.gesetzesnummer) for document in all_gesetze]
+        kurztitel_list = [{"kurztitel": document.kurztitel, "gesetzesnummer": document.gesetzesnummer} for document in all_gesetze]
         return jsonify(kurztitel_list)
     except ValueError as e:
         logging.error(e)

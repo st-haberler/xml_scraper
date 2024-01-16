@@ -11,8 +11,17 @@ const dbInterface = {
     });
   },
 
+  getGesetzList: function () {
+    console.log("getGesetzList called");
+    return new Promise((resolve, reject) => {
+      fetch("/get_gesetze")
+        .then((response) => response.json())
+        .then((gesetzList) => resolve(gesetzList))
+        .catch((error) => reject(error));
+    });
+  },
 
-  getTF: function (query){
+  getTF: function (query) {
     return new Promise((resolve, reject) => {
       fetch("/get_token_frame", {
         method: "POST",
