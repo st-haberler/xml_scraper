@@ -20,8 +20,25 @@ app = Flask(__name__, static_url_path="")
 
 @app.route("/get_token_frame", methods=["GET", "POST"])
 def get_token_frame(): 
+    # TODO: For multiple results for the request, we need a proper return value. 
+
     if request.method == "POST" or request.method == "GET":
-        query_dict = request.get_json()
+        logging.info(f"from flask_server.py/get_token_frame() {request.method = }")
+        query_dict = request.form.to_dict()
+
+        # TODO move this to TokenFrame class
+        for supposed_int_index in ["gesetzesnummer", "paragraphnummer", "doc_paragraph_id", "artikelnummer"]:
+            if supposed_int_index in query_dict:
+                try: 
+                    if query_dict[supposed_int_index] == "":
+                        logging.info(f"deleting {query_dict[supposed_int_index] = }")
+                        del query_dict[supposed_int_index] 
+                        continue
+                    query_dict[supposed_int_index] = int(query_dict[supposed_int_index])
+                except ValueError as e:
+                    logging.error(e)
+                    abort(400)        
+        
         logging.info(f"from flask_server.py/get_token_frame() {query_dict = }")
         try: 
             new_token_frame = TokenFrame.create_token_frame_from_request(query_dict)

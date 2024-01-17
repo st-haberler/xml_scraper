@@ -82,13 +82,14 @@ class TokenFrame:
     @classmethod
     def create_token_frame_from_gz(cls, gz:str, doc_paragraph_id:int) -> "TokenFrame": 
         with Session(engine) as session:
+            logging.info(f"from create_token_frame_from_gz: {gz = }; {doc_paragraph_id = }")
             query_stmt = select(models.Document).where(models.Document.geschaeftszahl == gz)
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
         
     
     @classmethod
     def create_token_frame_from_gesetzesnummer(cls, gesetzesnummer:int, paragraphnummer:int, artikelnummer:int, doc_paragraph_id:int) -> "TokenFrame": 
-        with Session(engine) as session:
+        with Session(engine) as session:           
             query_stmt = select(models.Document).where(and_((models.Document.gesetzesnummer == gesetzesnummer), 
                                                             (models.Document.paragraphnummer == paragraphnummer), 
                                                             (models.Document.artikelnummer == artikelnummer)))

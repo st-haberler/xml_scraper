@@ -61,7 +61,7 @@ class Annotator {
             this._token_frame = newTokenFrame;
             this._displayText();
         } catch (error) {
-            console.log("_fetchTF() request failed, we stay with the same doc");
+            console.log("_fetchTF() request failed, we stay with the same doc" + error);
             // delete log message later - only for debugging
         }
     }
@@ -121,59 +121,24 @@ class Annotator {
             if (event.key === "ArrowLeft") { document.getElementById("prev").click(); };
         });
 
-        // this._chooseForm = document.getElementById("choose-form");
-        // this._chooseForm.onsubmit = function(event) {
-        //     event.preventDefault();
-        //     this._chooseDoc();
-        // }.bind(this);
-
-        // document.getElementById("get_tf").onclick = function() {
-        //     // for now, we use a dummy query. later: get query data from form
-        //     console.log("get_tf button clicked");
-        //     const formdata = new FormData(document.getElementById("choose-bundesrecht"));
-        //     for (let entry of formdata.entries()) {
-        //         console.log(entry);
-        //     }
-        //     const q = JSON.stringify(formdata.entries());
-        //     console.log(q);
-        //     // const query = {
-        //     //     geschaeftszahl: "E4603/2021",
-        //     //     gesetzesnummer: null,
-        //     //     paragraph: null,
-        //     //     doc_paragraph_id: 0
-        //     //   };
-        //     // this._fetchTF(query)
-        // }.bind(this);
 
         const bundesrechtForm = document.getElementById("choose-bundesrecht");
         bundesrechtForm.onsubmit = function (event) {
-            // This function converts formdata to object and string to integer where possible.
-            // See: https://stackabuse.com/convert-form-data-to-javascript-object/
             event.preventDefault();
-            const formdata = new FormData(event.target);
-            let formdataObj = Object.fromEntries(formdata.entries());
-            for (let key in formdataObj) {
-                let placeholder = parseInt(formdataObj[key])
-                if (!isNaN(placeholder)) {
-                    formdataObj[key] = placeholder;
-                }
-            }
-            this._fetchTF(formdataObj);
+            const chooseBundesrechtForm = document.getElementById("choose-bundesrecht");
+            const formdata = new FormData(chooseBundesrechtForm);
+            this._fetchTF(formdata);
         }.bind(this);
 
-        const judikaturForm = document.getElementById("choose-judikatur");
+
+        const judikaturForm = document.getElementById("choose-judikatur")
         judikaturForm.onsubmit = function (event) {
             event.preventDefault();
-            const formdata = new FormData(event.target);
-            let formdataObj = Object.fromEntries(formdata.entries());
-            for (let key in formdataObj) {
-                let placeholder = parseInt(formdataObj[key])
-                if (!isNaN(placeholder)) {
-                    formdataObj[key] = placeholder;
-                }
-            }
-            this._fetchTF(formdataObj);
+            const chooseJudikaturForm = document.getElementById("choose-judikatur");
+            const formdata = new FormData(chooseJudikaturForm);
+            this._fetchTF(formdata);
         }.bind(this);
+
 
 
         document.getElementById("set-version-button").onclick = function() {

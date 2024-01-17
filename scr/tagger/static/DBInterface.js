@@ -23,13 +23,7 @@ const dbInterface = {
 
   getTF: function (query) {
     return new Promise((resolve, reject) => {
-      fetch("/get_token_frame", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(query),
-      })
+      fetch("/get_token_frame", {method: "POST", body: query})
         .then((response) => response.json()) // Assuming the response is in JSON format
         .then((token_frame) => resolve(token_frame))
         .catch((error) => reject(error));

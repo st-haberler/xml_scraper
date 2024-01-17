@@ -22,7 +22,7 @@ async function getGesetzListe() {
     const gesetzeList = await dbInterface.getGesetzList();
     // console.log(gesetzeList);
     for (let gesetz of gesetzeList) {
-        console.log(gesetz);
+        // console.log(gesetz);
         let option = document.createElement("option");
         option.value = gesetz.gesetzesnummer;
         option.text = gesetz.kurztitel;
