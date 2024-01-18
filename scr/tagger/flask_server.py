@@ -20,35 +20,13 @@ app = Flask(__name__, static_url_path="")
 
 @app.route("/get_token_frame", methods=["GET", "POST"])
 def get_token_frame(): 
-    # TODO: For multiple results for the request, we need a proper return value. 
-
-    if request.method == "POST" or request.method == "GET":
-        logging.info(f"from flask_server.py/get_token_frame() {request.method = }")
+    # TODO: add error handling
+    if request.method == "POST":
         query_dict = request.form.to_dict()
-
-        # TODO move this to TokenFrame class
-        for supposed_int_index in ["gesetzesnummer", "paragraphnummer", "doc_paragraph_id", "artikelnummer"]:
-            if supposed_int_index in query_dict:
-                try: 
-                    if query_dict[supposed_int_index] == "":
-                        logging.info(f"deleting {query_dict[supposed_int_index] = }")
-                        del query_dict[supposed_int_index] 
-                        continue
-                    query_dict[supposed_int_index] = int(query_dict[supposed_int_index])
-                except ValueError as e:
-                    logging.error(e)
-                    abort(400)        
-        
-        logging.info(f"from flask_server.py/get_token_frame() {query_dict = }")
-        try: 
-            new_token_frame = TokenFrame.create_token_frame_from_request(query_dict)
-            return jsonify(new_token_frame)
-        except ValueError as e:
-            logging.error(e)
-            abort(400)
-
-    else:
-        abort(405)
+        for index_number in ["id", "doc_paragraph_id"]:
+            query_dict[index_number] = int(query_dict[index_number])
+        new_tf = TokenFrame.create_token_frame_from_request(query_dict)
+        return jsonify(new_tf)
 
 
 @app.route("/get_labels")
@@ -73,6 +51,27 @@ def get_gesetze():
         # kurztitel_list = [(document.kurztitel, document.gesetzesnummer) for document in all_gesetze]
         kurztitel_list = [{"kurztitel": document.kurztitel, "gesetzesnummer": document.gesetzesnummer} for document in all_gesetze]
         return jsonify(kurztitel_list)
+    except ValueError as e:
+        logging.error(e)
+        abort(400)
+
+
+@app.route("/get_gesetz_content_overview", methods=["GET"])
+def get_gesetz_content_overview():
+    gesetzesnummer = request.args.get("gesetzesnummer")
+    logging.info(f"getting content overview of gesetzesnummer: {gesetzesnummer}")
+    # TODO move this to db_utils module
+    try: 
+        gesetzesnummer = int(gesetzesnummer)
+    except ValueError as e:
+        logging.error(e)
+        abort(400)
+
+    logging.info(f"getting content overview of gesetzesnummer: {gesetzesnummer}")
+    try: 
+        content_overview = db_utils.get_gesetz_content(gesetzesnummer)
+        logging.info(f"returning content overview from flask_server: {content_overview = }")
+        return jsonify(content_overview)
     except ValueError as e:
         logging.error(e)
         abort(400)

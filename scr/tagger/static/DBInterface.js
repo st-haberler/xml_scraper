@@ -21,6 +21,15 @@ const dbInterface = {
     });
   },
 
+  getGesetzContenOverview: function (gesetzesnummer) {
+    return new Promise((resolve, reject) => {
+      fetch(`/get_gesetz_content_overview?gesetzesnummer=${gesetzesnummer}`)
+        .then((response) => response.json())
+        .then((gesetzContentOverview) => resolve(gesetzContentOverview))
+        .catch((error) => reject(error));
+    });
+  },
+ 
   getTF: function (query) {
     return new Promise((resolve, reject) => {
       fetch("/get_token_frame", {method: "POST", body: query})

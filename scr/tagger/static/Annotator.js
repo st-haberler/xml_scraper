@@ -126,7 +126,10 @@ class Annotator {
         bundesrechtForm.onsubmit = function (event) {
             event.preventDefault();
             const chooseBundesrechtForm = document.getElementById("choose-bundesrecht");
+            // TODO: allow 1-based input for Absatz number and convert to 0-based
             const formdata = new FormData(chooseBundesrechtForm);
+            console.log("formdata: ")
+            console.log(formdata);
             this._fetchTF(formdata);
         }.bind(this);
 

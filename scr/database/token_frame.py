@@ -7,7 +7,7 @@ from sqlalchemy import create_engine, select, and_, Select
 from sqlalchemy.orm import Session 
 from sqlalchemy.orm.exc import NoResultFound, MultipleResultsFound
 
-import scr.database.models as models 
+import scr.database.model as model 
 # import models
 
 
@@ -83,34 +83,27 @@ class TokenFrame:
     def create_token_frame_from_gz(cls, gz:str, doc_paragraph_id:int) -> "TokenFrame": 
         with Session(engine) as session:
             logging.info(f"from create_token_frame_from_gz: {gz = }; {doc_paragraph_id = }")
-            query_stmt = select(models.Document).where(models.Document.geschaeftszahl == gz)
+            query_stmt = select(model.Document).where(model.Document.geschaeftszahl == gz)
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
         
     
     @classmethod
     def create_token_frame_from_gesetzesnummer(cls, gesetzesnummer:int, paragraphnummer:int, artikelnummer:int, doc_paragraph_id:int) -> "TokenFrame": 
         with Session(engine) as session:           
-            query_stmt = select(models.Document).where(and_((models.Document.gesetzesnummer == gesetzesnummer), 
-                                                            (models.Document.paragraphnummer == paragraphnummer), 
-                                                            (models.Document.artikelnummer == artikelnummer)))
+            query_stmt = select(model.Document).where(and_((model.Document.gesetzesnummer == gesetzesnummer), 
+                                                            (model.Document.paragraphnummer == paragraphnummer), 
+                                                            (model.Document.artikelnummer == artikelnummer)))
             return cls.create_token_frame(query_stmt, doc_paragraph_id)
 
 
     @classmethod
     def create_token_frame_from_request(cls, request:dict) -> "TokenFrame":
-        if (request.get("geschaeftszahl") and 
-            (request.get("doc_paragraph_id") is not None)):
-            return cls.create_token_frame_from_gz(
-                gz=request.get("geschaeftszahl"),
-                doc_paragraph_id=request.get("doc_paragraph_id"))
-        if (request.get("gesetzesnummer") and 
-            (request.get("doc_paragraph_id") is not None) and
-            ((request.get("paragraphnummer") is not None) or 
-             ((request.get("artikelnummer")) is not None))):          
-            return cls.create_token_frame_from_gesetzesnummer(gesetzesnummer=request.get("gesetzesnummer"),
-                                                               paragraphnummer=request.get("paragraphnummer", None),
-                                                               artikelnummer=request.get("artikelnummer", None),
-                                                               doc_paragraph_id=request.get("doc_paragraph_id"))
+        # TODO make more readable
+        
+        if ((request.get("id") is not None) and (request.get("doc_paragraph_id") is not None)):
+            return cls.create_token_frame(sql_stmt=select(model.Document).where(model.Document.id == request.get("id")), 
+                                          doc_paragraph_id=request.get("doc_paragraph_id"))
+
         else:
             raise ValueError("Request does not contain the required fields")
 

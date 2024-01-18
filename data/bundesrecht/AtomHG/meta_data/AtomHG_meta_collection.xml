@@ -1,0 +1,2511 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta_data xmlns="http://ris.bka.gv.at/ogd/V2_6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR11003642</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P0/NOR11003642</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Titel>Bundesgesetz über die zivilrechtliche Haftung für Schäden durch Radioaktivität (Atomhaftungsgesetz 1999 – AtomHG 1999)&lt;br/&gt;StF: BGBl. I Nr. 170/1998 (NR: GP XX RV 1357 AB 1415 S. 141. BR: AB 5788 S. 645.)</Titel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P0/NOR11003642</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Norm</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 0</ArtikelParagraphAnlage>
+              <Paragraphnummer>0</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung>BGBl. I Nr. 98/2001 (NR: GP XXI RV 621 AB 704 S. 75. BR: 6398 AB 6424 S. 679.)
+BGBl. I Nr. 33/2003 (NR: GP XXII RV 27 AB 68 S. 12. BR: AB 6786 S. 696.)
+[CELEX-Nr.: 32002L0013, 32002L0083]</Aenderung>
+              <Schlagworte>e-rk3&lt;br/&gt;1. Euro-Umstellungsgesetz – Bund (BGBl. I Nr. 98/2001), Versicherungsaufsichtsgesetz-Novelle 2003 (VAG-Novelle 2003, BGBl. I Nr. 33/2003)</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812807O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11003642/NOR11003642.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11003642/NOR11003642.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11003642/NOR11003642.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR11003642/NOR11003642.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040225</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P1/NOR12040225</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P1/NOR12040225</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 1</ArtikelParagraphAnlage>
+              <Paragraphnummer>1</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812808O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040225/NOR12040225.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040225/NOR12040225.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040225/NOR12040225.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040225/NOR12040225.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040226</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P2/NOR12040226</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P2/NOR12040226</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 2</ArtikelParagraphAnlage>
+              <Paragraphnummer>2</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812809O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040226/NOR12040226.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040226/NOR12040226.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040226/NOR12040226.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040226/NOR12040226.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040227</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P3/NOR12040227</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P3/NOR12040227</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 3</ArtikelParagraphAnlage>
+              <Paragraphnummer>3</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812810O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040227/NOR12040227.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040227/NOR12040227.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040227/NOR12040227.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040227/NOR12040227.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040228</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P4/NOR12040228</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P4/NOR12040228</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 4</ArtikelParagraphAnlage>
+              <Paragraphnummer>4</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812811O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040228/NOR12040228.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040228/NOR12040228.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040228/NOR12040228.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040228/NOR12040228.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040229</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P5/NOR12040229</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P5/NOR12040229</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 5</ArtikelParagraphAnlage>
+              <Paragraphnummer>5</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Haftungsausschluß</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812812O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040229/NOR12040229.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040229/NOR12040229.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040229/NOR12040229.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040229/NOR12040229.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040230</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P6/NOR12040230</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P6/NOR12040230</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 6</ArtikelParagraphAnlage>
+              <Paragraphnummer>6</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>Versuchsreaktor</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812813O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040230/NOR12040230.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040230/NOR12040230.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040230/NOR12040230.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040230/NOR12040230.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021346</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P6/NOR40021346</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P6/NOR40021346</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 6</ArtikelParagraphAnlage>
+              <Paragraphnummer>6</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>Versuchsreaktor</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021346/NOR40021346.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021346/NOR40021346.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021346/NOR40021346.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021346/NOR40021346.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040231</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P7/NOR12040231</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P7/NOR12040231</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 7</ArtikelParagraphAnlage>
+              <Paragraphnummer>7</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>Rechtsvorschrift</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812814O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040231/NOR12040231.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040231/NOR12040231.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040231/NOR12040231.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040231/NOR12040231.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021347</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P7/NOR40021347</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P7/NOR40021347</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 7</ArtikelParagraphAnlage>
+              <Paragraphnummer>7</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>Rechtsvorschrift</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021347/NOR40021347.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021347/NOR40021347.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021347/NOR40021347.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021347/NOR40021347.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040232</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P8/NOR12040232</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P8/NOR12040232</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 8</ArtikelParagraphAnlage>
+              <Paragraphnummer>8</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2003-06-11</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812815O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040232/NOR12040232.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040232/NOR12040232.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040232/NOR12040232.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040232/NOR12040232.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40041917</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P8/NOR40041917</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P8/NOR40041917</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 33/2003 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 8</ArtikelParagraphAnlage>
+              <Paragraphnummer>8</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>33/2003</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2003-06-12</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041917/NOR40041917.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041917/NOR40041917.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041917/NOR40041917.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041917/NOR40041917.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040233</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P9/NOR12040233</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P9/NOR12040233</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 9</ArtikelParagraphAnlage>
+              <Paragraphnummer>9</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812816O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040233/NOR12040233.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040233/NOR12040233.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040233/NOR12040233.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040233/NOR12040233.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040234</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR12040234</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR12040234</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 10</ArtikelParagraphAnlage>
+              <Paragraphnummer>10</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812817O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040234/NOR12040234.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040234/NOR12040234.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040234/NOR12040234.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040234/NOR12040234.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021348</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR40021348</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR40021348</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 10</ArtikelParagraphAnlage>
+              <Paragraphnummer>10</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2003-06-11</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021348/NOR40021348.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021348/NOR40021348.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021348/NOR40021348.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021348/NOR40021348.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40041918</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR40041918</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P10/NOR40041918</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 33/2003 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 10</ArtikelParagraphAnlage>
+              <Paragraphnummer>10</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>33/2003</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2003-06-12</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041918/NOR40041918.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041918/NOR40041918.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041918/NOR40041918.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40041918/NOR40041918.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040235</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P11/NOR12040235</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P11/NOR12040235</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 11</ArtikelParagraphAnlage>
+              <Paragraphnummer>11</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812818O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040235/NOR12040235.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040235/NOR12040235.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040235/NOR12040235.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040235/NOR12040235.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021349</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P11/NOR40021349</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P11/NOR40021349</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 11</ArtikelParagraphAnlage>
+              <Paragraphnummer>11</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Anmerkung>Zu dieser Bestimmung gibt es im USP folgenden Artikel: &lt;A href="https://www.usp.gv.at/Portal.Node/usp/public/content/umwelt_und_verkehr/oeffentlichkeitsbeteiligung_umweltbereich/weitere_moeglichkeiten_ueberpruefung_streitschlichtung/41497.html" target="_blank"&gt;Weitere Möglichkeiten zur Überprüfung und Streitschlichtung (UM)&lt;/A&gt;</Anmerkung>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021349/NOR40021349.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021349/NOR40021349.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021349/NOR40021349.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021349/NOR40021349.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040236</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P12/NOR12040236</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P12/NOR12040236</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 12</ArtikelParagraphAnlage>
+              <Paragraphnummer>12</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812819O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040236/NOR12040236.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040236/NOR12040236.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040236/NOR12040236.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040236/NOR12040236.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040237</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P13/NOR12040237</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P13/NOR12040237</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 13</ArtikelParagraphAnlage>
+              <Paragraphnummer>13</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Geschäftsgeheimnis</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812820O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040237/NOR12040237.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040237/NOR12040237.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040237/NOR12040237.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040237/NOR12040237.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040238</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P14/NOR12040238</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P14/NOR12040238</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 14</ArtikelParagraphAnlage>
+              <Paragraphnummer>14</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Geschäftsgeheimnis</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812821O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040238/NOR12040238.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040238/NOR12040238.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040238/NOR12040238.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040238/NOR12040238.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040239</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P15/NOR12040239</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P15/NOR12040239</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 15</ArtikelParagraphAnlage>
+              <Paragraphnummer>15</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812822O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040239/NOR12040239.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040239/NOR12040239.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040239/NOR12040239.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040239/NOR12040239.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040240</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P16/NOR12040240</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P16/NOR12040240</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 16</ArtikelParagraphAnlage>
+              <Paragraphnummer>16</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812823O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040240/NOR12040240.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040240/NOR12040240.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040240/NOR12040240.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040240/NOR12040240.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040241</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P17/NOR12040241</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P17/NOR12040241</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 17</ArtikelParagraphAnlage>
+              <Paragraphnummer>17</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812824O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040241/NOR12040241.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040241/NOR12040241.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040241/NOR12040241.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040241/NOR12040241.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040242</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P18/NOR12040242</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P18/NOR12040242</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 18</ArtikelParagraphAnlage>
+              <Paragraphnummer>18</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812825O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040242/NOR12040242.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040242/NOR12040242.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040242/NOR12040242.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040242/NOR12040242.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040243</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P19/NOR12040243</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P19/NOR12040243</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 19</ArtikelParagraphAnlage>
+              <Paragraphnummer>19</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Schlagworte>&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Rückgriffsanspruch</Schlagworte>
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812826O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040243/NOR12040243.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040243/NOR12040243.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040243/NOR12040243.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040243/NOR12040243.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040244</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P20/NOR12040244</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P20/NOR12040244</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 20</ArtikelParagraphAnlage>
+              <Paragraphnummer>20</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812827O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040244/NOR12040244.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040244/NOR12040244.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040244/NOR12040244.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040244/NOR12040244.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040245</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P21/NOR12040245</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P21/NOR12040245</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 21</ArtikelParagraphAnlage>
+              <Paragraphnummer>21</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812828O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040245/NOR12040245.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040245/NOR12040245.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040245/NOR12040245.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040245/NOR12040245.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040246</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P22/NOR12040246</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P22/NOR12040246</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 22</ArtikelParagraphAnlage>
+              <Paragraphnummer>22</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812829O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040246/NOR12040246.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040246/NOR12040246.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040246/NOR12040246.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040246/NOR12040246.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040247</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P23/NOR12040247</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P23/NOR12040247</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 23</ArtikelParagraphAnlage>
+              <Paragraphnummer>23</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812830O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040247/NOR12040247.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040247/NOR12040247.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040247/NOR12040247.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040247/NOR12040247.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040248</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P24/NOR12040248</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P24/NOR12040248</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 24</ArtikelParagraphAnlage>
+              <Paragraphnummer>24</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812831O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040248/NOR12040248.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040248/NOR12040248.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040248/NOR12040248.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040248/NOR12040248.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040249</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P25/NOR12040249</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P25/NOR12040249</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 25</ArtikelParagraphAnlage>
+              <Paragraphnummer>25</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812832O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040249/NOR12040249.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040249/NOR12040249.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040249/NOR12040249.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040249/NOR12040249.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021350</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P25/NOR40021350</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P25/NOR40021350</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 25</ArtikelParagraphAnlage>
+              <Paragraphnummer>25</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021350/NOR40021350.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021350/NOR40021350.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021350/NOR40021350.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021350/NOR40021350.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040250</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P26/NOR12040250</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P26/NOR12040250</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 26</ArtikelParagraphAnlage>
+              <Paragraphnummer>26</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812833O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040250/NOR12040250.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040250/NOR12040250.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040250/NOR12040250.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040250/NOR12040250.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040252</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P27/NOR12040252</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P27/NOR12040252</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 27</ArtikelParagraphAnlage>
+              <Paragraphnummer>27</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812834O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040252/NOR12040252.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040252/NOR12040252.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040252/NOR12040252.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040252/NOR12040252.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040254</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P28/NOR12040254</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P28/NOR12040254</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 28</ArtikelParagraphAnlage>
+              <Paragraphnummer>28</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812835O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040254/NOR12040254.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040254/NOR12040254.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040254/NOR12040254.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040254/NOR12040254.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040255</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P29/NOR12040255</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P29/NOR12040255</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 29</ArtikelParagraphAnlage>
+              <Paragraphnummer>29</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Ausserkrafttretensdatum>2001-12-31</Ausserkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812836O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040255/NOR12040255.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040255/NOR12040255.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040255/NOR12040255.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040255/NOR12040255.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR40021351</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P29/NOR40021351</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P29/NOR40021351</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998 zuletzt geändert durch BGBl. I Nr. 98/2001 </Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 29</ArtikelParagraphAnlage>
+              <Paragraphnummer>29</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <NovellenPublikationsorgan>BGBl. I Nr.</NovellenPublikationsorgan>
+              <NovellenBgblnummer>98/2001</NovellenBgblnummer>
+              <NovellenBeziehung>zuletzt geändert durch</NovellenBeziehung>
+              <Inkrafttretensdatum>2002-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021351/NOR40021351.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021351/NOR40021351.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021351/NOR40021351.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40021351/NOR40021351.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040256</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P30/NOR12040256</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P30/NOR12040256</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 30</ArtikelParagraphAnlage>
+              <Paragraphnummer>30</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812837O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040256/NOR12040256.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040256/NOR12040256.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040256/NOR12040256.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040256/NOR12040256.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+    <OgdDocumentReference>
+      <Data>
+        <Metadaten>
+          <Technisch>
+            <ID>NOR12040257</ID>
+            <Applikation>BrKons</Applikation>
+            <Organ>BKA (Bundeskanzleramt)</Organ>
+            <ImportTimestamp xsi:nil="true" />
+          </Technisch>
+          <Allgemein>
+            <Geaendert>2022-10-17</Geaendert>
+            <DokumentUrl>https://www.ris.bka.gv.at/eli/bgbl/i/1998/170/P31/NOR12040257</DokumentUrl>
+          </Allgemein>
+          <Bundesrecht>
+            <Kurztitel>Atomhaftungsgesetz 1999</Kurztitel>
+            <Eli>https://ris.bka.gv.at/eli/bgbl/i/1998/170/P31/NOR12040257</Eli>
+            <BrKons>
+              <Kundmachungsorgan>BGBl. I Nr. 170/1998</Kundmachungsorgan>
+              <Typ>BG</Typ>
+              <Dokumenttyp>Paragraph</Dokumenttyp>
+              <ArtikelParagraphAnlage>§ 31</ArtikelParagraphAnlage>
+              <Paragraphnummer>31</Paragraphnummer>
+              <StammnormPublikationsorgan>BGBl. I Nr.</StammnormPublikationsorgan>
+              <StammnormBgblnummer>170/1998</StammnormBgblnummer>
+              <Inkrafttretensdatum>1999-01-01</Inkrafttretensdatum>
+              <Abkuerzung>AtomHG 1999</Abkuerzung>
+              <Indizes>
+                <item>20/07 Schadenersatz, Haftpflicht</item>
+              </Indizes>
+              <Aenderung />
+              <Gesetzesnummer>10003613</Gesetzesnummer>
+              <AlteDokumentnummer>N2199812838O</AlteDokumentnummer>
+              <GesamteRechtsvorschriftUrl>https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10003613</GesamteRechtsvorschriftUrl>
+            </BrKons>
+          </Bundesrecht>
+        </Metadaten>
+        <Dokumentliste>
+          <ContentReference>
+            <ContentType>MainDocument</ContentType>
+            <Name>Hauptdokument</Name>
+            <Urls>
+              <ContentUrl>
+                <DataType>Xml</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040257/NOR12040257.xml</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Html</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040257/NOR12040257.html</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Pdf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040257/NOR12040257.pdf</Url>
+              </ContentUrl>
+              <ContentUrl>
+                <DataType>Rtf</DataType>
+                <Url>https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12040257/NOR12040257.rtf</Url>
+              </ContentUrl>
+            </Urls>
+          </ContentReference>
+        </Dokumentliste>
+      </Data>
+    </OgdDocumentReference>
+  </meta_data>

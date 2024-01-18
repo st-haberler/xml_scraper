@@ -11,7 +11,10 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError, InvalidRequestError, OperationalError, ProgrammingError
 
-import models
+if __name__ != "__main__":
+    import scr.database.model as model
+else:
+    import model
 
 
 NAMESPACE = {"ogd": "http://ris.bka.gv.at/ogd/V2_6"}
@@ -93,6 +96,12 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
             except ValueError: 
                 artikelnummer = None
                 logging.info(f"[{kurztitel}] Could not convert Artikelnummer '{artikelnummer_tag.text}' to int")
+
+        artikelbuchstabe_tag = document.find(".//ogd:BrKons/ogd:Artikelbuchstabe", namespaces=NAMESPACE)
+        if artikelbuchstabe_tag is None: 
+            artikelbuchstabe = None
+        else:
+            artikelbuchstabe = artikelbuchstabe_tag.text
         
         paragraphnummer_tag = document.find(".//ogd:BrKons/ogd:Paragraphnummer", namespaces=NAMESPACE)
         if paragraphnummer_tag is None: 
@@ -103,6 +112,12 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
             except ValueError: 
                 paragraphnummer = None
                 logging.info(f"[{kurztitel}] Could not convert Paragraphnummer '{paragraphnummer_tag.text}' to int")
+
+        paragraphbuchstabe_tag = document.find(".//ogd:BrKons/ogd:Paragraphbuchstabe", namespaces=NAMESPACE)
+        if paragraphbuchstabe_tag is None: 
+            paragraphbuchstabe = None
+        else:
+            paragraphbuchstabe = paragraphbuchstabe_tag.text
         
         urls_tag = document.find(".//ogd:ContentReference/ogd:Urls", namespaces=NAMESPACE)
         if urls_tag is None:
@@ -117,7 +132,7 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
                 logging.info(f"{kurztitel} / {artikelnummer}{paragraphnummer}: No html url found")
                 continue
 
-        new_document = models.Document(
+        new_document = model.Document(
             tech_id=tech_id,
             applikation=applikation,
             gericht=gericht,
@@ -127,7 +142,9 @@ def populate_from_xml_collection(xml_file:Path, session: Session) -> None:
             langtitel=langtitel,
             gesetzesnummer=gesetzesnummer,
             artikelnummer=artikelnummer,
+            artikelbuchstabe=artikelbuchstabe,
             paragraphnummer=paragraphnummer,
+            paragraphbuchstabe=paragraphbuchstabe,
             ris_link=ris_link
         )
         session.add(new_document)
@@ -192,7 +209,7 @@ def _augment_text(text:str) -> str:
 
 def populate_from_html(session: Session) -> None:
     # select statement for all rows in documents that are not referenced by any paragraph
-    stmt = select(models.Document).where(models.Document.paragraphs == None)
+    stmt = select(model.Document).where(model.Document.paragraphs == None)
     documents = session.scalars(stmt)
    
     timeout_counter = 0
@@ -223,7 +240,7 @@ def populate_from_html(session: Session) -> None:
         new_paragraphs = [_augment_text(para) for para in new_paragraphs]
 
         for para_index, new_paragraph in enumerate(new_paragraphs): 
-            new_db_paragraph = models.Paragraph(text=new_paragraph, document=document, index=para_index)
+            new_db_paragraph = model.Paragraph(text=new_paragraph, document=document, index=para_index)
             session.add(new_db_paragraph)
             logging.info(f"Added paragraph {para_index} to document {document.id}")
         try: 
@@ -240,13 +257,14 @@ def populate_from_html(session: Session) -> None:
 if __name__ == "__main__":
     _init_logging()
     engine = create_engine("sqlite:///test.db", echo=False)
-    models.Base.metadata.create_all(engine)
+    model.Base.metadata.create_all(engine)
     xml_file = Path.cwd() / r"data\bundesrecht\PHG\meta_data\PHG_meta_collection.xml"
     xml_file_2 = Path.cwd() / r"tests\test_database\data\test_vfgh_collection.xml"
     xml_file_3 = Path.cwd() / r"data\bundesrecht\B-VG\meta_data\B-VG_meta_collection.xml"
+    xml_file_4 = Path.cwd() / r"data\bundesrecht\AtomHG\meta_data\AtomHG_meta_collection.xml"
 
     with Session(engine) as session:
-        populate_from_xml_collection(xml_file_3, session)
+        populate_from_xml_collection(xml_file_4, session)
         populate_from_html(session)
 
 

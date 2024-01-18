@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 
 
-import models
+import scr.database.model as model
 import db_import
 
 engine = create_engine("sqlite:///test.db", echo=False)
@@ -18,7 +18,7 @@ with Session(engine) as session:
     # session.add(ann_2)
     # session.commit()
 
-    q = select(models.Document).where(models.Document.applikation == "Vfgh")
+    q = select(model.Document).where(model.Document.applikation == "Vfgh")
     result = session.scalars(q).all()
 
     for decision in result[:1]:
@@ -35,14 +35,14 @@ with Session(engine) as session:
             print("-------------------")
         print("=====================================")
 
-a1 = models.Annotation(label="TEST_1", begin=0, end=1, version=0, paragraph_id=70)
-a2 = models.Annotation(label="TEST_2", begin=3, end=4, version=0, paragraph_id=71)
+a1 = model.Annotation(label="TEST_1", begin=0, end=1, version=0, paragraph_id=70)
+a2 = model.Annotation(label="TEST_2", begin=3, end=4, version=0, paragraph_id=71)
 
 with Session(engine) as session:
     # session.add(a1)
     # session.add(a2)
     # session.commit()
-    q = select(models.Annotation)
+    q = select(model.Annotation)
     result = session.scalars(q).all()
     for a in result:
         print(f"{a.label = }")

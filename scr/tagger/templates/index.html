@@ -21,18 +21,18 @@
                             <li>
                                 <div>Bundesrecht</div>
                                 <form id="choose-bundesrecht" action="/get_token_frame" method="get">
-                                    <label for="gesetzesnummer-select">Select Gesetzesnummer:</label>
-                                    <select id="gesetzesnummer-select" onchange="document.getElementById('gesetzesnummer').value = this.value">
+                                    <label for="gesetzesnummer-select">Select Gesetz:</label>
+                                    <select id="gesetzesnummer-select" onchange="populateGesetzDocumentSelect()">
                                         <!-- add option elements with js -->
                                     </select>
-                                    <label for="gesetzesnummer">Gesetzesnummer:</label>
-                                    <input type="tel" name="gesetzesnummer" id="gesetzesnummer" placeholder="10002864" required>
-                                    <label for="artikelnummer">Artikel:</label>
-                                    <input type="number" name="artikelnummer" id="artikelnummer" placeholder="1" >	
-                                    <label for="paragraph">Paragraph (§):</label>
-                                    <input type="number" name="paragraphnummer" id="paragraph" placeholder="1" >
+                                    <label for="gesetz-document-select">Select Paragraph/Artikel:</label>
+                                    <select id="gesetz-document-select" name="id" onchange="setAbsatzMax()" required>
+                                        <option>... choose Gesetz first ...</option>
+                                        <!-- add option elements with js -->
+                                    </select>
                                     <label for="br-doc-paragraph">Absatz:</label>
-                                    <input type="number" name="doc_paragraph_id" id="br-doc-paragraph" placeholder="0" required>
+                                    <!-- TODO: allow 1-based input for absatz and convert to 0-based -->
+                                    <input type="number" name="doc_paragraph_id" id="br-doc-paragraph" placeholder="0" min="0" required>
                                     <button type="submit" id="get_tf_br">Get TF</button>
                                 </form>
                             </li>
